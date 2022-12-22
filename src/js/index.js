@@ -223,8 +223,8 @@ const handlePrice = (value,setListProduct,listProductac,setStyleBtn)=>{
         value: 5
     }
 ]
-function changePrice(value,setListProduct,listProductac) {
-    
+function changePrice(value,setListProduct,listProductac,setStyleBtn) {
+    setStyleBtn('')
     if (value === '1') {
         const productSort = listProductac.slice()
         productSort.sort((a, b) => (
@@ -243,7 +243,8 @@ function changePrice(value,setListProduct,listProductac) {
 }
 
 
-function changeNew(value,setListProduct,listProductac) {
+function changeNew(value,setListProduct,listProductac,setStyleBtn) {
+    setStyleBtn('')
     if (value === '1') {
         const productSort = listProductac.slice()
         var newProducts = []

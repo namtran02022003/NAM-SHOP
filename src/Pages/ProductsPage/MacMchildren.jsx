@@ -1,81 +1,62 @@
 
 
-import { changePrice, handlePrice } from "../../js"
 import axios from "axios"
-import { useState, useEffect, useRef } from 'react'
-import '../ProductsPage/ItemProduct.css'
+import { useState, useEffect } from 'react'
+import './ItemProduct.css'
+import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
-export default function IphonePage() {
-    const [value, setValue] = useState('')
+
+import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
+
+export default function MacMchildren(props) {
+
+    const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
-    const [listProduct, setListProduct] = useState([])
     const [listProductac, setListProductac] = useState([])
+    const [listProduct, setListProduct] = useState([])
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
-        const datas = res.data.category.filter(item => item.category_id === 3)
-        const result = datas[0].subList.filter(item => item.id_children1 === 1)
-        const products = res.data.products.filter(product => product.category_id === 3).filter(item => item.id_children1 === 1)
-        setListProduct(products)
-        setListProductac(products)
+        const datas = res.data.category.filter(item => item.category_id === props.category_id)//1
+        
+        const result = datas[0].subList.filter(item => item.id_children1 === props.id_children1)
         setDatas(result)
+        const products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.thongso.includes(props.name) && item.product_name.includes(props.name2))//1
+        setListProductac(products)
+        setListProduct(products)
     }
     useEffect(() => {
         getData()
     }, [])
 
-    const ButtonOptions = [
-        {
-            name: "tất cả",
-            value: 0
-        },
-        {
-            name: "dưới 10 triệu",
-            value: 1
-        },
-        {
-            name: "10-20 triệu",
-            value: 2
-        },
-        {
-            name: "20-30 triệu",
-            value: 3
-        },
-        {
-            name: "30-40 triệu",
-            value: 4
-        },
-        {
-            name: "trên 40 triệu",
-            value: 5
-        }
-    ]
     var index = 0
     function a(n) {
         var e = document.querySelectorAll('.my-slide')
         var length = e.length
-        if (n == 1) {
-            e[index].style.display = "none"
-            if (index == length - 4) {
-                index = -1
-                for (let i = 0; i < length; i++) {
-                    e[i].style.display = "block"
-                }
-            }
-            index++
-            console.log('index +', index)
-        } else {
-            index--
-            if (index > 0) {
-                e[index].style.display = "block"
+        if (length > 3) {
+            if (n == 1) {
+                e[index].style.display = "none"
                 if (index == length - 4) {
                     index = -1
                     for (let i = 0; i < length; i++) {
                         e[i].style.display = "block"
                     }
                 }
+                index++
+                console.log('index +', index)
             } else {
-                index = 0
-                e[index].style.display = "block"
+                index--
+                if (index > 0) {
+                    e[index].style.display = "block"
+                    if (index == length - 4) {
+                        index = -1
+                        for (let i = 0; i < length; i++) {
+                            e[i].style.display = "block"
+                        }
+                    }
+                } else {
+                    index = 0
+                    e[index].style.display = "block"
+                }
             }
         }
     }
@@ -86,18 +67,19 @@ export default function IphonePage() {
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
-                            <div ><h5>{datas[0] && datas[0].product_children_name}</h5></div>
+                            <div ><h5>{datas[0] && datas[0].subList.map(item => 
+                                item.id_children2 === props.id_children2 ? item.product_children_name :''
+                            )}</h5></div>
                         </div>
                         <div className="col-8 p-0">
                             <div className='container abc position-relative'>
                                 <div className='row row-slide'>
-                                    {datas[0] && datas[0].subList.map((item, index) => {
+                                    {datas[0] && datas[0].subList && datas[0].subList.map((item, index) => {
                                         return (
                                             <div key={index} className='my-slide text-center col-3'>
                                                 <div className="img-item-slide">
                                                     <img src={item.url_img} alt="img" width="40%" />
                                                 </div>
-
                                                 <p>{item.product_children_name}</p>
                                             </div>
                                         )
@@ -118,18 +100,18 @@ export default function IphonePage() {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac)} className="btn-option" key={item.value}>{item.name}</button>
+                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>
                             <div className="nav">
                                 <button className="btn-delete-option">Bỏ tất cả bộ lọc</button>
-                                <select className="btn-option">
-                                    <option >Tình </option>
-                                    <option >New</option>
-                                    <option >Like New</option>
+                                <select onChange={(e) => changeNew(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-option">
+                                    <option value={0}>Tình trạng</option>
+                                    <option value={1}>New</option>
+                                    <option value={2}>Like New</option>
                                 </select>
-                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac)} className="btn-sapxep">
+                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-sapxep">
                                     <option value={0}>Sắp xếp theo</option>
                                     <option value={1}>Giá thấp đến cao</option>
                                     <option value={2}>Giá cao đến thấp</option>
@@ -142,19 +124,27 @@ export default function IphonePage() {
             </div>
             <div>
                 <div className="container">
-                    <h5 className="m-3">Danh Mục {datas[0] && datas[0].product_children_name}</h5>
-                    {listProduct.length > 0 ? (<div className="row m-0">
-                        {listProduct.map((product) => {
-                            return (
-                                <Product key={product.id} product={product} />
-                            )
-                        }
+                    <div className="row m-0">
+                        <div className="col-2 bg-white">
+                            <FilterMenu datas={datas} />
+                        </div>
+                        <div className="col-10">
+                            <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList.map(item => 
+                                item.id_children2 === props.id_children2 ? item.product_children_name :''
+                            )}</h5>
+                            {listProduct.length > 0 ? (<div className="row m-0">
+                                {listProduct.map((product) => {
+                                    return (
+                                        <Product key={product.id} product={product} />
+                                    )
+                                }
 
-                        )}
-                    </div>) : <h6 className="m-5">không tìm thấy sản phẩm phù hợp nào </h6>}
+                                )}
+                            </div>) : <h6 className="m-5">không tìm thấy sản phẩm phù hợp nào </h6>}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
-

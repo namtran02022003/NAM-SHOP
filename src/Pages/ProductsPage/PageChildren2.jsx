@@ -10,19 +10,19 @@ import Product from "../../Components/Products/Product"
 
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 
-export default function PageChildren2({id_children1,id_children2,category_id}) {
-    const [styBtn,setStyleBtn] = useState('')
+export default function PageChildren2({ id_children1, id_children2, category_id }) {
+    const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
     const [listProduct, setListProduct] = useState([])
-    const [dataItem,setDataItem] = useState([])
+    const [dataItem, setDataItem] = useState([])
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
         const datas = res.data.category.filter(item => item.category_id === category_id)//1
         const dataHeading = datas[0].subList.filter(item => item.id_children1 === id_children1)
         const dataItems = dataHeading[0].subList.filter(item => item.id_children2 === id_children2)
         const products = res.data.products.filter(product => product.category_id === category_id).filter(item => item.id_children1 === id_children1).filter(item => item.id_children2 === id_children2)
-        console.log(products)
+    
         setDataItem(dataItems)
         setListProductac(products)
         setDatas(dataHeading)
@@ -100,18 +100,18 @@ export default function PageChildren2({id_children1,id_children2,category_id}) {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac,setStyleBtn)} className={`btn-option ${styBtn == item.value && ' bg-info'}`}  key={item.value}>{item.name}</button>
+                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>
                             <div className="nav">
                                 <button className="btn-delete-option">Bỏ tất cả bộ lọc</button>
-                                <select onChange={(e) => changeNew(e.target.value, setListProduct, listProductac)} className="btn-option">
+                                <select onChange={(e) => changeNew(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-option">
                                     <option value={0}>Tình trạng</option>
                                     <option value={1}>New</option>
                                     <option value={2}>Like New</option>
                                 </select>
-                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac)} className="btn-sapxep">
+                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-sapxep">
                                     <option value={0}>Sắp xếp theo</option>
                                     <option value={1}>Giá thấp đến cao</option>
                                     <option value={2}>Giá cao đến thấp</option>

@@ -9,6 +9,7 @@
                     "product_children_name": "Macbook Air",
                     "title":"Macbook Air là dòng máy tính xách tay của Apple gọn nhẹ sexy như cái tên gọi của nó, mỏng nhẹ như “không khí”. Dưới đây là các sản phẩm Macbook Air đang bán tại MacOne",
                     "url":"/macbook-air",
+                    "url_img":"../images/macair20181.jpg",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -55,6 +56,7 @@
                     "id_children1": 2,
                     "product_children_name": "Macbook Pro",
                     "url":"/macbook-pro",
+                    "url_img":"../images/macpro20181.png",
                     "title":"Macbook Pro là dòng máy tính xách tay có cấu hình mạnh mẽ do Apple sản xuất. Với ưu điểm màn hình đẹp, hiệu năng tốt phù hợp với người sử dụng chuyên nghiệp.",
                     "subList": [
                         {
@@ -93,14 +95,19 @@
                     "id_children1": 3,
                     "product_children_name": "Macbook M1",
                     "url":"/macbook-m1",
+                    "url_img":"../images/macprom11.jpeg",
                     "subList": [
                         {
                             "id_children2": 1,
-                            "product_children_name": "Macbook Air M1"
+                            "product_children_name": "Macbook Air M1",
+                            "url": "/macbook-Air-M1",
+                            "url_img":"../images/macair20161.jpg"
                         },
                         {
                             "id_children2": 2,
-                            "product_children_name": "Macbook Pro M1"
+                            "product_children_name": "Macbook Pro M1",
+                            "url": "/macbook-Pro-M1",
+                            "url_img":"../images/macpro20182.jpg"
                         }
                     ]
                 },
@@ -108,20 +115,24 @@
                     "id_children1": 4,
                     "product_children_name": "Macbook M2",
                     "url":"/macbook-m2",
+                    "url_img":"../images/macprom12.jpeg",
                     "subList": [
                         {
                             "id_children2": 1,
-                            "product_children_name": "Macbook Air M2"
+                            "product_children_name": "Macbook Air M2",
+                            "url": "/macbook-Air-M2",
+                            "url_img":"../images/macair1.jpeg"
                         },
                         {
                             "id_children2": 2,
-                            "product_children_name": "Macbook Pro M2"
+                            "product_children_name": "Macbook Pro M2",
+                            "url": "/macbook-Pro-M2",
+                            "url_img":"../images/macpro20181.png"
                         }
                     ]
                 }
             ],
             "created_date": "25/11/2022",
-            "img_url_bottom": "../src/images/img_heading_product.png",
             "modified_date": "",
             "modified_by": "",
             "created_by": "ad 1",
@@ -131,7 +142,6 @@
         {
             "category_id": 2,
             "category_name": "IMAC_MAC DESKTOP",
-            
             "subList": [
                 {
                     "id_children1": 1,
@@ -212,7 +222,6 @@
                 }
             ],
             "created_date": "25/11/2022",
-            "img_url_bottom": "../src/images/img_heading_product.png",
             "modified_date": "",
             "modified_by": "",
             "created_by": "ad 1",
@@ -312,7 +321,6 @@
                 }
             ],
             "created_date": "25/11/2022",
-            "img_url_bottom": "../src/images/img_heading_product.png",
             "modified_date": "",
             "modified_by": "",
             "created_by": "ad 1",
@@ -326,86 +334,6 @@
 
 
 
-        {
-            "product_name": "MacBook Pro 2020 13 inch ",
-            "thongso": "Apple M1 8GB RAM 256GB SSD – Like New",
-            "category_id": 1,
-            "price": 100000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro1.jpeg",
-            "id": 11
-        },
-        {
-            "thongso": "Apple M2 8GB RAM 256GB SSD – NEW",
-            "product_name": " MacBook Pro 2022 13 inch",
-            "category_id": 1,
-            "price": 100000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro2.jpg",
-            "id": 12
-        },
-        {
-            "thongso": "Apple M1 PRO 10-Core CPU 16-Core GPU 16GB RAM 1TB SSD - NEW",
-            "product_name": "MacBook Pro 2021 14 inch",
-            "category_id": 1,
-            "price": 50990000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro3.png",
-            "id": 13
-        },
-        {
-            "thongso": "Apple M1 MAX 10-Core CPU 32-Core GPU 64GB RAM 8TB SSD – NEW",
-            "product_name": " MacBook Pro 2021 16 inch",
-            "category_id": 1,
-            "price": 1450000000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro4.png",
-            "id": 14
-        },
-        {
-            "thongso": " Apple M2 8GB RAM 512GB SSD – NEW",
-            "product_name": "MacBook Pro 2022 13 inch",
-            "category_id": 1,
-            "price": 34990000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro5.jpg",
-            "id": 15
-        },
-        {
-            "thongso": " Apple M1 PRO 8-Core CPU 14-Core GPU 16GB RAM",
-            "product_name": "MacBook Pro 2021 14 inch",
-            "category_id": 1,
-            "price": 42990000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro6.png",
-            "id": 16
-        },
-        {
-            "thongso": "Apple M1 PRO 10-Core CPU 16-Core GPU 16GB RAM",
-            "product_name": "MacBook Pro 2021 16 inch",
-            "category_id": 1,
-            "price": 53990000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro7.png",
-            "id": 17
-        },
-        {
-            "thongso": "Apple M1 MAX 10-Core CPU 32-Core GPU 32GB RAM 4TB SSD – NEW",
-            "product_name": "MacBook Pro 2021 16 inch",
-            "category_id": 1,
-            "price": 103000000,
-            "id_children1": 2,
-            "id_children2": 1,
-            "url_img": "../images/macpro8.png",
-            "id": 18
-        },
         {
             "product_name": "Mac Mini 2020",
             "thongso": " Apple M1 16GB 256GB/512GB/1TB/2TB - NEW",
@@ -469,33 +397,8 @@
             "url_img": "../images/imac7.jpeg",
             "id": 27
         },
-        {
-            "thongso": "(Standard glass) Tilt- and Height-Adjustable Stand",
-            "product_name": "Apple Studio Display",
-            "category_id": 2,
-            "price": 48990000,
-            "id_children1": 1,
-            "url_img": "../images/imac8.jpeg",
-            "id": 28
-        },
-        {
-            "thongso": "(Standard glass) Tilt- and Height-Adjustable Stand",
-            "product_name": "Apple Studio Display",
-            "category_id": 2,
-            "price": 48990000,
-            "id_children1": 1,
-            "url_img": "",
-            "id": 29
-        },
-        {
-            "thongso": "(Standard glass) Tilt- and Height-Adjustable Stand",
-            "product_name": "Apple Studio Display",
-            "category_id": 2,
-            "price": 48990000,
-            "id_children1": 1,
-            "url_img": "",
-            "id": 30
-        },
+       
+       
         {
             "product_name": "iPhone 14 Pro Max 128GB – NEW",
             "thongso": " ",
@@ -1116,17 +1019,313 @@
             "id_children2": 5,
             "url_img": "../images/macpro20183.jpg",
             "id": 93
+        },
+        {
+            "product_name": "iMac 2021 24 inch Retina 4.5K",
+            "thongso": "Apple M1 8GB RAM 7-Core GPU – NEW",
+            "category_id": 2,
+            "price": 27590000,
+            "id_children1": 1,
+            "id_children2": 1,
+            "url_img": "../images/imac20211.jpeg",
+            "id": 94
+        },
+        {
+            "product_name": "iMac 2021 24 inch Retina 4.5K",
+            "thongso": "Apple M1 8GB RAM 8-Core GPU – NEW",
+            "category_id": 2,
+            "price": 32190000,
+            "id_children1": 1,
+            "id_children2": 1,
+            "url_img": "../images/imac20211.jpeg",
+            "id": 95
+        },
+        {
+            "product_name": "iMac 2021 24 inch Retina 4.5K",
+            "thongso": "Apple M1 8GB RAM 512GB SSD 8-Core GPU – NEW",
+            "category_id": 2,
+            "price": 35990000,
+            "id_children1": 1,
+            "id_children2": 1,
+            "url_img": "../images/imac20211.jpeg",
+            "id": 96
+        },
+        {
+            "product_name": "iMac 2021 24 inch Retina 4.5K",
+            "thongso": "Apple M1 16GB RAM  7-Core GPU – NEW",
+            "category_id": 2,
+            "price": 36790000,
+            "id_children1": 1,
+            "id_children2": 1,
+            "url_img": "../images/imac20211.jpeg",
+            "id": 97
+        },
+        {
+            "product_name": "iMac 2021 24 inch Retina 4.5K",
+            "thongso": "Apple M1 16GB RAM  8-Core GPU – NEW",
+            "category_id": 2,
+            "price": 39990000,
+            "id_children1": 1,
+            "id_children2": 1,
+            "url_img": "../images/imac20211.jpeg",
+            "id": 98
+        },
+        {
+            "product_name": "iMac 2020 21.5 inch Retina 4K",
+            "thongso": "Core i5 3.0GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 20500000,
+            "id_children1": 1,
+            "id_children2": 2,
+            "url_img": "../images/imac20201.jpg",
+            "id": 99
+        },
+        {
+            "product_name": "iMac 2020 27 inch Retina 4K",
+            "thongso": "Core i5 3.3GHz 8GB RAM 512GB SSD – Like New",
+            "category_id": 2,
+            "price": 30890000,
+            "id_children1": 1,
+            "id_children2": 2,
+            "url_img": "../images/imac20202.jpg",
+            "id": 100
+        },
+        {
+            "product_name": "iMac 2020 27 inch Retina 4K",
+            "thongso": "Core i3 3.6GHz 8GB RAM 1TB  HHD – Like New",
+            "category_id": 2,
+            "price": 17500000,
+            "id_children1": 1,
+            "id_children2": 3,
+            "url_img": "../images/imac20191.jpeg",
+            "id": 101
+        },
+        {
+            "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
+            "thongso": "Core i5 2.3GHz 8GB RAM 1TB HDD – Like New",
+            "category_id": 2,
+            "price": 11900000,
+            "id_children1": 1,
+            "id_children2": 4,
+            "url_img": "../images/imac20171.jpg",
+            "id": 102
+        },
+        {
+            "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
+            "thongso": "Core i5 2.3GHz 16GB RAM 1TB HDD – Like New",
+            "category_id": 2,
+            "price": 12500000,
+            "id_children1": 1,
+            "id_children2": 4,
+            "url_img": "../images/imac20171.jpg",
+            "id": 103
+        },
+        {
+            "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
+            "thongso": "Core i5 2.3GHz 8GB RAM 500GB HDD – Like New",
+            "category_id": 2,
+            "price": 14000000,
+            "id_children1": 1,
+            "id_children2": 4,
+            "url_img": "../images/imac20171.jpg",
+            "id": 104
+        },
+        {
+            "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
+            "thongso": "Core i5 3.0GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 14800000,
+            "id_children1": 1,
+            "id_children2": 4,
+            "url_img": "../images/imac20172.png",
+            "id": 105
+        },
+        {
+            "product_name": "iMac 2017 27 inch 5K Retina MMQA2",
+            "thongso": "Core i5 3.4GHz 16GB RAM 512GB SSD – Like New",
+            "category_id": 2,
+            "price": 21900000,
+            "id_children1": 1,
+            "id_children2": 4,
+            "url_img": "../images/imac20173.jpg",
+            "id": 106
+        },
+        {
+            "product_name": "iMac 2015 27 inch Retina 5K",
+            "thongso": "Core i5 3.2GHz 8GB RAM 1TB  HHD – Like New",
+            "category_id": 2,
+            "price": 16800000,
+            "id_children1": 1,
+            "id_children2": 5,
+            "url_img": "../images/imac20151.jpg",
+            "id": 107
+        },
+        {
+            "product_name": "iMac 2015 27 inch Retina 5K",
+            "thongso": "Core i5 3.2GHz 8GB RAM 1TB  Fusion – Like New",
+            "category_id": 2,
+            "price": 17900000,
+            "id_children1": 1,
+            "id_children2": 5,
+            "url_img": "../images/imac20151.jpg",
+            "id": 108
+        },
+        {
+            "product_name": "iMac 2015 27 inch Retina 5K",
+            "thongso": "Core i5 3.2GHz 16GB RAM 500GB  SSD – Like New",
+            "category_id": 2,
+            "price": 19900000,
+            "id_children1": 1,
+            "id_children2": 5,
+            "url_img": "../images/imac20151.jpg",
+            "id": 109
+        },
+        {
+            "product_name": "iMac 2015 27 inch Retina 5K",
+            "thongso": "Core i5 3.2GHz 24GB RAM 1TB  SSD – Like New",
+            "category_id": 2,
+            "price": 18800000,
+            "id_children1": 1,
+            "id_children2": 5,
+            "url_img": "../images/imac20151.jpg",
+            "id": 110
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 8GB RAM 256GB SSD – NEW",
+            "category_id": 2,
+            "price": 16990000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 111
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 8GB RAM 512gb SSD – NEW",
+            "category_id": 2,
+            "price": 21290000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 112
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 16GB RAM 256GB SSD – NEW",
+            "category_id": 2,
+            "price": 21790000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 113
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 16990000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 114
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 8GB RAM 512GB SSD – Like New",
+            "category_id": 2,
+            "price": 16990000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 115
+        },
+        {
+            "product_name": "Mac Mini 2020 MGNR3",
+            "thongso": "Apple M1 16GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 16990000,
+            "id_children1": 3,
+            "id_children2": 1,
+            "url_img": "../images/macmini1.jpg",
+            "id": 116
+        },
+        {
+            "product_name": "Mac Mini 2018 MRTR2",
+            "thongso": "Core i3 3.6GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 9200000,
+            "id_children1": 3,
+            "id_children2": 2,
+            "url_img": "../images/macmini1.jpg",
+            "id": 117
+        },
+        {
+            "product_name": "Mac Mini 2018 MRTR2",
+            "thongso": "Core i5 3.0GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 12900000,
+            "id_children1": 3,
+            "id_children2": 2,
+            "url_img": "../images/macmini1.jpg",
+            "id": 118
+        },
+        {
+            "product_name": "Mac Mini 2018 MRTR2",
+            "thongso": "Core i7  3.2GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 24500000,
+            "id_children1": 3,
+            "id_children2": 2,
+            "url_img": "../images/macmini1.jpg",
+            "id": 119
+        },
+        {
+            "product_name": "Mac Mini 2014 MGEN2",
+            "thongso": "Core i5  2.6GHz 8GB RAM 256GB SSD – Like New",
+            "category_id": 2,
+            "price": 6700000,
+            "id_children1": 3,
+            "id_children2": 3,
+            "url_img": "../images/macmini2014.jpg",
+            "id": 120
+        },
+        {
+            "product_name": "Mac Mini 2014 MGEN2",
+            "thongso": "Core i5  2.6GHz 8GB RAM 1tb SSD – Like New",
+            "category_id": 2,
+            "price": 6000000,
+            "id_children1": 3,
+            "id_children2": 3,
+            "url_img": "../images/macmini2014.jpg",
+            "id": 121
         }
-
-
-
-
-
 
 
         
 
 
+
+        
+       
+
+
+        
+       
+
+
+
+
+
+
+
+
+
+
+       
+        
+
+    
 
 
         
