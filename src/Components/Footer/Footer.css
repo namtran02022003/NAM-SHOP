@@ -1,0 +1,29 @@
+.icon-4{
+    font-size: 30px;
+    margin: auto;
+    color: #7ac142;
+}
+.bg-footer-content{
+    background: #222222;
+    padding:20px 0
+}
+.width20{
+    width: 20%;
+    display: block;
+    float: left;
+}
+.width20 p {
+    font-size: 13px;
+    padding:3px 0
+}
+.bg-footer-content::after, .div-apter::after{
+    display: block;
+    content:"";
+    clear: both;
+}
+.color-green{
+    color: #7ac142;
+}
+.fs-item-footer{
+    font-size: 14px;
+}

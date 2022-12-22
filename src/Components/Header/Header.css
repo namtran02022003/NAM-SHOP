@@ -1,0 +1,142 @@
+.header-top {
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.btn-header-top {
+    border: none;
+    background-color: #444;
+    color: white;
+    margin: 0 20px;
+}
+
+.div-border {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.bg-header-top {
+    background-color: #444;
+}
+
+.bg-header-bottom {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#header {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.list-button-header-buttom {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.btn-page-header {
+    border: none;
+}
+
+.menu-none {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+.list-button-header-bottom-li:hover .menu-none {
+    display: block !important;
+}
+
+
+
+.list-button-heading {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+}
+
+.menu-item1 {
+    background: #444;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 220px;
+}
+
+.menu-item1-li-a,
+.menu-item1-li-a2 {
+    background: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(155, 151, 151);
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+.menu-none-item {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #444;
+    padding: 0;
+    list-style-type: none;
+    width: 220px;
+}
+
+.menu-none-item {
+    display: none;
+}
+
+.menu-item1-li:hover .menu-none-item {
+    display: block !important;
+}
+
+.list-button-header-bottom-li {
+    padding: 25px 0;
+}
+
+.list-button-header-bottom-li:hover .list-button-heading,
+.menu-item1-li:hover .menu-item1-li-a,
+.menu-none-item-li:hover .menu-item1-li-a2, .home-menu-left-li:hover .a-item, .li-item-float-50:hover{
+    color: #7ac142 !important;
+}
+
+.search form i {
+    position: absolute;
+    right: 0%;
+    top: 0;
+    height: 100%;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    color: black;
+    background: #7ac142;
+    border-radius: 0 4px 4px 0;
+}
+.input-search:focus-within{
+    outline: 0.5px solid rgb(168, 167, 167) !important;
+}
+.input-search{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 4px;
+}

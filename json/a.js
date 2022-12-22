@@ -1,0 +1,1 @@
+import d from '../images/slide1.gif'

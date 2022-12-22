@@ -1,0 +1,37 @@
+.btn-option{
+    border: none;
+    color: white;
+    background: rgb(122, 120, 120);
+    margin: 0 5px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.btn-delete-option{
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+}
+.btn-sapxep{
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(44, 44, 219);
+}
+.img-item-slide{
+    max-height: 90px;
+}
+.img-item-slide ~ p{
+    font-size: 13px;
+}
+.row-slide{
+    flex-wrap: nowrap;
+    overflow:hidden;
+    max-width: 1600px;
+    
+}
+.abc::after,.row-slide::after{
+    display: block;
+    content: "";
+    clear: both;
+}

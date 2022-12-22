@@ -1,0 +1,386 @@
+{
+    "list": [
+        {
+            "heading": "MACBOOK",
+            "url": "/macbook",
+            "menu": [
+                {
+                    "heading": "MacBook Air",
+                    "url": "/macbook-air",
+                    "menu": [
+                        {
+                            "heading": "MacBook Air 2022",
+                            "url": "/MacBook-Air-2022"
+                        },
+                        {
+                            "heading": "MacBook Air 2020",
+                            "url": "/MacBook-Air-2020"
+                        },
+                        {
+                            "heading": "MacBook Air 2019",
+                            "url": "/MacBook-Air-2019"
+                        },
+                        {
+                            "heading": "MacBook Air 2018",
+                            "url": "/MacBook-Air-2018"
+                        },
+                        {
+                            "heading": "MacBook Air 2017",
+                            "url": "/MacBook-Air-2017"
+                        },
+                        {
+                            "heading": "MacBook Air 2016",
+                            "url": "/MacBook-Air-2016"
+                        }
+                    ]
+                },
+                {
+                    "heading": "MacBook Pro",
+                    "url": "/macbook-pro",
+                    "menu": [
+                        {
+                            "heading": "MacBook Pro 2022",
+                            "url": "/macbook-pro-2022"
+                        },
+                        {
+                            "heading": "MacBook Pro 2021",
+                            "url": "/macbook-pro-2021"
+                        },
+                        {
+                            "heading": "MacBook Pro 2020",
+                            "url": "/macbook-pro-2020"
+                        },
+                        {
+                            "heading": "MacBook Pro 2019",
+                            "url": "/macbook-pro-2019"
+                        },
+                        {
+                            "heading": "MacBook Pro 2018",
+                            "url": "/macbook-pro-2018"
+                        }
+                    ]
+                },
+                {
+                    "heading": "MacBook M1",
+                    "url": "/macbook-m1",
+                    "menu": [
+                        {
+                            "heading": "MacBook Air M1",
+                            "url": "/macbook-air-m1"
+                        },
+                        {
+                            "heading": "MacBook Pro M1",
+                            "url": "/macbook-pro-m1"
+                        }
+                    ]
+                },
+                {
+                    "heading": "MacBook M2",
+                    "url": "/macbook-m2",
+                    "menu": [
+                        {
+                            "heading": "MacBook Air M2",
+                            "url": "/macbook-air-m2"
+                        },
+                        {
+                            "heading": "MacBook Pro M2",
+                            "url": "/macbook-pro-m2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "IMAC-MAC DESKTOP",
+            "url": "/imac-mac-desktop",
+            "menu": [
+                {
+                    "heading": "iMac",
+                    "url": "/imac",
+                    "menu": [
+                        {
+                            "heading": "iMac 2021",
+                            "url": "/imac-2021"
+                        },
+                        {
+                            "heading": "iMac 2020",
+                            "url": "/imac-2020"
+                        },
+                        {
+                            "heading": "iMac 2019",
+                            "url": "/imac-2019"
+                        },
+                        {
+                            "heading": "iMac 2017",
+                            "url": "/imac-2017"
+                        },
+                        {
+                            "heading": "iMAC 2015",
+                            "url": "/imac-2015"
+                        }
+                    ]
+                },
+                {
+                    "heading": "iMac M1",
+                    "url": "/imac-m1",
+                    "menu": []
+                },
+                {
+                    "heading": "iMac Mini",
+                    "url": "/imac-mini",
+                    "menu": [
+                        {
+                            "heading": "iMac Mini 2020",
+                            "url": "/imac-mini-2020"
+                        },
+                        {
+                            "heading": "iMac Mini 2018",
+                            "url": "/imac-mini-2018"
+                        },
+                        {
+                            "heading": "iMac Mini 2014",
+                            "url": "/imac-mini-2014"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Mac Mini M1",
+                    "url": "/imac-mini-m1",
+                    "menu": []
+                },
+                {
+                    "heading": "Mac Pro",
+                    "url": "/mac-pro",
+                    "menu": []
+                },
+                {
+                    "heading": "Mac Studio ",
+                    "url": "/mac-studio",
+                    "menu": []
+                },
+                {
+                    "heading": "Apple Displays",
+                    "url": "/apple-displays",
+                    "menu": []
+                }
+            ]
+        },
+        {
+            "heading": "IPHONE",
+            "url": "/iphone",
+            "menu": [
+                {
+                    "heading": "iPhone 14 Series",
+                    "url": "/iphone-14-series",
+                    "menu": [
+                        {
+                            "heading": "iPhone 14 Pro Max",
+                            "url": "/iphone-14-pro-max"
+                        },
+                        {
+                            "heading": "iPhone 14 Pro",
+                            "url": "/iphone-14-pro"
+                        },
+                        {
+                            "heading": "iPhone 14 Plus",
+                            "url": "/iphone-14-plus"
+                        },
+                        {
+                            "heading": "iPhone 14",
+                            "url": "/iphone-14"
+                        }
+                    ]
+                },
+                {
+                    "heading": "iPhone 13 Series",
+                    "url": "/iphone-13-series",
+                    "menu": [
+                        {
+                            "heading": "iPhone 13 Pro",
+                            "url": "/iphone-13-pro"
+                        },
+                        {
+                            "heading": "iPhone 13",
+                            "url": "/iphone-13"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "heading": "IPAD",
+            "url": "/ipad",
+            "menu": [
+                {
+                    "heading": "iPad 10.2 inch",
+                    "url": "/ipad-10.2-inch",
+                    "menu": []
+                },
+                {
+                    "heading": "iPad Air",
+                    "url": "/ipad-air",
+                    "menu": []
+                },
+                {
+                    "heading": "iPad Pro",
+                    "url": "/ipad-pro",
+                    "menu": []
+                },
+                {
+                    "heading": "iPad Mini",
+                    "url": "/ipad-mini",
+                    "menu": []
+                }
+            ]
+        },
+        {
+            "heading": "APPLEWATCH",
+            "url": "/applewatch",
+            "menu": [
+                {
+                    "heading": "Apple Watch Ultra",
+                    "url": "/apple-watch-ultra",
+                    "menu": []
+                },
+                {
+                    "heading": "Apple Watch Series 8",
+                    "url": "/apple-watch-series-8",
+                    "menu": []
+                },
+                {
+                    "heading": "Apple Watch SE",
+                    "url": "/apple-watch-se",
+                    "menu": []
+                }
+            ]
+        },
+        {
+            "heading": "PHỤ KIỆN",
+            "url": "/phukien",
+            "menu": [
+                {
+                    "heading": "Phụ kiện MacBook",
+                    "url": "/phukien-macbook",
+                    "menu": [
+                        {
+                            "heading": "Bàn di chuột",
+                            "url": "/bandichuot"
+                        },
+                        {
+                            "heading": "Bàn phím",
+                            "url": "/banphim"
+                        },
+                        {
+                            "heading": "Bao da MacBook",
+                            "url": "/baoda-macbook"
+                        },
+                        {
+                            "heading": "Bộ dán MacBook",
+                            "url": "/bo-dan-macbook"
+                        },
+                        {
+                            "heading": "Bộ vệ sinh",
+                            "url": "/bo-ve-sinh"
+                        },
+                        {
+                            "heading": "Cáp chuyển đổi",
+                            "url": "/cap-chuyen-doi"
+                        },
+                        {
+                            "heading": "Chuột",
+                            "url": "/chuot"
+                        },
+                        {
+                            "heading": "Ốp MacBook",
+                            "url": "/op-macbook"
+                        },
+                        {
+                            "heading": "Phụ kiện tản nhiệt",
+                            "url": "/phu-kien-tan-nhiet"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Phụ kiện iPhone",
+                    "url": "/phu-kien-iphone",
+                    "menu": [
+                        {
+                            "heading": "Dán iPhone",
+                            "url": "/dan-iphone"
+                        },
+                        {
+                            "heading": "Ốp iPhone",
+                            "url": "/op-iphone"
+                        },
+                        {
+                            "heading": "Sạc iPhone",
+                            "url": "/sac-iphone"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Phụ kiện iPad",
+                    "url": "/phu-kien-ipad",
+                    "menu": [
+                        {
+                            "heading": "Bàn phím & Bút iPad",
+                            "url": "/ban-phim-&-but-ipad"
+                        },
+                        {
+                            "heading": "Bao da iPad",
+                            "url": "/bao-da-ipad"
+                        },
+                        {
+                            "heading": "Dán iPad",
+                            "url": "/dan-ipad"
+                        },
+                        {
+                            "heading": "Sạc iPad",
+                            "url": "/sac-ipad"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Phụ kiện Apple khác",
+                    "url": "/phu-kien-apple-khac",
+                    "menu": [
+                        {
+                            "heading": "AirPods",
+                            "url": "/airpods"
+                        },
+                        {
+                            "heading": "Airtag",
+                            "url": "/airtag"
+                        },
+                        {
+                            "heading": "Apple Care",
+                            "url": "/apple-care"
+                        }
+                    ]
+                },
+                {
+                    "heading": "Phụ kiện khác",
+                    "url": "/phu-kien-khac",
+                    "menu": [
+                        {
+                            "heading": "Ba lô",
+                            "url": "/ba-lo"
+                        },
+                        {
+                            "heading": "Màn hình",
+                            "url": "/man-hinh"
+                        },
+                        {
+                            "heading": "Phần mềm, ứng dụng",
+                            "url": "/phan-mem-&-ung-dung"
+                        },
+                        {
+                            "heading": "Túi xách, túi chống sốc",
+                            "url": "/tui-xach-&-tui-chong-soc"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

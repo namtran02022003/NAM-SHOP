@@ -1,0 +1,33 @@
+p{
+    margin: 0 ;
+}
+.icon{
+    list-style: none;
+    color: #ffffff;
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background: url("https://macone.vn/wp-content/themes/macone/images/icons/macbook-air.svg") no-repeat center top;
+}
+*{
+    box-sizing: border-box !important;
+}
+.color-white{
+    color: white !important;
+}
+.color-black{
+    color: black;
+}
+.f-b{
+    font-weight: 600;
+}

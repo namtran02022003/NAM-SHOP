@@ -1,0 +1,17 @@
+.ul-layout-footer {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+.p-heading-footer-layout {
+
+    padding: 8px 5px;
+    background: #ccc;
+}
+
+.ul-layout-footer li {
+    padding: 5px;
+    border-bottom: 1px dashed #ccc;
+    background: #f3ecec;
+}

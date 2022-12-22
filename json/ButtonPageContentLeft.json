@@ -1,0 +1,328 @@
+{
+    "listButton":[
+        {
+            "heading":"MACBOOOK AIR",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/macbook-air.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-02.jpg",
+            "url":"/macbook-air",
+            "menu":[
+                {
+                    "heading":"MacBook Air 2022",
+                    "url":"/MacBook-Air-2022"
+                },
+                {
+                    "heading":"MacBook Air 2020",
+                    "url":"/MacBook-Air-2020"
+
+                },
+                {
+                    "heading":"MacBook Air 2019",
+                    "url":"/MacBook-Air-2019"
+
+                },
+                {
+                    "heading":"MacBook Air 2018",
+                    "url":"/MacBook-Air-2018"
+                },
+                {
+                    "heading":"MacBook Air 2017",
+                    "url":"/MacBook-Air-2017"
+                },
+                {
+                    "heading":"MacBook Air 2016",
+                    "url":"/MacBook-Air-2016"
+                }
+            ]
+        },
+        {
+            "heading":"MACBOOOK PRO",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/macbook-pro.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-03.jpg",
+            "url":"/macbook-pro",
+            "menu":[
+                {
+                    "heading":"MacBook Pro 2022",
+                    "url":"/macbook-pro-2022"
+                },
+                {
+                    "heading":"MacBook Pro 2021",
+                    "url":"/macbook-pro-2021"
+                },
+                {
+                    "heading":"MacBook Pro 2020",
+                    "url":"/macbook-pro-2020"
+                },
+                {
+                    "heading":"MacBook Pro 2019",
+                    "url":"/macbook-pro-2019"
+                },
+                {
+                    "heading":"MacBook Pro 2018",
+                    "url":"/macbook-pro-2018"
+                },
+                {
+                    "heading":"MacBook Pro 13 inch",
+                    "url":"/macbook-pro-13-inch"
+                },
+                {
+                    "heading":"MacBook Pro 14 inch",
+                    "url":"/macbook-pro-14-inch"
+                },
+                {
+                    "heading":"MacBook Pro 15 inch",
+                    "url":"/macbook-pro-15-inch"
+                },
+                {
+                    "heading":"MacBook Pro 16 inch",
+                    "url":"/macbook-pro-16-inch"
+                }
+            ]
+        },
+        {
+            "heading":"IMAC & MAC DESKTOP",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/imac.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-04.jpg",
+            "url":"/imac-&-mac-desktop",
+            "menu":[
+                {
+                    "heading":"iMac",
+                    "url":"/imac",
+                    "menu":[
+                       
+                    ]
+                },
+                {
+                    "heading":"iMac M1",
+                    "url":"/imac-m1",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"iMac Mini",
+                    "url":"/imac-mini",
+                    "menu":[
+                       
+                    ]
+                },
+                {
+                    "heading":"Mac Mini M1",
+                    "url":"/imac-mini-m1",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Mac Pro",
+                    "url":"/mac-pro",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Mac Studio ",
+                    "url":"/mac-studio",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Apple Displays",
+                    "url":"/apple-displays",
+                    "menu":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"IPHONE",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/iphone2.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-01.jpg",
+            "url":"/iphone",
+            "menu":[
+                {
+                    "heading":"iPhone 14 Pro Max",
+                    "url":"/iphone-14-pro-max",
+                    "menu":[
+
+                    ]
+                },
+                {
+                    "heading":"iPhone 14 Plus",
+                    "url":"/iphone-14-plus",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"iPhone 14 Pro ",
+                    "url":"/iphone-14-pro",
+                    "menu":[
+
+                    ]
+                },
+                {
+                    "heading":"iPhone 14 ",
+                    "url":"/iphone-14",
+                    "menu":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"IPAD",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/ipad.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-05.jpg",
+            "url":"/ipad",
+            "menu":[
+                {
+                    "heading":"iPad 10.2 inch",
+                    "url":"/ipad-10.2-inch",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"iPad Air",
+                    "url":"/ipad-air",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"iPad Pro",
+                    "url":"/ipad-pro",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"iPad Mini",
+                    "url":"/ipad-mini",
+                    "menu":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"SẢN PHẨM KHÁC",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/phukienapple.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-06.jpg",
+            "url":"/san-pham-khac",
+            "menu":[
+                {
+                    "heading":"Apple Watch",
+                    "url":"/apple-watch",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"AirPods",
+                    "url":"/airpords",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"AirTag",
+                    "url":"/airtag",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Air Care",
+                    "url":"/air-care",
+                    "menu":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"PHỤ KIỆN",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/phukienkhac.svg",
+            "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-08.jpg",
+            "url":"/phu-kien",
+            "menu":[
+                {
+                    "heading":"Phụ kiện MacBook",
+                    "url":"/phukien-macbook",
+                    "menu":[
+                     
+                    ]
+                },
+                {
+                    "heading":"Phụ kiện iPhone",
+                    "url":"/phu-kien-iphone",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Phụ kiện iPad",
+                    "url":"/phu-kien-ipad",
+                    "menu":[
+                        
+                    ]
+                },
+                {
+                    "heading":"Phụ kiện Apple khác",
+                    "url":"/phu-kien-apple-khac",
+                    "menu":[
+                       
+                    ]
+                },
+                {
+                    "heading":"Phụ kiện khác",
+                    "url":"/phu-kien-khac",
+                    "menu":[
+                    
+                    ]
+                }
+            ]
+        },
+        {
+            "heading":"GIẢM GIÁ SỐC",
+            "icon":"https://macone.vn/wp-content/themes/macone/images/icons/giamgiasoc.svg"
+        }
+    ],
+    "listSlide":[
+        {
+            "imgUrl":"../images/imgSlide1.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide2.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide3.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide4.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide5.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide6.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide7.webp",
+            "url":""
+        },
+        {
+            "imgUrl":"../images/imgSlide8.webp",
+            "url":""
+        }
+    ]
+}

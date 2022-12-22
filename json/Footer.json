@@ -1,0 +1,156 @@
+{
+    "listFooterTop": [
+        {
+            "icon": "fa fa-truck",
+            "heading": "GIAO HÀNG TẬN NƠI",
+            "text_p": "Miễn phí giao hàng nội thành"
+        },
+        {
+            "icon": "fa fa-refresh",
+            "heading": "ĐỔI TRẢ DỄ DÀNG",
+            "text_p": "Miễn phí đổi trong 10 ngày"
+        },
+        {
+            "icon": "fa fa-thumbs-up",
+            "heading": "HÀNG CHÍNH HÃNG",
+            "text_p": "Cam kết hàng chính hãng 100%"
+        },
+        {
+            "icon": "fa fa-usd",
+            "heading": "NHẬN HÀNG TRẢ TIỀN",
+            "text_p": "Tiền mặt, quẹt thẻ, chuyển khoản"
+        }
+    ],
+    "listFooterContent": {
+        "vemacone": {
+            "item": "VỀ MACONE",
+            "heading": "Công ty cổ phần MACONE",
+            "giayphep": " 0108037559",
+            "hotline": " 0936 096 900",
+            "baohanh": "0936 096 900 (Nhánh 3)",
+            "thoigian": " 8h30 - 21h30",
+            "email": "lienhe@macone.vn"
+        },
+        "hotro":{
+            "heading":"HỖ TRỢ KHÁCH HÀNG",
+            "content":[
+               {
+                "heading":"giới thiệu",
+                "url":"/gioithieu"
+               },
+               {
+                "heading": "Hướng dẫn mua hàng",
+                "url":"/huong-dan-mua-hang"
+               },
+               {
+                "heading": "Mua trả góp",
+                "url":"/mua-tra-gop"
+               },
+               {
+                "heading": "Tin công nghệ",
+                "url":"/tin-cong-nghe"
+               },
+               {
+                "heading": "Liên hệ",
+                "url":"/lien-he"
+               }
+                
+                
+
+            ]
+        },
+        "chinhsach":{
+            "heading":"CHÍNH SÁCH",
+            "content":[
+               {
+                "heading":"Chính sách Bảo Hành & Đổi Trả",
+                "url":"/chinh-sach-bao-hanh-&-hoan-tra"
+               },
+               {
+                "heading": "Chính sách đặt hàng",
+                "url":"/chinh-sach-dat-hang"
+               },
+               {
+                "heading": "Chính sách vận chuyển",
+                "url":"/chinh-sach-van-chuyen"
+               },
+               {
+                "heading": "Chính sách bảo mật thông tin",
+                "url":"/chinh-sach-bao-mat-thong-tin"
+               },
+               {
+                "heading": "Chính sách thanh toán",
+                "url":"/chinh-sach-thanh-toan"
+               },
+               {
+                "heading": "Gói bảo hành vàng MacOne Care",
+                "url":"/goi-bao-hanh-macone-care"
+               }
+                
+                
+
+            ]
+        },
+        "youtobe":{
+            "heading":"YOUTOBE",
+            "content":[]
+        },
+        "internet":{
+            "heading":"MẠNG XÃ HỘI",
+            "url":"/",
+            "img_url":"https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/320209979_1262043157674336_504113765061684128_n.jpg?stp=dst-jpg_p130x130&_nc_cat=111&ccb=1-7&_nc_sid=dd9801&_nc_ohc=_0Rjgh9_25wAX9PKZhI&_nc_ht=scontent.fhan5-11.fna&edm=ANjLS8YEAAAA&oh=00_AfAt9aK0xmnOWoRDArjZNhpbX9ssS0nf4PueCxuQ0ytNiw&oe=63A15D2C",
+            "content":[]
+        },
+        "addresHanoi":{
+            "heading":"Hà NỘI",
+            "note":"(Cửa hàng đều có chỗ để xe ô tô)",
+            "content":[
+                {
+                    "addres":"Cơ sở 1: 113 Hoàng Cầu, Q. Đống Đa, Hà Nội.",
+                    "phoneNumber":" 0342 99 55 66"
+                },
+                {
+                    "addres":"Cơ sở 2: 99 Nguyễn Văn Huyên, Q. Cầu Giấy, Hà Nội.",
+                    "phoneNumber":" 0773 220 666"
+                },
+                {
+                    "addres":"Cơ sở 3: 119A Trần Đại Nghĩa, Q. Hai Bà Trưng, Hà Nội.",
+                    "phoneNumber":"  0783 898 999"
+                }
+            ]
+        },
+        "addresHCM":{
+            "heading":"Thành phố Hồ Chí Minh:",
+            "note":"(Cửa hàng đều có chỗ để xe ô tô)",
+            "phoneNumber":" 0386 370 444",
+            "addres":"Cơ sở 4: 186 Võ Văn Tần, Q. 3, TP Hồ Chí Minh.",
+            "content":[
+                {
+                    "item":" MacBook",
+                    "url":"/macbook"
+                },
+                {
+                    "item":" MacBook Pro",
+                    "url":"/macbook-pro"
+                },
+                {
+                    "item":" iPad Pro",
+                    "url":"/ipad-pro"
+                },
+                {
+                    "item":"  iMac",
+                    "url":"/imac"
+                },
+                {
+                    "item":" MacBook cũ",
+                    "url":"/macbook-cu"
+                },
+                {
+                    "item":"  MacBook M1 ",
+                    "url":"/macbook-m1"
+                }
+            ]
+        },
+        "logofooter":"../images/logofooter.jpg"
+    }
+}
