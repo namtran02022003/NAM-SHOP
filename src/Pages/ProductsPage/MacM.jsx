@@ -20,7 +20,6 @@ export default function MacM(props) {
         const result = datas[0].subList.filter(item => item.id_children1 === props.id_children1)//1
         setDatas(result)
         var products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.thongso.includes(props.name) || item.product_name.includes(props.name))//1
-       
         setListProductac(products)
         setListProduct(products)
     }

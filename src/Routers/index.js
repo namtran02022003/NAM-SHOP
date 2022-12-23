@@ -10,6 +10,7 @@ import VanChuyen from "../Pages/FooterOtherPages/ChinhSachVanChuyen.jsx"
 import BaoMat from "../Pages/FooterOtherPages/BaoMat.jsx"
 import ThanhToan from "../Pages/FooterOtherPages/ChinhSachThanhToan.jsx"
 import IphonePage from "../Pages/IphonePage/IphonePage.jsx"
+import DetailProduct from "../Pages/DetailProduct/DetailProduct.jsx"
 import {MacAir,MacPro,MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1} from '../Pages/PageChildren1/index'
 import {MacAir2016,MacAir2017,MacAir2018,MacAir2019,MacAir2020,MacAir2022} from '../Pages/PageChildren2/MacAir'
 import {MacPro2018,MacPro2019,MacPro2020,MacPro2021,MacPro2022} from '../Pages/PageChildren2/MacPro'
@@ -17,6 +18,8 @@ import {MacProM1,MacProM2,MacAirM1,MacAirM2} from '../Pages/PageChildren2/MacPro
 import { MacBook,ImacDesktop } from "../Pages/PageItem/index.jsx"
 import { Imac2015, Imac2017, Imac2019, Imac2020, Imac2021 } from "../Pages/PageChildren2/Imac.jsx"
 import { ImacMini2014, ImacMini2018, ImacMini2020 } from "../Pages/PageChildren2/ImacMini.jsx"
+import Cart from "../Pages/Carts/Cart.jsx"
+
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/gioithieu', component: GioiThieu, layout: FooterLayout },
@@ -62,7 +65,8 @@ const publicRoutes = [
     { path: '/imac-Mini-2020', component: ImacMini2020 },
     { path: '/imac-Mini-2018', component: ImacMini2018 },
     { path: '/imac-Mini-2014', component: ImacMini2014 },
-
+    { path: '/detail-product/:id', component: DetailProduct },
+    { path: '/cart', component: Cart },
 
 ]
 

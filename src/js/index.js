@@ -269,4 +269,25 @@ function changeNew(value,setListProduct,listProductac,setStyleBtn) {
         setListProduct(listProductac)
     }
 }
-export {listOption, handlePrice,ButtonOptions,changePrice,changeNew}
+
+
+const handleCart = (product,dataCarts) => {
+    const dataCart = dataCarts.Carts
+    const cartCopy = dataCart.slice();
+    const index = cartCopy.findIndex((datas) => datas.id === product.id);
+    if (index === -1) {
+        cartCopy.push({ ...product, count: 1 });
+    } else {
+        const pr = cartCopy[index];
+        cartCopy[index] = { ...pr, count: pr.count + 1 };
+    }
+    localStorage.setItem('cart',JSON.stringify(cartCopy))
+    dataCarts.setCarts(cartCopy)
+}
+const remove = (id,dataCarts)=>{
+    const cartCopy = dataCarts.Carts.filter((item) => item.id !== id);
+   
+    localStorage.setItem(`cart`, JSON.stringify(cartCopy));
+    dataCarts.setCarts(cartCopy);
+}
+export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,handleCart,remove}

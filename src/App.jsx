@@ -1,14 +1,23 @@
 import { publicRoutes } from './Routers/index'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import DefaultLayout from "./Components/Layout/DefaultLayOut"
-import GioiThieu from './Pages/FooterOtherPages/GioiThieu'
-import { Fragment } from 'react'
-import Home from './Pages/Home/Home'
+import { Fragment, useEffect } from 'react'
+import {createContext,useState} from 'react'
 
+export const CartProducts = createContext()
 function App() {
-
+  const[Carts,setCarts] = useState([])
+  useEffect(()=>{
+    const CartsLocalStorAge = localStorage.getItem('cart')
+    setCarts(JSON.parse(CartsLocalStorAge)|| [])
+  },[])
+console.log(Carts)
   return (
-    <div className='app'>
+    <CartProducts.Provider value={{
+      Carts:Carts,
+      setCarts:setCarts
+    }}>
+      <div className='app'>
       <Router>
         <Routes>
           {publicRoutes.map((route, index) => {
@@ -24,6 +33,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    </CartProducts.Provider>
   )
 }
 

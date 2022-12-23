@@ -15,7 +15,7 @@ export default function HeaderTop(){
                 <div className="d-flex">
                     <Link to={'/gioithieu'} className="btn-header-top">Giới thiệu</Link>
                     <Link to={''} className="btn-header-top">Liên hệ</Link>
-                    <Link to={''} className="btn-header-top">Giỏ hàng</Link>
+                    <Link to={'/cart'} className="btn-header-top">Giỏ hàng</Link>
                 </div>
             </div>
         </div>

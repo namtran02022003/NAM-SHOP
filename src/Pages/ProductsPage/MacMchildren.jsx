@@ -17,7 +17,7 @@ export default function MacMchildren(props) {
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
         const datas = res.data.category.filter(item => item.category_id === props.category_id)//1
-        
+
         const result = datas[0].subList.filter(item => item.id_children1 === props.id_children1)
         setDatas(result)
         const products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.thongso.includes(props.name) && item.product_name.includes(props.name2))//1
@@ -67,8 +67,8 @@ export default function MacMchildren(props) {
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
-                            <div ><h5>{datas[0] && datas[0].subList.map(item => 
-                                item.id_children2 === props.id_children2 ? item.product_children_name :''
+                            <div ><h5>{datas[0] && datas[0].subList.map(item =>
+                                item.id_children2 === props.id_children2 ? item.product_children_name : ''
                             )}</h5></div>
                         </div>
                         <div className="col-8 p-0">
@@ -129,8 +129,8 @@ export default function MacMchildren(props) {
                             <FilterMenu datas={datas} />
                         </div>
                         <div className="col-10">
-                            <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList.map(item => 
-                                item.id_children2 === props.id_children2 ? item.product_children_name :''
+                            <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList.map(item =>
+                                item.id_children2 === props.id_children2 ? item.product_children_name : ''
                             )}</h5>
                             {listProduct.length > 0 ? (<div className="row m-0">
                                 {listProduct.map((product) => {
