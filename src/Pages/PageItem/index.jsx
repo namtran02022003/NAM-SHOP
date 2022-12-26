@@ -1,5 +1,5 @@
 import PageItem from "../ProductsPage/PageItem";
-
+import OtherPages from "../OtherPages/OtherPagesChildren1";
 
 function MacBook(){
     return(
@@ -12,6 +12,11 @@ function ImacDesktop(){
         <PageItem category_id={2} />
     )
 }
+function Iphone(){
+    return(
+        <OtherPages category_id={3} />
+    )
+}
 
 
-export{MacBook,ImacDesktop}
+export{MacBook,ImacDesktop,Iphone}

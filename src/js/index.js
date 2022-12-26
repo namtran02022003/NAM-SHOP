@@ -1,3 +1,8 @@
+import {useNavigate} from 'react-router-dom'
+
+
+
+
 const listOption = [
     {
         heading: "CPU",
@@ -247,9 +252,10 @@ function changeNew(value,setListProduct,listProductac,setStyleBtn) {
     setStyleBtn('')
     if (value === '1') {
         const productSort = listProductac.slice()
+     
         var newProducts = []
         productSort.filter(product => {
-            var p = product.thongso.includes("NEW")
+            var p = product.thongso.includes("NEW")  || product.product_name.includes('NEW')
             if (p) {
                 newProducts.push(product)
             }
@@ -259,7 +265,7 @@ function changeNew(value,setListProduct,listProductac,setStyleBtn) {
         const productSort = listProductac.slice()
         var newProducts = []
         productSort.filter(product => {
-            var p = product.thongso.includes("Like New")
+            var p = product.thongso.includes("Like New")|| product.product_name.includes('Like New')
             if (p) {
                 newProducts.push(product)
             }
@@ -271,23 +277,55 @@ function changeNew(value,setListProduct,listProductac,setStyleBtn) {
 }
 
 
-const handleCart = (product,dataCarts) => {
+const HandleCart = (product,dataCarts,check) => {
+   const Navetage = useNavigate()
     const dataCart = dataCarts.Carts
     const cartCopy = dataCart.slice();
     const index = cartCopy.findIndex((datas) => datas.id === product.id);
     if (index === -1) {
         cartCopy.push({ ...product, count: 1 });
     } else {
-        const pr = cartCopy[index];
-        cartCopy[index] = { ...pr, count: pr.count + 1 };
+       Navetage('/cart')
     }
     localStorage.setItem('cart',JSON.stringify(cartCopy))
     dataCarts.setCarts(cartCopy)
 }
 const remove = (id,dataCarts)=>{
     const cartCopy = dataCarts.Carts.filter((item) => item.id !== id);
-   
     localStorage.setItem(`cart`, JSON.stringify(cartCopy));
     dataCarts.setCarts(cartCopy);
 }
-export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,handleCart,remove}
+
+
+var index = 0
+    function a(n) {
+        var e = document.querySelectorAll('.my-slide')
+        var length = e.length
+       if(length > 3){
+        if (n == 1) {
+            e[index].style.display = "none"
+            if (index == length - 4) {
+                index = -1
+                for (let i = 0; i < length; i++) {
+                    e[i].style.display = "block"
+                }
+            }
+            index++
+        } else {
+            index--
+            if (index > 0) {
+                e[index].style.display = "block"
+                if (index == length - 4) {
+                    index = -1
+                    for (let i = 0; i < length; i++) {
+                        e[i].style.display = "block"
+                    }
+                }
+            } else {
+                index = 0
+                e[index].style.display = "block"
+            }
+        }
+       }
+    }
+export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,HandleCart,remove,a}

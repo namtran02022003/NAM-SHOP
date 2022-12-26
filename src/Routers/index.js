@@ -9,16 +9,17 @@ import ChinhSachDatHang from "../Pages/FooterOtherPages/ChinhSachDatHang.jsx"
 import VanChuyen from "../Pages/FooterOtherPages/ChinhSachVanChuyen.jsx"
 import BaoMat from "../Pages/FooterOtherPages/BaoMat.jsx"
 import ThanhToan from "../Pages/FooterOtherPages/ChinhSachThanhToan.jsx"
-import IphonePage from "../Pages/IphonePage/IphonePage.jsx"
+import OtherPages from "../Pages/OtherPages/OtherPages.jsx"
 import DetailProduct from "../Pages/DetailProduct/DetailProduct.jsx"
-import {MacAir,MacPro,MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1} from '../Pages/PageChildren1/index'
+import {MacAir,MacPro,MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1, MacbookPro, MacStudio, AppleDisplay, Iphone14Series} from '../Pages/PageChildren1/index'
 import {MacAir2016,MacAir2017,MacAir2018,MacAir2019,MacAir2020,MacAir2022} from '../Pages/PageChildren2/MacAir'
 import {MacPro2018,MacPro2019,MacPro2020,MacPro2021,MacPro2022} from '../Pages/PageChildren2/MacPro'
 import {MacProM1,MacProM2,MacAirM1,MacAirM2} from '../Pages/PageChildren2/MacProM1'
-import { MacBook,ImacDesktop } from "../Pages/PageItem/index.jsx"
+import { MacBook,ImacDesktop, Iphone } from "../Pages/PageItem/index.jsx"
 import { Imac2015, Imac2017, Imac2019, Imac2020, Imac2021 } from "../Pages/PageChildren2/Imac.jsx"
 import { ImacMini2014, ImacMini2018, ImacMini2020 } from "../Pages/PageChildren2/ImacMini.jsx"
 import Cart from "../Pages/Carts/Cart.jsx"
+import { Iphone14, Iphone14Plus, Iphone14Pro, Iphone14ProMax } from "../Pages/PageChildren2/Iphones.jsx"
 
 const publicRoutes = [
     { path: '/', component: Home },
@@ -32,8 +33,8 @@ const publicRoutes = [
     { path: '/chinh-sach-bao-mat-thong-tin', component: BaoMat, layout: FooterLayout },
     { path: '/chinh-sach-thanh-toan', component: ThanhToan, layout: FooterLayout },
     { path: '/macbook-air', component: MacAir },
-    { path: '/iphone-14-series', component: IphonePage },
-    { path: '/macbook-pro', component: MacPro },
+    { path: '/iphone-14-series', component: Iphone14Series },
+    { path: '/macbook-pro', component: MacbookPro },
     { path: '/macbook-Air-2022', component: MacAir2022 },
     { path: '/macbook-Air-2020', component: MacAir2020 },
     { path: '/macbook-Air-2019', component: MacAir2019 },
@@ -67,6 +68,14 @@ const publicRoutes = [
     { path: '/imac-Mini-2014', component: ImacMini2014 },
     { path: '/detail-product/:id', component: DetailProduct },
     { path: '/cart', component: Cart },
+    { path: '/mac-pro', component: MacPro },
+    { path: '/mac-studio', component: MacStudio },
+    { path: '/iphone', component: OtherPages },
+    { path: '/apple-displays', component: AppleDisplay },
+    { path: '/iphone-14-pro-max', component: Iphone14ProMax },
+    { path: '/iphone-14-pro', component: Iphone14Pro },
+    { path: '/iphone-14-plus', component: Iphone14Plus },
+    { path: '/iphone-14', component: Iphone14 },
 
 ]
 

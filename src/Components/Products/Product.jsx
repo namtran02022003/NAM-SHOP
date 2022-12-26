@@ -13,6 +13,7 @@ export default function Product({product}){
                 <p>{product.product_name}</p>
                 <p className="text-thong-so">{product.thongso}</p>
                 <p className="text-price">{product.price.toLocaleString()} ₫ </p>
+                {product.id}
             </div>
         </div>
     </div>

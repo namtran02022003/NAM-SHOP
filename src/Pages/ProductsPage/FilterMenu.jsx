@@ -31,7 +31,7 @@ function InputOption({ item }) {
         <div >
             <li>
                 <input value={item.value} onChange={() => handleFilter(item.value)} checked={check} className="input-filter" type="checkbox" />
-            </li>
+           {item.value} </li>
         </div>
     )
 }

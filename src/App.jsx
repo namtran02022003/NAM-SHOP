@@ -11,7 +11,7 @@ function App() {
     const CartsLocalStorAge = localStorage.getItem('cart')
     setCarts(JSON.parse(CartsLocalStorAge)|| [])
   },[])
-console.log(Carts)
+
   return (
     <CartProducts.Provider value={{
       Carts:Carts,

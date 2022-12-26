@@ -4,7 +4,34 @@ import { CartProducts } from '../../App'
 import { remove } from '../../js'
 export default function Cart(){
     const dataCarts = useContext(CartProducts)
-   
+   const handleCount = (id,data,payload)=>{
+    const dataCart = data.Carts
+    const cartCopy = dataCart.slice();
+    const index = cartCopy.findIndex((datas) => datas.id === id);
+    const pr = cartCopy[index]
+    cartCopy[index] = {
+        ...pr,count:payload
+    }
+    localStorage.setItem(`cart`, JSON.stringify(cartCopy));
+    dataCarts.setCarts(cartCopy);
+   }
+   const handleChangeCheck = (id,data)=>{
+    const dataCart = data.Carts
+    const cartCopy = dataCart.slice();
+    const index = cartCopy.findIndex((datas) => datas.id === id);
+    const pr = cartCopy[index]
+    if(pr.check){
+        pr.check = false
+    }else {
+        pr.check = true
+    }
+    cartCopy[index] = {
+        ...pr
+    }
+    console.log(cartCopy)
+    localStorage.setItem(`cart`, JSON.stringify(cartCopy));
+    dataCarts.setCarts(cartCopy);
+   }
     return(
         <div className='container'>
             <h5>Giỏ hàng</h5>
@@ -27,10 +54,7 @@ export default function Cart(){
                             width:"10%"
                         }}>đơn giá
                         </th>
-                        <th style={{
-                            width:"15%"
-                        }}>màu sắc
-                        </th>
+                        
                         <th style={{
                             width:"15%"
                         }}>gói bảo hành
@@ -56,23 +80,28 @@ export default function Cart(){
                         </th>
                         <th style={{
                             width:"7%"
-                        }}>{product.count}
+                        }}><select value={product.count} onChange={(e)=>handleCount(product.id,dataCarts,e.target.value)}>
+                            <option value={1}>1</option>
+                            <option value={2}>2</option>
+                            <option value={3}>3</option>
+                            <option value={4}>4</option>
+                            <option value={5}>5</option>
+                        </select>
                         </th>
                         <th style={{
                             width:"10%"
                         }}>{product.price}
                         </th>
+                       
                         <th style={{
                             width:"15%"
-                        }}>màu sắc
+                        }}>
+                            <input onChange={()=>handleChangeCheck(product.id,dataCarts)} checked={product.check} type="checkbox" />
+                            <p>Gói bảo hành MacOne</p>
                         </th>
                         <th style={{
                             width:"15%"
-                        }}>gói bảo hành
-                        </th>
-                        <th style={{
-                            width:"15%"
-                        }}>{product.price * product.count}  
+                        }}>{product.check ? product.price * product.count + product.count * Number(390000): product.price * product.count} 
                         </th>
                         <th onClick={()=> remove(product.id,dataCarts)} style={{
                             width:"5%"

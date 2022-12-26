@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from 'react'
 import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
-
+import { a } from "../../js"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
-
+import SlideTop from "../../Components/CommonComponent"
 export default function PageChildren1(props) {
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
@@ -25,36 +25,6 @@ export default function PageChildren1(props) {
     }, [])
 
 
-    var index = 0
-    function a(n) {
-        var e = document.querySelectorAll('.my-slide')
-        var length = e.length
-        if (n == 1) {
-            e[index].style.display = "none"
-            if (index == length - 4) {
-                index = -1
-                for (let i = 0; i < length; i++) {
-                    e[i].style.display = "block"
-                }
-            }
-            index++
-            console.log('index +', index)
-        } else {
-            index--
-            if (index > 0) {
-                e[index].style.display = "block"
-                if (index == length - 4) {
-                    index = -1
-                    for (let i = 0; i < length; i++) {
-                        e[i].style.display = "block"
-                    }
-                }
-            } else {
-                index = 0
-                e[index].style.display = "block"
-            }
-        }
-    }
 
     return (
         <div>
@@ -69,12 +39,7 @@ export default function PageChildren1(props) {
                                 <div className='row row-slide'>
                                     {datas[0] && datas[0].subList.map((item, index) => {
                                         return (
-                                            <div key={index} className='my-slide text-center col-3'>
-                                                <div className="img-item-slide">
-                                                    <img src={item.url_img} alt="img" width="40%" />
-                                                </div>
-                                                <p>{item.product_children_name}</p>
-                                            </div>
+                                           <SlideTop key={index} item={item} />
                                         )
                                     })}
                                 </div>

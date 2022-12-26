@@ -1,12 +1,12 @@
 import './index.css'
-import { useParams } from "react-router-dom"
+import { useParams,useNavigate } from "react-router-dom"
 import axios from "axios"
 import { useState, useEffect,useContext } from 'react'
 import { CartProducts } from '../../App'
-import { handleCart } from '../../js'
+
 function DetailProduct() {
+    const Navitage = useNavigate()
     const dataCarts = useContext(CartProducts)
-    console.log(dataCarts)
     const [productDetail, setProductDetail] = useState([])
     const [img, setImg] = useState('')
     const [check, setCheck] = useState(false)
@@ -19,13 +19,25 @@ function DetailProduct() {
     useEffect(() => {
         getData()
     }, [])
-    const handleChange = (v) => {
+    const handleChange = () => {
         setCheck(!check)
     }
-   
+    const HandleCart = (product,dataCarts,check) => {
+         const dataCart = dataCarts.Carts
+         const cartCopy = dataCart.slice();
+         const index = cartCopy.findIndex((datas) => datas.id === product.id);
+         if (index === -1) {
+              cartCopy.push({ ...product, count: 1,check:check }) 
+         } else {
+            Navitage('/cart')
+         }
+         localStorage.setItem('cart',JSON.stringify(cartCopy))
+         dataCarts.setCarts(cartCopy)
+         Navitage('/cart')
+     }
     return (
         <div className="bg-white">
-            <div className="container d-flex">
+            <div className="container pt-5 d-flex">
                 <div className="col-5">
                     <div className="text-center">
                         {productDetail.map(product => (
@@ -35,8 +47,8 @@ function DetailProduct() {
                         ))}
                     </div>
                     <div className='slide-product-detail d-flex justify-content-center'>
-                        {productDetail[0] && productDetail[0].img_detail && productDetail[0].img_detail.map(url => (
-                            <div className='img-slide-detail' key={url} >
+                        {productDetail[0] && productDetail[0].img_detail && productDetail[0].img_detail.map((url,index) => (
+                            <div className='img-slide-detail' key={index} >
                                 <img onClick={() => setImg(url)} src={url} width="100%" />
                             </div>
                         ))}
@@ -77,7 +89,7 @@ function DetailProduct() {
                                         <input style={{
                                             width:"20px",
                                             height:"40px"
-                                        }} checked={check} onChange={() => handleChange()} type="checkbox" />
+                                        }} checked={check} onChange={() => handleChange(productDetail[0] && productDetail[0].id)} type="checkbox" />
                                     </div>
                                     <div className='col-8 fs-13'>
                                         <b className='fs-14'>Gói bảo hành MacOne Care +390.000 ₫ </b>
@@ -99,7 +111,7 @@ function DetailProduct() {
                                         <p>Giao hàng tận nhà hoặc nhận tại cửa hàng</p>
                                     </div>
                                     <div className='d-flex justify-content-between text-center m-0 mt-2'>
-                                        <div onClick={()=>handleCart(productDetail[0],dataCarts)} className="w-49 btn-muangay">
+                                        <div onClick={()=>HandleCart(productDetail[0],dataCarts,check)} className="w-49 btn-muangay">
                                             <h6>THÊM VÀO GIỎ</h6>
                                             <p>Chọn thêm món đồ khác</p>
                                         </div>

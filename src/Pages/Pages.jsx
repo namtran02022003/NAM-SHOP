@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import './ProductsPage/ItemProduct.css'
 import FilterMenu from "./ProductsPage/FilterMenu"
 import Product from "../Components/Products/Product"
-
+import SlideTop from "../Components/CommonComponent"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../js/index"
 
 export default function Pages(props) {
@@ -23,8 +23,7 @@ export default function Pages(props) {
     useEffect(() => {
         getData()
     }, [])
-
-
+    
     var index = 0
     function a(n) {
         var e = document.querySelectorAll('.my-slide')
@@ -73,12 +72,7 @@ export default function Pages(props) {
                                 <div className='row row-slide'>
                                     {datas[0] && datas[0].subList.map((item, index) => {
                                         return (
-                                            <div key={index} className='my-slide text-center col-3'>
-                                                <div className="img-item-slide">
-                                                    <img src={item.url_img} alt="img" width="40%" />
-                                                </div>
-                                                <p>{item.product_children_name}</p>
-                                            </div>
+                                            <SlideTop item={item} key={index} />
                                         )
                                     })}
                                 </div>
