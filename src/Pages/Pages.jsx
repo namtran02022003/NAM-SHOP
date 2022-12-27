@@ -5,7 +5,7 @@ import FilterMenu from "./ProductsPage/FilterMenu"
 import Product from "../Components/Products/Product"
 import SlideTop from "../Components/CommonComponent"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../js/index"
-
+import { a } from "../js/index"
 export default function Pages(props) {
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
@@ -24,36 +24,7 @@ export default function Pages(props) {
         getData()
     }, [])
     
-    var index = 0
-    function a(n) {
-        var e = document.querySelectorAll('.my-slide')
-        var length = e.length
-        if (n == 1) {
-            e[index].style.display = "none"
-            if (index == length - 4) {
-                index = -1
-                for (let i = 0; i < length; i++) {
-                    e[i].style.display = "block"
-                }
-            }
-            index++
-            console.log('index +', index)
-        } else {
-            index--
-            if (index > 0) {
-                e[index].style.display = "block"
-                if (index == length - 4) {
-                    index = -1
-                    for (let i = 0; i < length; i++) {
-                        e[i].style.display = "block"
-                    }
-                }
-            } else {
-                index = 0
-                e[index].style.display = "block"
-            }
-        }
-    }
+   
 
     return (
         <div>

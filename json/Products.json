@@ -254,30 +254,31 @@
                 {
                     "id_children1": 1,
                     "product_children_name": "IPHONE 14 SERIES",
-                    "url": "/iphone-14-series",
+                    "url": "iphone-14-series",
+                    "url_img":"../images/logoiphone14.png",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "IPHONE 14 PRO MAX",
-                            "url": "/iphone-14-pro-max",
+                            "url": "iphone-14-pro-max",
                             "url_img": "../images/ip1.jpg"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "IPHONE 14 PRO",
-                            "url": "/iphone-14-pro",
+                            "url": "iphone-14-pro",
                             "url_img": "../images/ip2.jpg"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "IPHONE 14 PLUS",
-                            "url": "/iphone-14-plus",
+                            "url": "iphone-14-plus",
                             "url_img": "../images/ip3.jpg"
                         },
                         {
                             "id_children2": 4,
                             "product_children_name": "IPHONE 14",
-                            "url": "/iphone-14",
+                            "url": "iphone-14",
                             "url_img": "../images/ip4.jpg"
                         }
                     ]
@@ -285,25 +286,34 @@
                 {
                     "id_children1": 2,
                     "product_children_name": "IPHONE 13 SERIES",
-                    "url": "/iphone-13-series",
+                    "url": "iphone-13-series",
+                    "url_img":"../images/logoiphone13.png",
                     "subList": [
                         {
                             "id_children2": 1,
-                            "product_children_name": "IPHONE 13 PRO MAX"
+                            "product_children_name": "IPHONE 13 PRO MAX",
+                            "url": "iphone-13-pro-max",
+                            "url_img":"../images/ip13.png"
                         },
                         {
                             "id_children2": 2,
-                            "product_children_name": "IPHONE 13 PRO"
+                            "product_children_name": "IPHONE 13 PRO",
+                            "url": "iphone-13-pro",
+                            "url_img":"../images/13pro.png"
                         },
                         {
                             "id_children2": 3,
-                            "product_children_name": "IPHONE 13"
+                            "product_children_name": "IPHONE 13",
+                            "url": "iphone-13",
+                            "url_img":"../images/iphone13.png"
                         }
                     ]
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "IPHONE 12 SERIES",
+                    "url_img":"../images/logoiphone12.png",
+                    "url": "iphone-12-series",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -322,7 +332,8 @@
                 {
                     "id_children1": 4,
                     "product_children_name": "IPHONE 11 SERIES",
-                    "url": "/iphone-11-series",
+                    "url": "iphone-11-series", 
+                     "url_img":"../images/logoiphone11.png",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -345,144 +356,299 @@
             "created_by": "ad 1",
             "url": "iphone",
             "id": 3
+        },
+        {
+            "category_id": 4,
+            "category_name": "IPAD",
+            "subList": [
+                {
+                    "id_children1": 1,
+                    "product_children_name": "iPad 10.2 inch",
+                    "url": "ipad-10.2-inch",
+                    "url_img":"../images/logoipad.png",
+                    "subList": [
+                        
+                    ]
+                },
+                {
+                    "id_children1": 2,
+                    "product_children_name": "iPad Air",
+                    "url": "ipad-air",
+                    "url_img":"../images/logoipadair.png",
+                    "subList": [
+                        
+                    ]
+                },
+                {
+                    "id_children1": 3,
+                    "product_children_name": "iPad Pro",
+                    "url_img":"../images/logoipadpro.png",
+                    "url": "iPad-pro",
+                    "subList": [
+                       
+                    ]
+                },
+                {
+                    "id_children1": 4,
+                    "product_children_name": "iPad Mini",
+                    "url": "ipad-mini", 
+                     "url_img":"../images/logoipadmini.png",
+                    "subList": [
+                       
+                    ]
+                }
+            ],
+            "created_date": "25/11/2022",
+            "modified_date": "",
+            "modified_by": "",
+            "created_by": "ad 1",
+            "url": "ipad",
+            "id": 4
+        },
+        {
+            "category_id": 5,
+            "category_name": "APPLE WATCH",
+            "subList": [
+                {
+                    "id_children1": 1,
+                    "product_children_name": "Apple Watch Ultra",
+                    "url": "apple-watch-ultra",
+                    "url_img":"../images/apw1.jpg",
+                    "subList": [
+                        
+                    ]
+                },
+                {
+                    "id_children1": 2,
+                    "product_children_name": "Apple Watch Series 8",
+                    "url": "apple-watch-series-8",
+                    "url_img":"../images/apw2.jpg",
+                    "subList": [
+                        
+                    ]
+                },
+                {
+                    "id_children1": 3,
+                    "product_children_name": "Apple Watch SE",
+                    "url_img":"../images/apw3.jpg",
+                    "url": "apple-watch-se",
+                    "subList": [
+                       
+                    ]
+                }
+            ],
+            "created_date": "25/11/2022",
+            "modified_date": "",
+            "modified_by": "",
+            "created_by": "ad 1",
+            "url": "applewatch",
+            "id": 5
+        },
+        {
+            "category_id": 6,
+            "category_name": "PHỤ KIỆN",
+            "subList": [
+                {
+                    "id_children1": 1,
+                    "product_children_name": "Phụ Kiện Macbook",
+                    "url": "/phukien-macbook",
+                    "url_img": "../images/macair20181.jpg",
+                    "subList": [
+                        {
+                            "id_children2": 1,
+                            "product_children_name": "Bàn Di Chuột",
+                            "url": "ban-di-chuot",
+                            "url_img": "../images/chuot.png"
+                        },
+                        {
+                            "id_children2": 2,
+                            "product_children_name": "Bàn phím",
+                            "url": "ban-phim",
+                            "url_img": "../images/banphim.png"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": "Bao Da Macbook",
+                            "url": "bao-da-macbook",
+                            "url_img": "../images/sac.png"
+                        },
+                        {
+                            "id_children2": 4,
+                            "product_children_name": "Bộ Dán Macbook",
+                            "url": "bo-dan-macbook",
+                            "url_img": "../images/macair4.jpg"
+                        },
+                        {
+                            "id_children2": 5,
+                            "product_children_name": "Bộ Vệ Sinh",
+                            "url": "bo-ve-sinh",
+                            "url_img": "../images/macair5.jpg"
+                        },
+                        {
+                            "id_children2": 6,
+                            "product_children_name": "Cáp Chuyển Đổi",
+                            "url": "cap-chuyen-doi",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 7,
+                            "product_children_name": "Chuột",
+                            "url": "chuot",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 8,
+                            "product_children_name": "Ốp Macbook",
+                            "url": "op-macbook",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 9,
+                            "product_children_name": "Phụ Kiện Tản Nhiệt",
+                            "url": "phu-kien-tan-nhiet",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 10,
+                            "product_children_name": "Phủ Phím Macbook",
+                            "url": "phu-phim-macbook",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 11,
+                            "product_children_name": "Sạc Macbook",
+                            "url": "sac-macbook",
+                            "url_img": "../images/macair6.jpg"
+                        },
+                        {
+                            "id_children2": 12,
+                            "product_children_name": "Tấm Da Kê Bàn",
+                            "url": "tam-da-ke-ban",
+                            "url_img": "../images/macair6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id_children1": 2,
+                    "product_children_name": "Phụ Kiện Iphone",
+                    "url": "/phu-kien-iphone",
+                    "url_img": "../images/macpro20181.png",
+                    "subList": [
+                        {
+                            "id_children2": 1,
+                            "product_children_name": "Dán Iphone",
+                            "url": "dan-iphone",
+                            "url_img": "../images/macpro20221.jpg"
+                        },
+                        {
+                            "id_children2": 2,
+                            "product_children_name": "Ốp Iphone",
+                            "url": "op-iphone",
+                            "url_img": "../images/macpro20211.png"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": "Sạc Iphone",
+                            "url": "sac-iphone",
+                            "url_img": "../images/macpro20201.jpeg"
+                        }
+                    ]
+                },
+                {
+                    "id_children1": 3,
+                    "product_children_name": "Phụ Kiện iPad",
+                    "url": "phu-kien-ipad",
+                    "url_img": "../images/macprom11.jpeg",
+                    "subList": [
+                        {
+                            "id_children2": 1,
+                            "product_children_name": "Bàn Phím Và Bút iPad",
+                            "url": "ban-phim-&-but-ipad",
+                            "url_img": "../images/macair20161.jpg"
+                        },
+                        {
+                            "id_children2": 2,
+                            "product_children_name": "Bao Da iPad",
+                            "url": "bao-da-ipad",
+                            "url_img": "../images/macpro20182.jpg"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": "Dán iPad",
+                            "url": "dan-ipad",
+                            "url_img": "../images/macpro20182.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id_children1": 4,
+                    "product_children_name": "Phụ kiện Apple Khác",
+                    "url": "phu-kien-apple-khac",
+                    "url_img": "../images/macprom12.jpeg",
+                    "subList": [
+                        {
+                            "id_children2": 1,
+                            "product_children_name": "AirPods",
+                            "url": "airpods",
+                            "url_img": "../images/macair1.jpeg"
+                        },
+                        {
+                            "id_children2": 2,
+                            "product_children_name": "Airtag",
+                            "url": "airtag",
+                            "url_img": "../images/macpro20181.png"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": "Apple Care",
+                            "url": "apple-care",
+                            "url_img": "../images/macpro20181.png"
+                        }
+                    ]
+                },
+                {
+                    "id_children1": 5,
+                    "product_children_name": "Phụ kiện Khác",
+                    "url": "phu-kien-khac",
+                    "url_img": "../images/macprom12.jpeg",
+                    "subList": [
+                        {
+                            "id_children2": 1,
+                            "product_children_name": "Ba Lô",
+                            "url": "ba-lo",
+                            "url_img": "../images/macair1.jpeg"
+                        },
+                        {
+                            "id_children2": 2,
+                            "product_children_name": "Màn Hình",
+                            "url": "man-hinh",
+                            "url_img": "../images/macpro20181.png"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": "Phần Mềm Ứng Dụng",
+                            "url": "phan-mem-&-ung-dung",
+                            "url_img": "../images/macpro20181.png"
+                        },
+                        {
+                            "id_children2": 4,
+                            "product_children_name": "Tứi Xách Túi Chống Sốc",
+                            "url": "tui-xach-&-tui-chong-soc",
+                            "url_img": "../images/macpro20181.png"
+                        }
+                    ]
+                }
+            ],
+            "created_date": "25/11/2022",
+            "modified_date": "",
+            "modified_by": "",
+            "created_by": "ad 1",
+            "url": "phukien",
+            "id": 6
         }
     ],
     "products": [
-        {
-            "product_name": "Mac Mini 2020",
-            "thongso": " Apple M1 16GB 256GB/512GB/1TB/2TB - NEW",
-            "category_id": 2,
-            "price": 21790000,
-            "id_children1": 1,
-            "url_img": "../images/imac1.jpg",
-            "id": 21
-        },
-        {
-            "thongso": "Retina 4.5K Apple M1 8GB RAM 7-Core GPU – NEW",
-            "product_name": "iMac 2021 24 inch",
-            "category_id": 2,
-            "price": 27590000,
-            "id_children1": 1,
-            "url_img": "../images/imac2.jpeg",
-            "id": 22
-        },
-        {
-            "thongso": "Retina 5K MXWU2 Core i5 3.3GHz 8GB RAM 512GB SSD – NEW",
-            "product_name": " iMac 2020 27 inch",
-            "category_id": 2,
-            "price": 30080000,
-            "id_children1": 1,
-            "url_img": "../images/imac3.jpg",
-            "id": 23
-        },
-        {
-            "thongso": "",
-            "product_name": "Màn hình Dell S2722QC – 27″ 4K UHD – NEW",
-            "category_id": 2,
-            "price": 10890000,
-            "id_children1": 1,
-            "url_img": "../images/imac4.jpg",
-            "id": 24
-        },
-        {
-            "thongso": "Apple M1 Max 10-core CPU 24-core GPU 32GB RAM",
-            "product_name": " Mac Studio 2022",
-            "category_id": 2,
-            "price": 48990000,
-            "id_children1": 1,
-            "url_img": "../images/imac5.jpeg",
-            "id": 25
-        },
-        {
-            "thongso": "Retina 4.5K Apple M1 8GB RAM 8-Core GPU - NEW",
-            "product_name": "iMac 2021 24 inch",
-            "category_id": 2,
-            "price": 32190000,
-            "id_children1": 1,
-            "url_img": "../images/imac6.jpeg",
-            "id": 26
-        },
-        {
-            "thongso": "Retina 4.5K Apple M1 8GB RAM 512GB SSD 8-Core GPU – NEW",
-            "product_name": "iMac 2021 24 inch",
-            "category_id": 2,
-            "price": 35990000,
-            "id_children1": 1,
-            "url_img": "../images/imac7.jpeg",
-            "id": 27
-        },
-        {
-            "product_name": "iPhone 14 Pro Max 128GB – NEW",
-            "thongso": " ",
-            "category_id": 3,
-            "price": 31890000,
-            "id_children1": 1,
-            "url_img": "../images/ip1.jpg",
-            "id": 31
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro Max 256GB – NEW",
-            "category_id": 3,
-            "price": 34990000,
-            "id_children1": 1,
-            "url_img": "../images/ip2.jpg",
-            "id": 32
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro Max 512GB – NEW",
-            "category_id": 3,
-            "price": 39990000,
-            "id_children1": 1,
-            "url_img": "../images/ip3.jpg",
-            "id": 33
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro Max 1TB – NEW",
-            "category_id": 3,
-            "price": 46990000,
-            "id_children1": 1,
-            "url_img": "../images/ip4.jpg",
-            "id": 34
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro 128GB – NEW",
-            "category_id": 3,
-            "price": 27590000,
-            "id_children1": 1,
-            "url_img": "../images/ip5.jpg",
-            "id": 35
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro 256GB – NEW",
-            "category_id": 3,
-            "price": 30490000,
-            "id_children1": 1,
-            "url_img": "../images/ip6.jpg",
-            "id": 36
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro 512GB – NEW",
-            "category_id": 3,
-            "price": 35690000,
-            "id_children1": 1,
-            "url_img": "../images/ip7.jpg",
-            "id": 37
-        },
-        {
-            "thongso": "",
-            "product_name": "iPhone 14 Pro 1TB – NEW",
-            "category_id": 3,
-            "price": 48990000,
-            "id_children1": 1,
-            "url_img": "../images/ip8.jpg",
-            "id": 38
-        },
+   
         {
             "thongso": "Apple M2 8GB RAM 256GB SSD – NEW",
             "product_name": "MacBook Air 2022 13 inch",
@@ -5733,6 +5899,1737 @@
                     "title":"Card màn hình",
                     "content":"Apple with 5‑core GPU"
                 }
+            ]
+        },
+        {
+            "product_name": "iPhone 13 Pro Max 128GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 22900000,
+            "id_children1": 2,
+            "id_children2":1,
+            "url_img": "../images/iphone13prm1.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 148,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/iphone13prm1.jpg",
+                "../images/iphone13prm1.jpg",
+                "../images/iphone13prm1.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13 Pro Max 256GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 27000000,
+            "id_children1": 2,
+            "id_children2":1,
+            "url_img": "../images/iphone13prm1.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 149,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/iphone13prm1.jpg",
+                "../images/iphone13prm1.jpg",
+                "../images/iphone13prm1.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"256GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13 Pro  128GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 25000000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/iphone13pro.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 150,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/iphone13pro.jpg",
+                "../images/iphone13pro.jpg",
+                "../images/iphone13pro.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13 Pro  256GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 27000000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/iphone13pro.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 151,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/iphone13pro.jpg",
+                "../images/iphone13pro.jpg",
+                "../images/iphone13pro.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"256GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13 mini  128GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 12900000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/ip131.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 152,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ip131.jpg",
+                "../images/ip131.jpg",
+                "../images/ip131.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13  128GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 13000000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/ip132.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 153,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ip132.jpg",
+                "../images/ip132.jpg",
+                "../images/ip132.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPhone 13  256GB",
+            "thongso":"Like New",
+            "category_id": 3,
+            "price": 18000000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/ip132.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 154,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ip132.jpg",
+                "../images/ip132.jpg",
+                "../images/ip132.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic, New 6-core CPU with 2 performance and 4 efficiency cores, New 5-core GPU, New 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "12MP Ultra Wide camera with 122° field of view  "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"256GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"New 5-core GPU"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad 10.2 inch 2021",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 8900000,
+            "id_children1": 1,
+            "url_img": "../images/ipad10.2.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 155,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A13 Bionic chip with Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"3GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"Apple GPU 4 nhân"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad 10.2 inch 2021",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 7490000,
+            "id_children1": 1,
+            "url_img": "../images/ipad10.2.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 156,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A13 Bionic chip with Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"3GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"Apple GPU 4 nhân"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad 10.2 inch 2021",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 10590000,
+            "id_children1": 1,
+            "url_img": "../images/ipad10.2.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 157,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A13 Bionic chip with Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"3GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"Apple GPU 4 nhân"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad 10.2 inch 2021",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 10490000,
+            "id_children1": 1,
+            "url_img": "../images/ipad10.2.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 158,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg",
+                "../images/ipad10.2.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A13 Bionic chip with Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"256GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"Apple GPU 4 nhân"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Air 5 2022 M1 ",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 13500000,
+            "id_children1": 2,
+            "url_img": "../images/ipadair.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 159,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "Apple M1 chip 8-core CPU, 8-core graphics, Apple Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"8GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"8-core graphics"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Air 5 2022 M1 ",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 14890000,
+            "id_children1": 2,
+            "url_img": "../images/ipadair.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 160,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "Apple M1 chip 8-core CPU, 8-core graphics, Apple Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"8GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"8-core graphics"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Air 5 2022 M1 ",
+            "thongso":"Like New",
+            "category_id": 4,
+            "price": 17890000,
+            "id_children1": 2,
+            "url_img": "../images/ipadair.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 161,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg",
+                "../images/ipadair.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "Apple M1 chip 8-core CPU, 8-core graphics, Apple Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"8GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
+                },
+                {
+                    "title":"Card màn hình",
+                    "content":"8-core graphics"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Pro 12.9 inch 2022  ",
+            "thongso":"NEW",
+            "category_id": 4,
+            "price": 27890000,
+            "id_children1": 3,
+            "url_img": "../images/ipadpro.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 162,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadpro.jpg",
+                "../images/ipadpro.jpg",
+                "../images/ipadpro.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "Apple M2 chip 8-core CPU with 4 performance cores and 4 efficiency cores, 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: Wide: 12MP, ƒ/1.8 aperture, Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view. Cam trước: 12MP Ultra Wide camera, 122° field of view"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"8GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "280.6 mm x 214.9 mm x 6.4 mm, nặng 682 grams"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "12.9-inch Liquid Retina XDR display, mini-LED backlit Multi‑Touch display with IPS technology, 2732-by-2048-pixel, ProMotion technology, Wide color display (P3), True Tone display"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Pro 11 inch 2022  ",
+            "thongso":"NEW",
+            "category_id": 4,
+            "price": 20990000,
+            "id_children1": 3,
+            "url_img": "../images/ipadpro.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 163,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadpro.jpg",
+                "../images/ipadpro.jpg",
+                "../images/ipadpro.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "Apple M2 chip 8-core CPU with 4 performance cores and 4 efficiency cores, 16-core Neural Engine"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam sau: Wide: 12MP, ƒ/1.8 aperture, Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view. Cam trước: 12MP Ultra Wide camera, 122° field of view"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"8GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "280.6 mm x 214.9 mm x 6.4 mm, nặng 682 grams"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "12.9-inch Liquid Retina XDR display, mini-LED backlit Multi‑Touch display with IPS technology, 2732-by-2048-pixel, ProMotion technology, Wide color display (P3), True Tone display"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Mini 6 2021 64GB",
+            "thongso":"NEW",
+            "category_id": 4,
+            "price": 12190000,
+            "id_children1": 4,
+            "url_img": "../images/ipadmini.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 164,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic chip with Neural Engine 6-core CPU"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"4GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"64GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "8.3 inch Liquid Retina display, True Tone, 500 nits, P3 wide color gamut"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Mini 6 2021 256GB",
+            "thongso":"NEW",
+            "category_id": 4,
+            "price": 16890000,
+            "id_children1": 4,
+            "url_img": "../images/ipadmini.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 165,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic chip with Neural Engine 6-core CPU"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"4GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"256GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "8.3 inch Liquid Retina display, True Tone, 500 nits, P3 wide color gamut"
+                }
+            ]
+        },
+        {
+            "product_name": "iPad Mini 6 2021 128GB",
+            "thongso":"NEW",
+            "category_id": 4,
+            "price": 14990000,
+            "id_children1": 4,
+            "url_img": "../images/ipadmini.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 166,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg",
+                "../images/ipadmini.jpg"
+            ],
+            "thongso_all": [
+                {
+                    "title": "Bộ xử lý CPU",
+                    "content": "A15 Bionic chip with Neural Engine 6-core CPU"
+                },
+                {
+                    "title": "Camera:",
+                    "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
+                },
+                {
+                    "title":"Bộ nhớ RAM",
+                    "content":"6GB RAM"
+                },
+                {
+                    "title": "Kích thước và trọng lượng",
+                    "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
+                },
+                {
+                    "title":"Ổ cứng",
+                    "content":"128GB "
+                },
+                {
+                    "title": " màn hình",
+                    "content": "8.3 inch Liquid Retina display, True Tone, 500 nits, P3 wide color gamut"
+                }
+            ]
+        },
+        {
+            "product_name": "Apple Watch Ultra Titanium Case with Ocean Band 49mm",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 21490000,
+            "id_children1": 1,
+            "url_img": "../images/apw1.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 167,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apw1.jpg",
+                "../images/apw2.jpg",
+                "../images/apw3.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch Ultra Titanium Case with Trail Loop 49mm",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 21490000,
+            "id_children1": 1,
+            "url_img": "../images/apw2.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 168,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apw2.jpg",
+                "../images/apw1.jpg",
+                "../images/apw3.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch Ultra Titanium Case with Alpine Loop 49mm",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 20990000,
+            "id_children1": 1,
+            "url_img": "../images/apw3.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 169,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apw3.jpg",
+                "../images/apw1.jpg",
+                "../images/apw2.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch Series 8 Starlight Aluminum Case with Sport Band 45mm",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 11690000,
+            "id_children1": 2,
+            "url_img": "../images/apwsr81.jpeg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 170,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apwsr81.jpeg",
+                "../images/apw1.jpg",
+                "../images/apw2.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch Ultra Titanium Case with Alpine Loop 49mm",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 11690000,
+            "id_children1": 2,
+            "url_img": "../images/apwsr82.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 171,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apwsr82.jpg",
+                "../images/apw1.jpg",
+                "../images/apw2.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch SE Silver Aluminum Case with Sport Band 40mm GPS",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 6990000,
+            "id_children1": 3,
+            "url_img": "../images/apwse1.jpeg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 172,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apwse1.jpeg",
+                "../images/apw1.jpg",
+                "../images/apw2.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Apple Watch SE Midnight Aluminum Case with Sport Band 40mm GPS",
+            "thongso":"NEW",
+            "category_id": 5,
+            "price": 6790000,
+            "id_children1": 3,
+            "url_img": "../images/apwse2.jpeg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
+            "id": 174,
+            "text_baohanh": [
+                "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
+                "Giá đã bao gồm VAT.",
+                "Bảo hành 12 tháng chính hãng và Mac One.",
+                "Giảm giá 10% khi mua phụ kiện kèm theo."
+            ],
+            "img_detail": [
+                "../images/apwse2.jpeg",
+                "../images/apw1.jpg",
+                "../images/apw2.jpg"
+            ],
+            "thongso_all": [
+            ]
+        },
+        {
+            "product_name": "Bàn di chuột chống mỏi tay",
+            "thongso":"",
+            "category_id": 6,
+            "price": 150000,
+            "id_children1": 1,
+            "id_children2":1,
+            "url_img": "../images/dichuot1.jpg",
+            "id": 175,
+            "img_detail": [
+                "../images/dichuot1.jpg",
+                "../images/dichuot1.jpg",
+                "../images/dichuot1.jpg"
+            ]
+        },
+        {
+            "product_name": "Bàn di chuột nhôm nguyên khối",
+            "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":1,
+            "url_img": "../images/dichuot2.png",
+            "id": 176,
+            "img_detail": [
+                "../images/dichuot2.png",
+                "../images/dichuot2.png",
+                "../images/dichuot2.png"
+            ]
+        },
+        {
+            "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
+            "thongso":"",
+            "category_id": 6,
+            "price": 2290000,
+            "id_children1": 1,
+            "id_children2":2,
+            "url_img": "../images/bp1.webp",
+            "id": 177,
+            "img_detail": [
+                "../images/bp1.webp",
+                "../images/bp1.webp",
+                "../images/bp1.webp"
+            ]
+        },
+        {
+            "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
+            "thongso":"",
+            "category_id": 6,
+            "price": 650000,
+            "id_children1": 1,
+            "id_children2":2,
+            "url_img": "../images/bp2.webp",
+            "id": 178,
+            "img_detail": [
+                "../images/bp2.webp",
+                "../images/bp2.webp",
+                "../images/bp2.webp"
+            ]
+        },
+        {
+            "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
+            "thongso":"",
+            "category_id": 6,
+            "price": 2090000,
+            "id_children1": 1,
+            "id_children2":2,
+            "url_img": "../images/bp3.jpeg",
+            "id": 180,
+            "img_detail": [
+                "../images/bp3.jpeg",
+                "../images/bp3.jpeg",
+                "../images/bp3.jpeg"
+            ]
+        },
+        {
+            "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
+            "thongso":"",
+            "category_id": 6,
+            "price": 2150000,
+            "id_children1": 1,
+            "id_children2":2,
+            "url_img": "../images/bp4.jpg",
+            "id": 181,
+            "img_detail": [
+                "../images/bp4.jpg",
+                "../images/bp4.jpg",
+                "../images/bp4.jpg"
+            ]
+        },
+        {
+            "product_name": "Bao da ngang Brinch Macbook 13 inch New",
+            "thongso":"",
+            "category_id": 6,
+            "price": 350000,
+            "id_children1": 1,
+            "id_children2":3,
+            "url_img": "../images/bd1.png",
+            "id": 182,
+            "img_detail": [
+                "../images/bd1.png",
+                "../images/bd1.png",
+                "../images/bd1.png"
+            ]
+        },
+        {
+            "product_name": "Bao da Messenger 15 inch",
+            "thongso":"",
+            "category_id": 6,
+            "price": 700000,
+            "id_children1": 1,
+            "id_children2":3,
+            "url_img": "../images/bd2.jpeg",
+            "id": 183,
+            "img_detail": [
+                "../images/bd2.jpeg",
+                "../images/bd2.jpeg",
+                "../images/bd2.jpeg"
+            ]
+        },
+        {
+            "product_name": "Bao da Wiwu Skinpro II 13 inch New",
+            "thongso":"",
+            "category_id": 6,
+            "price": 600000,
+            "id_children1": 1,
+            "id_children2":3,
+            "url_img": "../images/bd3.png",
+            "id": 184,
+            "img_detail": [
+                "../images/bd3.png",
+                "../images/bd3.png",
+                "../images/bd3.png"
+            ]
+        },
+        {
+            "product_name": "Dán màn JRC MacBook Air M2 13 inch 2022",            "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":4,
+            "url_img": "../images/macair1.jpeg",
+            "id": 185,
+            "img_detail": [
+                "../images/macair1.jpeg",
+                "../images/macair1.jpeg",
+                "../images/macair1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Bộ dán Full Innostyle MacBook Air M2 13 inch 2022",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":4,
+            "url_img": "../images/dmk1.jpg",
+            "id": 186,
+            "img_detail": [
+                "../images/dmk1.jpg",
+                "../images/dmk1.jpg",
+                "../images/dmk1.jpg"
+            ]
+        },
+        {
+            "product_name": "Bộ dán Full Innostyle MacBook Pro  16 inch 2022",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":4,
+            "url_img": "../images/dmk2.webp",
+            "id": 187,
+            "img_detail": [
+                "../images/dmk2.webp",
+                "../images/dmk2.webp",
+                "../images/dmk2.webp"
+            ]
+        },
+        {
+            "product_name": "Bộ vệ sinh cao cấp JRC",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 150000,
+            "id_children1": 1,
+            "id_children2":5,
+            "url_img": "../images/vs1.jpeg",
+            "id": 188,
+            "img_detail": [
+                "../images/vs1.jpeg",
+                "../images/vs1.jpeg",
+                "../images/vs1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Dung dịch làm sạch Innostyle ClearGuard",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 170000,
+            "id_children1": 1,
+            "id_children2":5,
+            "url_img": "../images/vs2.png",
+            "id": 189,
+            "img_detail": [
+                "../images/vs2.png",
+                "../images/vs2.png",
+                "../images/vs2.png"
+            ]
+        },
+        {
+            "product_name": "Bộ Vệ Sinh Macbook JCPAL Cleaning Solution",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 150000,
+            "id_children1": 1,
+            "id_children2":5,
+            "url_img": "../images/vs3.jpg",
+            "id": 190,
+            "img_detail": [
+                "../images/vs3.jpg",
+                "../images/vs3.jpg",
+                "../images/vs3.jpg"
+            ]
+        },
+        {
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC USB-C Dual HDMI Adapter (CADPDL2HDMI)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2200000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd1.webp",
+            "id": 191,
+            "img_detail": [
+                "../images/cd1.webp",
+                "../images/cd1.webp",
+                "../images/cd1.webp"
+            ]
+        },
+        {
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC Thunderbolt Hub 5 cổng (TB4HUB5PF)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2800000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd2.png",
+            "id": 192,
+            "img_detail": [
+                "../images/cd2.png",
+                "../images/cd2.png",
+                "../images/cd2.png"
+            ]
+        },
+        {
+            "product_name": "Dây Ugreen HDMI to HDMI 3m (10108)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 150000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd3.jpg",
+            "id": 193,
+            "img_detail": [
+                "../images/cd3.jpg",
+                "../images/cd3.jpg",
+                "../images/cd3.jpg"
+            ]
+        },
+        {
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC 5 cổng (TB3MDK5P)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 4200000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd4.jpg",
+            "id": 194,
+            "img_detail": [
+                "../images/cd4.jpg",
+                "../images/cd4.jpg",
+                "../images/cd4.jpg"
+            ]
+        },
+        {
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC 6 cổng (TB3MDK5P)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1800000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd5.jpeg",
+            "id": 195,
+            "img_detail": [
+                "../images/cd5.jpeg",
+                "../images/cd5.jpeg",
+                "../images/cd5.jpeg"
+            ]
+        },
+        {
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC TB3 (TB3ADP2DPT)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2180000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd6.jpeg",
+            "id": 196,
+            "img_detail": [
+                "../images/cd6.jpeg",
+                "../images/cd6.jpeg",
+                "../images/cd6.jpeg"
+            ]
+        },
+        {
+            "product_name": "Cáp chuyển Ugreen từ USB-C 6 in 1 (80132)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1200000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd7.jpg",
+            "id": 197,
+            "img_detail": [
+                "../images/cd7.jpg",
+                "../images/cd7.jpg",
+                "../images/cd7.jpg"
+            ]
+        },
+        {
+            "product_name": "Cáp chuyển Ugreen 10 in 1 Type-C to HDMI/VGA/LAN/USB 3.0/SD/TF/USB-C/jack 3.5mm (80133)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2000000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd8.jpg",
+            "id": 198,
+            "img_detail": [
+                "../images/cd8.jpg",
+                "../images/cd8.jpg",
+                "../images/cd8.jpg"
+            ]
+        },
+        {
+            "product_name": "Cáp chuyển Ugreen từ USB-C ra VGA + USB-C + LAN (30439)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1050000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd11.jpg",
+            "id": 199,
+            "img_detail": [
+                "../images/cd11.jpg",
+                "../images/cd11.jpg",
+                "../images/cd11.jpg"
+            ]
+        },
+        {
+            "product_name": "Cáp chuyển HyperDrive GEN2 6 in 1 Type-C to USB-C/USB-A/HDMI/SD/TF/jack 3.5mm ( HD-G206 )",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2050000,
+            "id_children1": 1,
+            "id_children2":6,
+            "url_img": "../images/cd12.jpeg",
+            "id": 200,
+            "img_detail": [
+                "../images/cd12.jpeg",
+                "../images/cd12.jpeg",
+                "../images/cd12.jpeg"
+            ]
+        },
+        {
+            "product_name": "Chuột Microsoft Sculpt Comfort Mouse – Black – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 980000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c1.webp",
+            "id": 201,
+            "img_detail": [
+                "../images/c1.webp",
+                "../images/c1.webp",
+                "../images/c1.webp"
+            ]
+        },
+        {
+            "product_name": "Chuột không dây Logitech MX Master 3 – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2390000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c2.webp",
+            "id": 202,
+            "img_detail": [
+                "../images/c2.webp",
+                "../images/c2.webp",
+                "../images/c2.webp"
+            ]
+        },
+        {
+            "product_name": "Chuột không dây Logitech Signature M650 – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 690000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c3.webp",
+            "id": 203,
+            "img_detail": [
+                "../images/c3.webp",
+                "../images/c3.webp",
+                "../images/c3.webp"
+            ]
+        },
+        {
+            "product_name": "Chuột Logitech MX Anywhere 2S Đen – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1190000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c4.jpeg",
+            "id": 204,
+            "img_detail": [
+                "../images/c4.jpeg",
+                "../images/c4.jpeg",
+                "../images/c4.jpeg"
+            ]
+        },
+        {
+            "product_name": "Chuột Logitech MX Anywhere 3 for Mac – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1690000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c5.webp",
+            "id": 205,
+            "img_detail": [
+                "../images/c5.webp",
+                "../images/c5.webp",
+                "../images/c5.webp"
+            ]
+        },
+        {
+            "product_name": "Chuột không dây Logitech Pebble M350 – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 490000,
+            "id_children1": 1,
+            "id_children2":7,
+            "url_img": "../images/c6.webp",
+            "id": 206,
+            "img_detail": [
+                "../images/c6.webp",
+                "../images/c6.webp",
+                "../images/c6.webp"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 13 inch 2016-2020 / 2022",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o1.jpg",
+            "id": 207,
+            "img_detail": [
+                "../images/o1.jpg",
+                "../images/o1.jpg",
+                "../images/o1.jpg"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 16 inch 2019",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 700000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o2.jpg",
+            "id": 208,
+            "img_detail": [
+                "../images/o2.jpg",
+                "../images/o2.jpg",
+                "../images/o2.jpg"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 14 inch 2021 JRC – Trong Suốt",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 600000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o3.jpeg",
+            "id": 209,
+            "img_detail": [
+                "../images/o3.jpeg",
+                "../images/o3.jpeg",
+                "../images/o3.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 16 inch 2021 ",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 290000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o4.png",
+            "id": 210,
+            "img_detail": [
+                "../images/o4.png",
+                "../images/o4.png",
+                "../images/o4.png"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 14 inch 2021 ",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 280000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o5.jpg",
+            "id": 211,
+            "img_detail": [
+                "../images/o5.jpg",
+                "../images/o5.jpg",
+                "../images/o5.jpg"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Pro 16 inch 2021 ",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o6.jpeg",
+            "id": 212,
+            "img_detail": [
+                "../images/o6.jpeg",
+                "../images/o6.jpeg",
+                "../images/o6.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp MacBook Air 13 inch 2020 ",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 250000,
+            "id_children1": 1,
+            "id_children2":8,
+            "url_img": "../images/o7.jpg",
+            "id": 213,
+            "img_detail": [
+                "../images/o7.jpg",
+                "../images/o7.jpg",
+                "../images/o7.jpg"
+            ]
+        },
+        {
+            "product_name": "Đế tản nhiệt Nhôm Hyper cao cấp gấp gọn",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 750000,
+            "id_children1": 1,
+            "id_children2":9,
+            "url_img": "../images/tn1.webp",
+            "id": 214,
+            "img_detail": [
+                "../images/tn1.webp",
+                "../images/tn1.webp",
+                "../images/tn1.webp"
+            ]
+        },
+        {
+            "product_name": " Đế tản nhiệt Nhôm cho Macbook, Laptop",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 350000,
+            "id_children1": 1,
+            "id_children2":9,
+            "url_img": "../images/tn2.jpeg",
+            "id": 215,
+            "img_detail": [
+                "../images/tn2.jpeg",
+                "../images/tn2.jpeg",
+                "../images/tn2.jpeg"
+            ]
+        },
+        {
+            "product_name": "Đế Tản Nhiệt Chính Hãng JRC S5-T Tùy Chỉnh Độ Cao Bằng Nhôm (Alumium) Cao cap",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 700000,
+            "id_children1": 1,
+            "id_children2":9,
+            "url_img": "../images/tn3.png",
+            "id": 216,
+            "img_detail": [
+                "../images/tn3.png",
+                "../images/tn3.png",
+                "../images/tn3.png"
             ]
         }
     ]

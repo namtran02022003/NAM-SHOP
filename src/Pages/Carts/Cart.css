@@ -2,3 +2,31 @@ table tbody tr th{
     border: 1px solid #ccc;
     text-align: center;
 }
+.btn-dat{
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+}
+.btn-delete-carts{
+    border: none;
+    background-color: rgb(223, 217, 217);
+    border-radius:5px;
+    padding:3px 10px
+}
+th select{
+    outline: none;
+    border: 0.5px solid #ccc;
+}
+.input-cart{
+    border:0.5px solid #ccc;
+    border-radius: 3px;
+    padding:5px 10px;
+    margin:0 0 40px 0;
+}
+.input-cart:focus-within{
+    outline: 0.5px solid rgb(177, 172, 172);
+}

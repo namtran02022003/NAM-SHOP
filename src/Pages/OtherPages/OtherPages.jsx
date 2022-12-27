@@ -1,19 +1,20 @@
 import axios from "axios"
 import { useState, useEffect, useRef } from 'react'
 import SlideTop from "../../Components/CommonComponent"
-
+import { a } from "../../js"
 
 import Product from "../../Components/Products/Product"
 import { ButtonOptions,changePrice,changeNew,handlePrice } from "../../js"
-export default function OtherPages() {
+export default function OtherPages(props) {
+    console.log(props)
     const [styBtn,setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
     const [listProduct, setListProduct] = useState([])
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
-        const datas = res.data.category.filter(item => item.category_id === 3)
-        const products = res.data.products.filter(product => product.category_id === 3)
+        const datas = res.data.category.filter(item => item.category_id === props.category_id)
+        const products = res.data.products.filter(product => product.category_id === props.category_id)
         setListProductac(products)
         setDatas(datas)
         setListProduct(products)
@@ -22,38 +23,8 @@ export default function OtherPages() {
         getData()
     }, [])
    
-   
-    var index = 0
-    function a(n) {
-        var e = document.querySelectorAll('.my-slide')
-        var length = e.length
-        if (n == 1) {
-            e[index].style.display = "none"
-            if (index == length - 4) {
-                index = -1
-                for (let i = 0; i < length; i++) {
-                    e[i].style.display = "block"
-                }
-            }
-            index++
-            console.log('index +', index)
-        } else {
-            index--
-            if (index > 0) {
-                e[index].style.display = "block"
-                if (index == length - 4) {
-                    index = -1
-                    for (let i = 0; i < length; i++) {
-                        e[i].style.display = "block"
-                    }
-                }
-            } else {
-                index = 0
-                e[index].style.display = "block"
-            }
-        }
-    }
-   console.log(datas)
+  
+  
     return (
         <div>
             <div className="bg-white">

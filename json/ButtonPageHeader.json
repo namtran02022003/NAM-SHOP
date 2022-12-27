@@ -196,6 +196,10 @@
                     "url": "/iphone-13-series",
                     "menu": [
                         {
+                            "heading": "iPhone 13 Pro Max",
+                            "url": "/iphone-13-pro-max"
+                        },
+                        {
                             "heading": "iPhone 13 Pro",
                             "url": "/iphone-13-pro"
                         },
@@ -264,11 +268,11 @@
                     "menu": [
                         {
                             "heading": "Bàn di chuột",
-                            "url": "/bandichuot"
+                            "url": "/ban-di-chuot"
                         },
                         {
                             "heading": "Bàn phím",
-                            "url": "/banphim"
+                            "url": "/ban-phim"
                         },
                         {
                             "heading": "Bao da MacBook",

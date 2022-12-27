@@ -6,11 +6,11 @@ import {createContext,useState} from 'react'
 
 export const CartProducts = createContext()
 function App() {
-  const[Carts,setCarts] = useState([])
-  useEffect(()=>{
-    const CartsLocalStorAge = localStorage.getItem('cart')
-    setCarts(JSON.parse(CartsLocalStorAge)|| [])
-  },[])
+  const[Carts,setCarts] = useState(JSON.parse(localStorage.getItem('cart')) || [])
+  // useEffect(()=>{
+  //   const CartsLocalStorAge = localStorage.getItem('cart')
+  //   setCarts(JSON.parse(CartsLocalStorAge)|| [])
+  // },[])
 
   return (
     <CartProducts.Provider value={{

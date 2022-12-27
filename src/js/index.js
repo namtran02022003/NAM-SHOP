@@ -328,4 +328,34 @@ var index = 0
         }
        }
     }
-export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,HandleCart,remove,a}
+
+    const handleChangeCheck = (id, data) => {
+        const dataCart = data.Carts
+        const cartCopy = dataCart.slice();
+        const index = cartCopy.findIndex((datas) => datas.id === id);
+        const pr = cartCopy[index]
+        if (pr.check) {
+            pr.check = false
+        } else {
+            pr.check = true
+        }
+        cartCopy[index] = {
+            ...pr
+        }
+        localStorage.setItem(`cart`, JSON.stringify(cartCopy));
+        data.setCarts(cartCopy);
+    }
+
+
+    const handleCount = (id, data, payload) => {
+        const dataCart = data.Carts
+        const cartCopy = dataCart.slice();
+        const index = cartCopy.findIndex((datas) => datas.id === id);
+        const pr = cartCopy[index]
+        cartCopy[index] = {
+            ...pr, count: payload
+        }
+        localStorage.setItem(`cart`, JSON.stringify(cartCopy));
+        data.setCarts(cartCopy);
+    }
+export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,HandleCart,remove,a,handleCount,handleChangeCheck}

@@ -15,7 +15,6 @@ export default function OtherPagesChildren1(props) {
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
         const datas = res.data.category.filter(item => item.category_id === props.category_id)//1
-        
         const result = datas[0].subList.filter(item => item.id_children1 === props.id_children1)//1
         const products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.id_children1 === props.id_children1)//1
         setListProductac(products)

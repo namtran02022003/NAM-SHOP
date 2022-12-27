@@ -66,5 +66,59 @@ function Iphone14Series(){
         <OtherPagesChildren1 category_id={3} id_children1={1} />
     )
 }
+function Iphone13Series(){
+    return(
+        <OtherPagesChildren1 category_id={3} id_children1={2} />
+    )
+}
 
-export {MacAir,MacbookPro,MacM1,MacM2,Imac,ImacM1,ImacMini,ImacMiniM1,MacPro,MacStudio,AppleDisplay,Iphone14Series}
+function Ipad102Inch(){
+    return(
+        <PageChildren category_id={4} id_children1={1} />
+    )
+}
+
+function IpadAir(){
+    return(
+        <PageChildren category_id={4} id_children1={2} />
+    )
+}
+
+function IpadPro(){
+    return(
+        <PageChildren category_id={4} id_children1={3} />
+    )
+}
+
+function IpadMini(){
+    return(
+        <PageChildren category_id={4} id_children1={4} />
+    )
+}
+
+
+
+function AppleWatchUltra(){
+    return(
+        <PageChildren category_id={5} id_children1={1} />
+    )
+}
+function AppleWatchSeries8(){
+    return(
+        <PageChildren category_id={5} id_children1={2} />
+    )
+}
+function AppleWatchSe(){
+    return(
+        <PageChildren category_id={5} id_children1={3} />
+    )
+}
+
+
+
+function PhuKienMacBook(){
+    return(
+        <OtherPagesChildren1 category_id={6} id_children1={1} />
+    )
+}
+export {MacAir,MacbookPro,MacM1,MacM2,Imac,ImacM1,ImacMini,ImacMiniM1,MacPro,MacStudio,AppleDisplay,Iphone14Series,Iphone13Series,Ipad102Inch,IpadAir,IpadMini,IpadPro,AppleWatchSe,AppleWatchSeries8,AppleWatchUltra,PhuKienMacBook}
