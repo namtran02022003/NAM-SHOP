@@ -1,16 +1,13 @@
 
-
 import axios from "axios"
 import { useState, useEffect } from 'react'
 import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
-import { a } from "../../js"
+import { SlideItemProduct } from "../../js"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
-import { useNavigate } from "react-router-dom"
 import SlideTop from "../../Components/CommonComponent"
 export default function MacM(props) {
-const Navitage = useNavigate()
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -28,7 +25,6 @@ const Navitage = useNavigate()
         getData()
     }, [])
 
-    
     return (
         <div>
             <div className="bg-white">
@@ -42,12 +38,12 @@ const Navitage = useNavigate()
                                 <div className='row row-slide'>
                                     {datas[0] && datas[0].subList.map((item, index) => {
                                         return (
-                                           <SlideTop key={index} item={item} />
+                                            <SlideTop key={index} item={item} />
                                         )
                                     })}
                                 </div>
-                                <i onClick={() => a(1)} className="fa click-right-product fa-chevron-right"></i>
-                                <i onClick={() => a(2)} className="fa click-left-product fa-chevron-left"></i>
+                                <i onClick={() => SlideItemProduct(1)} className="fa click-right-product fa-chevron-right"></i>
+                                <i onClick={() => SlideItemProduct(2)} className="fa click-left-product fa-chevron-left"></i>
                             </div>
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
@@ -87,7 +83,7 @@ const Navitage = useNavigate()
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                            <FilterMenu datas={datas} />
+                            <FilterMenu listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} />
                         </div>
                         <div className="col-10">
                             <h5 className="m-3">Danh Mục {datas[0] && datas[0].product_children_name}</h5>

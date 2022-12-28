@@ -12,7 +12,6 @@ export default function ThanhToan() {
     useEffect(() => {
         getData()
     }, [])
-    console.log(datas)
     return (
         <div className="text-p">
             <h5>{datas.heading}</h5>

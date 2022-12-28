@@ -39,3 +39,6 @@ p{
 .color-red{
     color: rgb(187, 18, 41);
 }
+select{
+    outline: none;
+}

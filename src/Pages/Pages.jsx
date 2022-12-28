@@ -5,7 +5,7 @@ import FilterMenu from "./ProductsPage/FilterMenu"
 import Product from "../Components/Products/Product"
 import SlideTop from "../Components/CommonComponent"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../js/index"
-import { a } from "../js/index"
+import { SlideItemProduct } from "../js/index"
 export default function Pages(props) {
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
@@ -14,7 +14,7 @@ export default function Pages(props) {
     const getData = async () => {
         const res = await axios.get('../../../json/Products.json')
         const datas = res.data.category.filter(item => item.category_id === props.category_id)//1
-        const products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.thongso.includes(props.thongso) && item.product_name.includes(props.name)  )//1
+        const products = res.data.products.filter(product => product.category_id === props.category_id).filter(item => item.thongso.includes(props.thongso) && item.product_name.includes(props.name))//1
         setListProductac(products)
         console.log(products)
         setDatas(datas)
@@ -23,17 +23,14 @@ export default function Pages(props) {
     useEffect(() => {
         getData()
     }, [])
-    
-   
-
     return (
         <div>
             <div className="bg-white">
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
-                            <div ><h5>{datas[0] && datas[0].subList && datas[0].subList.map(item =>{
-                                if(item.id_children1 === props.id_children1){
+                            <div ><h5>{datas[0] && datas[0].subList && datas[0].subList.map(item => {
+                                if (item.id_children1 === props.id_children1) {
                                     return item.product_children_name
                                 }
                             })}</h5></div>
@@ -47,8 +44,8 @@ export default function Pages(props) {
                                         )
                                     })}
                                 </div>
-                                <i onClick={() => a(1)} className="fa click-right-product fa-chevron-right"></i>
-                                <i onClick={() => a(2)} className="fa click-left-product fa-chevron-left"></i>
+                                <i onClick={() => SlideItemProduct(1)} className="fa click-right-product fa-chevron-right"></i>
+                                <i onClick={() => SlideItemProduct(2)} className="fa click-left-product fa-chevron-left"></i>
                             </div>
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
@@ -91,8 +88,8 @@ export default function Pages(props) {
                             <FilterMenu datas={datas} />
                         </div>
                         <div className="col-10">
-                            <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList && datas[0].subList.map(item =>{
-                                if(item.id_children1 === props.id_children1){
+                            <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList && datas[0].subList.map(item => {
+                                if (item.id_children1 === props.id_children1) {
                                     return item.product_children_name
                                 }
                             })}</h5>

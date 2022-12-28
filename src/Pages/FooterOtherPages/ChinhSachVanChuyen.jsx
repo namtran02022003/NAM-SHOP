@@ -13,7 +13,6 @@ function VanChuyen() {
     useEffect(() => {
         getData()
     }, [])
-    console.log(addres)
     return (
         <div className="text-p">
             <h6>{datas.heading}</h6>

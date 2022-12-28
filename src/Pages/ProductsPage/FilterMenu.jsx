@@ -2,10 +2,17 @@ import { useEffect, useState } from "react"
 import { listOption } from "../../js"
 
 
-export default function FilterMenu({ datas }) {
-
-    const a = document.querySelectorAll('.input-filter')
-
+export default function FilterMenu({ listProduct,setListProduct,listProductac }) {
+    const [arr, setArr] = useState([])
+    // console.log(arr)
+    // var newArr =[]
+    // for (let index = 0; index < listProduct.length; index++) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //        var b =  listProduct[index].product_name.includes(arr[i]) || 
+    //         b ? newArr.push(listProduct[index]) :''
+    //        }
+    //    }
+    //    console.log(newArr)
     return (
         <div>
             {listOption.map((item, index) => (
@@ -13,7 +20,7 @@ export default function FilterMenu({ datas }) {
                     <h6>{item.heading}</h6>
                     <ul>
                         {item.content.map(item => (
-                            <InputOption key={item.value} item={item} />
+                            <InputOption key={item.value} item={item} setArr={setArr} arr={arr} />
                         ))}
                     </ul>
                 </div>
@@ -21,17 +28,26 @@ export default function FilterMenu({ datas }) {
         </div>
     )
 }
-function InputOption({ item }) {
-    const [check,setCheck] = useState(false)
+function InputOption({ item,setArr,arr }) {
+   
     const handleFilter = (value) => {
-       setCheck(!check)
-        console.log(value)
+        var index = arr.findIndex(item => (
+            item == value
+        ))
+        if (index == -1) {
+            setArr(arr =>[...arr,value])
+        } else {
+        var arrCopy = arr.filter(item =>(
+            item !=value
+          ))
+          setArr(arrCopy)
+        }        
     }
     return (
         <div >
             <li>
-                <input value={item.value} onChange={() => handleFilter(item.value)} checked={check} className="input-filter" type="checkbox" />
-           {item.value} </li>
+                <input value={item.value} onChange={() => handleFilter(item.value)} className="input-filter" type="checkbox" />
+                {item.value} </li>
         </div>
     )
 }

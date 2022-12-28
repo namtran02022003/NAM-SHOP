@@ -144,51 +144,51 @@
                 {
                     "id_children1": 1,
                     "product_children_name": "IMAC",
-                    "url": "/imac",
+                    "url": "imac",
                     "url_img":"../images/imac1.jpg",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "IMAC 2021",
-                            "url": "/imac-2021",
+                            "url": "imac-2021",
                             "url_img":"../images/imac20211.jpeg"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "IMAC 2020",
-                            "url": "/imac-2020",
+                            "url": "imac-2020",
                             "url_img":"../images/imac20201.jpg"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "IMAC 2019",
-                            "url": "/imac-2019",
+                            "url": "imac-2019",
                             "url_img":"../images/imac20191.jpeg"
                         },
                         {
                             "id_children2": 4,
                             "product_children_name": "IMAC 2017",
-                            "url": "/imac-2017",
+                            "url": "imac-2017",
                             "url_img":"../images/imac20171.jpg"
                         },
                         {
                             "id_children2": 5,
                             "product_children_name": "IMAC 2015",
-                            "url": "/imac-2015", "url_img":"../images/imac20151.jpg"
+                            "url": "imac-2015", "url_img":"../images/imac20151.jpg"
                         }
                     ]
                 },
                 {
                     "id_children1": 2,
                     "product_children_name": "IMAC M1",
-                    "url": "/imac-m1",
+                    "url": "imac-m1",
                     "url_img":"../images/macair20181.jpg",
                     "subList": []
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "IMAC MINI",
-                    "url": "/imac-mini",
+                    "url": "imac-mini",
                     "url_img":"../images/imac1.jpg",
                     "subList": [
                         {
@@ -3424,7 +3424,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3476,7 +3476,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3528,7 +3528,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3580,7 +3580,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3632,7 +3632,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3684,7 +3684,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3736,7 +3736,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3784,7 +3784,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3828,7 +3828,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3876,7 +3876,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3924,7 +3924,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -3972,7 +3972,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4020,7 +4020,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4068,7 +4068,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4112,7 +4112,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4156,7 +4156,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4200,7 +4200,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4244,7 +4244,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4288,7 +4288,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4332,7 +4332,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4380,7 +4380,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4428,7 +4428,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4472,7 +4472,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4520,7 +4520,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4568,7 +4568,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4613,7 +4613,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4657,7 +4657,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4697,7 +4697,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4737,7 +4737,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4775,7 +4775,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4814,7 +4814,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4853,7 +4853,7 @@
             "img_detail": [
                 "../images/imac20211.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4892,7 +4892,7 @@
             "img_detail": [
                 "../images/macstudio1.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4931,7 +4931,7 @@
             "img_detail": [
                 "../images/macstudio1.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -4970,7 +4970,7 @@
             "img_detail": [
                 "../images/macstudio1.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -5009,7 +5009,7 @@
             "img_detail": [
                 "../images/macstudio1.jpeg",
                 "../images/imac20212.jpeg",
-                "../images/macair20213.jpeg"
+                "../images/macair20213.jpg"
             ],
             "thongso_all": [
                 {
@@ -7630,6 +7630,186 @@
                 "../images/tn3.png",
                 "../images/tn3.png",
                 "../images/tn3.png"
+            ]
+        },
+        {
+            "product_name": " Miếng dán cường lực iPhone 13/14 Series Mipow KingBull HD Anti Glare",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 300000,
+            "id_children1": 2,
+            "id_children2":1,
+            "url_img": "../images/d1.jpeg",
+            "id": 217,
+            "img_detail": [
+                "../images/d1.jpeg",
+                "../images/d1.jpeg",
+                "../images/d1.jpeg"
+            ]
+        },
+        {
+            "product_name": " Miếng dán cường lực iPhone 14 Series Mipow KingBull HD chống nhìn trộm",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 300000,
+            "id_children1": 2,
+            "id_children2":1,
+            "url_img": "../images/d2.jpeg",
+            "id": 218,
+            "img_detail": [
+                "../images/d2.jpeg",
+                "../images/d2.jpeg",
+                "../images/d2.jpeg"
+            ]
+        },
+        {
+            "product_name": "Cường lực 9H 3D KingKong Glass iPhone 14 Series",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 180000,
+            "id_children1": 2,
+            "id_children2":1,
+            "url_img": "../images/d3.jpeg",
+            "id": 219,
+            "img_detail": [
+                "../images/d3.jpeg",
+                "../images/d3.jpeg",
+                "../images/d3.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp Apple iPhone 14 Pro Clear Case with MagSafe",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1190000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/op1.jpeg",
+            "id": 220,
+            "img_detail": [
+                "../images/op1.jpeg",
+                "../images/op1.jpeg",
+                "../images/op1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp Apple iPhone 14 Pro Max Case with MagSafe",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1190000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/op1.jpeg",
+            "id": 221,
+            "img_detail": [
+                "../images/op1.jpeg",
+                "../images/op1.jpeg",
+                "../images/op1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp Lưng iPhone 14 Series Mipow Magsafe Tempered Glass",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 400000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/op2.jpeg",
+            "id": 222,
+            "img_detail": [
+                "../images/op2.jpeg",
+                "../images/op2.jpeg",
+                "../images/op2.jpeg"
+            ]
+        },
+        {
+            "product_name": "Ốp Lưng iPhone 14 Series Mipow Tempered Glass",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 400000,
+            "id_children1": 2,
+            "id_children2":2,
+            "url_img": "../images/op4.png",
+            "id": 223,
+            "img_detail": [
+                "../images/op4.png",
+                "../images/op4.png",
+                "../images/op4.png"
+            ]
+        },
+        {
+            "product_name": "Sạc 2 cổng Hyper Juice 20W Charger Small Size – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 460000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/sip1.webp",
+            "id": 224,
+            "img_detail": [
+                "../images/sip1.webp",
+                "../images/sip1.webp",
+                "../images/sip1.webp"
+            ]
+        },
+        {
+            "product_name": " Sạc Apple 20W USB-C Chính hãng – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 550000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/sip2.jpeg", 
+            "id": 225,
+            "img_detail": [
+                "../images/sip2.jpeg",
+                "../images/sip2.jpeg",
+                "../images/sip2.jpeg"
+            ]
+        },
+        {
+            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 550000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/sip3.jpeg", 
+            "id": 226,
+            "img_detail": [
+                "../images/sip3.jpeg",
+                "../images/sip3.jpeg",
+                "../images/sip3.jpeg"
+            ]
+        },
+        {
+            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – Like New",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 550000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/sip3.jpeg", 
+            "id": 227,
+            "img_detail": [
+                "../images/sip3.jpeg",
+                "../images/sip3.jpeg",
+                "../images/sip3.jpeg"
+            ]
+        },
+        {
+            "product_name": "Sạc Apple 20W USB-C Chính hãng – Like New",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 420000,
+            "id_children1": 2,
+            "id_children2":3,
+            "url_img": "../images/sip4.jpeg", 
+            "id": 228,
+            "img_detail": [
+                "../images/sip4.jpeg",
+                "../images/sip4.jpeg",
+                "../images/sip4.jpeg"
             ]
         }
     ]

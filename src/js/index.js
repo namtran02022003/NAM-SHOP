@@ -1,8 +1,5 @@
 import {useNavigate} from 'react-router-dom'
 
-
-
-
 const listOption = [
     {
         heading: "CPU",
@@ -277,28 +274,26 @@ function changeNew(value,setListProduct,listProductac,setStyleBtn) {
 }
 
 
-const HandleCart = (product,dataCarts,check) => {
-   const Navetage = useNavigate()
-    const dataCart = dataCarts.Carts
-    const cartCopy = dataCart.slice();
-    const index = cartCopy.findIndex((datas) => datas.id === product.id);
-    if (index === -1) {
-        cartCopy.push({ ...product, count: 1 });
-    } else {
-       Navetage('/cart')
-    }
-    localStorage.setItem('cart',JSON.stringify(cartCopy))
-    dataCarts.setCarts(cartCopy)
-}
+// const HandleCart = (product,dataCarts,check) => {
+//    const Navetage = useNavigate()
+//     const dataCart = dataCarts.Carts
+//     const cartCopy = dataCart.slice();
+//     const index = cartCopy.findIndex((datas) => datas.id === product.id);
+//     if (index === -1) {
+//         cartCopy.push({ ...product, count: 1 });
+//     } else {
+//        Navetage('/cart')
+//     }
+//     localStorage.setItem('cart',JSON.stringify(cartCopy))
+//     dataCarts.setCarts(cartCopy)
+// }
 const remove = (id,dataCarts)=>{
     const cartCopy = dataCarts.Carts.filter((item) => item.id !== id);
     localStorage.setItem(`cart`, JSON.stringify(cartCopy));
     dataCarts.setCarts(cartCopy);
 }
-
-
 var index = 0
-    function a(n) {
+    function SlideItemProduct(n) {
         var e = document.querySelectorAll('.my-slide')
         var length = e.length
        if(length > 3){
@@ -328,7 +323,6 @@ var index = 0
         }
        }
     }
-
     const handleChangeCheck = (id, data) => {
         const dataCart = data.Carts
         const cartCopy = dataCart.slice();
@@ -345,8 +339,6 @@ var index = 0
         localStorage.setItem(`cart`, JSON.stringify(cartCopy));
         data.setCarts(cartCopy);
     }
-
-
     const handleCount = (id, data, payload) => {
         const dataCart = data.Carts
         const cartCopy = dataCart.slice();
@@ -358,4 +350,5 @@ var index = 0
         localStorage.setItem(`cart`, JSON.stringify(cartCopy));
         data.setCarts(cartCopy);
     }
-export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,HandleCart,remove,a,handleCount,handleChangeCheck}
+    
+export {listOption, handlePrice,ButtonOptions,changePrice,changeNew,remove,SlideItemProduct,handleCount,handleChangeCheck}

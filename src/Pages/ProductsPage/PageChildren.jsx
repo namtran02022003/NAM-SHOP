@@ -1,13 +1,11 @@
 import axios from "axios"
 import { useState, useEffect, useRef } from 'react'
 import './ItemProduct.css'
-import { a } from "../../js"
+import { SlideItemProduct } from "../../js"
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 import SlideTop from "../../Components/CommonComponent"
-
-
 
 export default function PageChildren(props) {
     const [styBtn, setStyleBtn] = useState('')
@@ -45,8 +43,8 @@ export default function PageChildren(props) {
                                         )
                                     })}
                                 </div>
-                                <i onClick={() => a(1)} className="fa click-right-product fa-chevron-right"></i>
-                                <i onClick={() => a(2)} className="fa click-left-product fa-chevron-left"></i>
+                                <i onClick={() => SlideItemProduct(1)} className="fa click-right-product fa-chevron-right"></i>
+                                <i onClick={() => SlideItemProduct(2)} className="fa click-left-product fa-chevron-left"></i>
                             </div>
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">

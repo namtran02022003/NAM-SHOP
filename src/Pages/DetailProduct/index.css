@@ -1,63 +1,96 @@
-.quatang{
+.quatang {
     background-image: url('https://macone.vn/wp-content/themes/macone/images/qua-tang2.png');
     background-size: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.quatang p{
+
+.quatang p {
     padding: 32px 157px 10px 30px;
     font-size: 12px;
 }
-.ul-detail{
+
+.ul-detail {
     padding: 0;
     list-style-type: none;
 }
-.ul-detail li{
-    padding:5px ;
+
+.ul-detail li {
+    padding: 5px;
     font-size: 14px;
 }
-.ul-detail li i{
+
+.ul-detail li i {
     color: green;
     margin: 0 5px 0 0;
 }
-.chinhsach h6{
+
+.chinhsach h6 {
     padding-left: 5px;
 }
-.chinhsach{
+
+.chinhsach {
     background: rgb(255, 237, 237);
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top:10px
+    margin-top: 10px
 }
-.img-slide-detail{
+
+.img-slide-detail {
     width: 15%;
     border: 1px solid #ccc;
     margin: 0 5px;
     border-radius: 5px;
 }
-.img-slide-detail img{
+
+.img-slide-detail img {
     border-radius: 5px;
 }
-.thongso-tom-tat{
-    border:1px solid #ccc;
+
+.thongso-tom-tat {
+    border: 1px solid #ccc;
     padding: 10px;
     margin: 10px 0;
 }
-.btn-muangay{
+
+.btn-muangay {
     background-color: rgb(85, 29, 216);
     color: white;
     border-radius: 5px;
-    padding:5px 10px;
+    padding: 5px 10px;
     cursor: pointer;
 }
-.w-49{
+
+.w-49 {
     width: 49%;
 }
-.table-thongso tr td{
-    padding:8px;
+
+.table-thongso tr td {
+    padding: 8px;
     border: 1px solid #dee2e6;
 }
-.thongso-all{
-    padding:10px ;
+
+.thongso-all {
+    padding: 10px;
     border: 1px solid #ccc;
+}
+
+.login-form-detail {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgb(8 8 7 / 70%);
+    display: flex;
+    display: none;
+    align-items: center;
+}
+.content-form-detail{
+    max-width: 700px;
+    width: 50%;
+    margin: auto;
+    background: white;
+    height: 70%;
+    min-height: 600px;
 }

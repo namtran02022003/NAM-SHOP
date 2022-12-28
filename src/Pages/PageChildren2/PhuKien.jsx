@@ -1,67 +1,80 @@
 import OtherPagesChildren2 from "../OtherPages/OtherPagesChildren2";
 
-
-
-function BanDiChuot(){
-    return(
+function BanDiChuot() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={1} />
     )
 }
-function BanPhim(){
-    return(
+function BanPhim() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={2} />
     )
 }
-function BaoDaMacbook(){
-    return(
+function BaoDaMacbook() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={3} />
     )
 }
-function BoDanMacbook(){
-    return(
+function BoDanMacbook() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={4} />
     )
 }
-function BoVeSinh(){
-    return(
+function BoVeSinh() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={5} />
     )
 }
-function CapChuyenDoi(){
-    return(
+function CapChuyenDoi() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={6} />
     )
 }
-function Chuot(){
-    return(
+function Chuot() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={7} />
     )
 }
 
 
-function OpMacbook(){
-    return(
+function OpMacbook() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={8} />
     )
 }
-function PhuKienTanNhiet(){
-    return(
+function PhuKienTanNhiet() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={9} />
     )
 }
-function PhuPhimMacbook(){
-    return(
+function PhuPhimMacbook() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={10} />
     )
 }
-function SacMacbook(){
-    return(
+function SacMacbook() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={11} />
     )
 }
-function TamDaKeBan(){
-    return(
+function TamDaKeBan() {
+    return (
         <OtherPagesChildren2 category_id={6} id_children1={1} id_children2={12} />
     )
 }
-export {BanPhim,TamDaKeBan,SacMacbook,PhuKienTanNhiet,PhuPhimMacbook,OpMacbook,CapChuyenDoi,Chuot,BaoDaMacbook,BoDanMacbook,BoVeSinh,BanDiChuot}
+function DanIphone() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={2} id_children2={1} />
+    )
+}
+function OpIphone() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={2} id_children2={2} />
+    )
+}
+function SacIphone() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={2} id_children2={3} />
+    )
+}
+export { BanPhim,SacIphone,DanIphone,OpIphone, TamDaKeBan, SacMacbook, PhuKienTanNhiet, PhuPhimMacbook, OpMacbook, CapChuyenDoi, Chuot, BaoDaMacbook, BoDanMacbook, BoVeSinh, BanDiChuot }

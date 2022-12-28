@@ -30,3 +30,8 @@ th select{
 .input-cart:focus-within{
     outline: 0.5px solid rgb(177, 172, 172);
 }
+.text-message-form{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}

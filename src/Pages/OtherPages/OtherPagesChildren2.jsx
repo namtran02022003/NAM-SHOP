@@ -1,14 +1,9 @@
 
-
-
-
 import axios from "axios"
 import { useState, useEffect, useRef } from 'react'
 import SlideTop from "../../Components/CommonComponent"
-
-
 import Product from "../../Components/Products/Product"
-import { a } from "../../js"
+import { SlideItemProduct } from "../../js"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 
 export default function OtherPagesChildren2({ id_children1, id_children2, category_id }) {
@@ -23,7 +18,6 @@ export default function OtherPagesChildren2({ id_children1, id_children2, catego
         const dataHeading = datas[0].subList.filter(item => item.id_children1 === id_children1)
         const dataItems = dataHeading[0].subList.filter(item => item.id_children2 === id_children2)
         const products = res.data.products.filter(product => product.category_id === category_id).filter(item => item.id_children1 === id_children1).filter(item => item.id_children2 === id_children2)
-    
         setDataItem(dataItems)
         setListProductac(products)
         setDatas(dataHeading)
@@ -32,10 +26,6 @@ export default function OtherPagesChildren2({ id_children1, id_children2, catego
     useEffect(() => {
         getData()
     }, [])
-
-
-    
-
     return (
         <div>
             <div className="bg-white">
@@ -53,8 +43,8 @@ export default function OtherPagesChildren2({ id_children1, id_children2, catego
                                         )
                                     })}
                                 </div>
-                                <i onClick={() => a(1)} className="fa click-right-product fa-chevron-right"></i>
-                                <i onClick={() => a(2)} className="fa click-left-product fa-chevron-left"></i>
+                                <i onClick={() => SlideItemProduct(1)} className="fa click-right-product fa-chevron-right"></i>
+                                <i onClick={() => SlideItemProduct(2)} className="fa click-left-product fa-chevron-left"></i>
                             </div>
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
@@ -91,21 +81,15 @@ export default function OtherPagesChildren2({ id_children1, id_children2, catego
             </div>
             <div>
                 <div className="container">
-                 
-
-                  
-                            <h5 className="m-3">Danh Mục {dataItem[0] && dataItem[0].product_children_name}</h5>
-                            {listProduct.length > 0 ? (<div className="row m-0">
-                                {listProduct.map((product) => {
-                                    return (
-                                        <Product key={product.id} product={product} />
-                                    )
-                                }
-
-                                )}
-                            </div>) : <h6 className="m-5">không tìm thấy sản phẩm phù hợp nào </h6>}
-                        
-                 
+                    <h5 className="m-3">Danh Mục {dataItem[0] && dataItem[0].product_children_name}</h5>
+                    {listProduct.length > 0 ? (<div className="row m-0">
+                        {listProduct.map((product) => {
+                            return (
+                                <Product key={product.id} product={product} />
+                            )
+                        }
+                        )}
+                    </div>) : <h6 className="m-5">không tìm thấy sản phẩm phù hợp nào </h6>}
                 </div>
             </div>
         </div>
