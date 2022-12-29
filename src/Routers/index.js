@@ -10,7 +10,7 @@ import VanChuyen from "../Pages/FooterOtherPages/ChinhSachVanChuyen.jsx"
 import BaoMat from "../Pages/FooterOtherPages/BaoMat.jsx"
 import ThanhToan from "../Pages/FooterOtherPages/ChinhSachThanhToan.jsx"
 import DetailProduct from "../Pages/DetailProduct/DetailProduct.jsx"
-import {MacAir,MacPro,MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1, MacbookPro, MacStudio, AppleDisplay, Iphone14Series, Iphone13Series, Ipad102Inch, IpadAir, IpadPro, IpadMini, AppleWatchUltra, AppleWatchSeries8, AppleWatchSe, PhuKienMacBook, PhuKienIphone} from '../Pages/PageChildren1/index'
+import {MacAir,MacPro,MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1, MacbookPro, MacStudio, AppleDisplay, Iphone14Series, Iphone13Series, Ipad102Inch, IpadAir, IpadPro, IpadMini, AppleWatchUltra, AppleWatchSeries8, AppleWatchSe, PhuKienMacBook, PhuKienIphone, PhuKienIpad, PhuKienAppleKhac, PhuKienKhac} from '../Pages/PageChildren1/index'
 import {MacAir2016,MacAir2017,MacAir2018,MacAir2019,MacAir2020,MacAir2022} from '../Pages/PageChildren2/MacAir'
 import {MacPro2018,MacPro2019,MacPro2020,MacPro2021,MacPro2022} from '../Pages/PageChildren2/MacPro'
 import {MacProM1,MacProM2,MacAirM1,MacAirM2} from '../Pages/PageChildren2/MacProM1'
@@ -19,7 +19,7 @@ import { Imac2015, Imac2017, Imac2019, Imac2020, Imac2021 } from "../Pages/PageC
 import { ImacMini2014, ImacMini2018, ImacMini2020 } from "../Pages/PageChildren2/ImacMini.jsx"
 import Cart from "../Pages/Carts/Cart.jsx"
 import { Iphone13, Iphone13Pro, Iphone13ProMax, Iphone14, Iphone14Plus, Iphone14Pro, Iphone14ProMax } from "../Pages/PageChildren2/Iphones.jsx"
-import { BanDiChuot,BanPhim, BaoDaMacbook, BoDanMacbook, BoVeSinh, CapChuyenDoi, Chuot, DanIphone, OpIphone, OpMacbook, PhuKienTanNhiet, SacIphone } from "../Pages/PageChildren2/PhuKien.jsx"
+import { AirPods, AirTag, AppleCare, BaLo, BanDiChuot,BanPhim, BanPhimButIpad, BaoDaIpad, BaoDaMacbook, BoDanMacbook, BoVeSinh, CapChuyenDoi, Chuot, DanIpad, DanIphone, ManHinh, OpIphone, OpMacbook, PhanMem, PhuKienTanNhiet, SacIpad, SacIphone, TuiXach } from "../Pages/PageChildren2/PhuKien.jsx"
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/gioithieu', component: GioiThieu, layout: FooterLayout },
@@ -103,6 +103,21 @@ const publicRoutes = [
     { path: '/op-iphone', component: OpIphone },
     { path: '/dan-iphone', component: DanIphone },
     { path: '/sac-iphone', component: SacIphone },
+    { path: '/phu-kien-ipad', component: PhuKienIpad },
+
+    { path: '/ban-phim-&-but-ipad', component: BanPhimButIpad },
+    { path: '/bao-da-ipad', component: BaoDaIpad },
+    { path: '/dan-ipad', component: DanIpad },
+    { path: '/sac-ipad', component: SacIpad },
+    { path: '/phu-kien-apple-khac', component: PhuKienAppleKhac },
+    { path: '/phu-kien-khac', component: PhuKienKhac },
+    { path: '/airpods', component: AirPods },
+    { path: '/airtag', component: AirTag },
+    { path: '/apple-care', component: AppleCare },
+    { path: '/ba-lo', component: BaLo },
+    { path: '/man-hinh', component: ManHinh },
+    { path: '/phan-mem-&-ung-dung', component: PhanMem },
+    { path: '/tui-xach-&-tui-chong-soc', component: TuiXach },
 ]
 
 

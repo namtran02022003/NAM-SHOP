@@ -82,7 +82,7 @@
             "heading":"IMAC & MAC DESKTOP",
             "icon":"https://macone.vn/wp-content/themes/macone/images/icons/imac.svg",
             "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-04.jpg",
-            "url":"/imac-&-mac-desktop",
+            "url":"/imac-mac-desktop",
             "menu":[
                 {
                     "heading":"iMac",
@@ -211,7 +211,7 @@
             "heading":"SẢN PHẨM KHÁC",
             "icon":"https://macone.vn/wp-content/themes/macone/images/icons/phukienapple.svg",
             "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-06.jpg",
-            "url":"/san-pham-khac",
+            
             "menu":[
                 {
                     "heading":"Apple Watch",
@@ -247,7 +247,7 @@
             "heading":"PHỤ KIỆN",
             "icon":"https://macone.vn/wp-content/themes/macone/images/icons/phukienkhac.svg",
             "img_url":"https://macone.vn/wp-content/uploads/2022/09/MenuBanner-08.jpg",
-            "url":"/phu-kien",
+            "url":"/phukien",
             "menu":[
                 {
                     "heading":"Phụ kiện MacBook",

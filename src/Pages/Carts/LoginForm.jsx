@@ -37,13 +37,13 @@ function LoginFormCart({ datas, totalPrice }) {
                                 </div>
                                 <div className="col-4">
                                     <div className='position-relative'>
-                                    <input className='w-100 input-cart' type="text" placeholder='Số điện thoại'
-                                        {...register('phoneNumber', {
-                                            required: true,
-                                            minLength: 9
-                                        })}
-                                    />
-                                    {errors.phoneNumber?.type === "required" && (
+                                        <input className='w-100 input-cart' type="text" placeholder='Số điện thoại'
+                                            {...register('phoneNumber', {
+                                                required: true,
+                                                minLength: 9
+                                            })}
+                                        />
+                                        {errors.phoneNumber?.type === "required" && (
                                             <p className="text-message-form">Vui lòng nhập số điện thoại!</p>
                                         )}
                                         {errors.phoneNumber?.type === "minLength" && (
@@ -53,13 +53,13 @@ function LoginFormCart({ datas, totalPrice }) {
                                 </div>
                                 <div className="col-4">
                                     <div className="position-relative">
-                                    <input className='w-100 input-cart' type="email" placeholder='Địa chỉ email'
-                                        {...register('email', {
-                                            required: true,
-                                            pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                        })}
-                                    />
-                                    {errors.email?.type === "required" && (
+                                        <input className='w-100 input-cart' type="email" placeholder='Địa chỉ email'
+                                            {...register('email', {
+                                                required: true,
+                                                pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                                            })}
+                                        />
+                                        {errors.email?.type === "required" && (
                                             <p className="text-message-form">Vui lòng nhập email của bạn!</p>
                                         )}
                                         {errors.email?.type === "pattern" && (
@@ -68,20 +68,36 @@ function LoginFormCart({ datas, totalPrice }) {
                                     </div>
                                 </div>
                                 <div className="col-4">
-                                    <textarea className='w-100 input-cart' placeholder='Địa chỉ'
-                                        {...register('addres', {
-                                            required: true,
-                                            minLength: 12
-                                        })}
-                                    />
+                                    <div className="position-relative">
+                                        <textarea className='w-100 input-cart' placeholder='Địa chỉ'
+                                            {...register('addres', {
+                                                required: true,
+                                                minLength: 12
+                                            })}
+                                        />
+                                        {errors.addres?.type === "required" && (
+                                            <p className="text-message-form">Vui lòng nhập địa chỉ của bạn!</p>
+                                        )}
+                                        {errors.addres?.type === "minLength" && (
+                                            <p className="text-message-form">Vui lòng nhập tối thiểu 12 kí tư!</p>
+                                        )}
+                                    </div>
                                 </div>
                                 <div className="col-4">
-                                    <textarea className='w-100 input-cart' placeholder='Ghi chú'
-                                        {...register('note', {
-                                            required: true,
-                                            minLength: 12
-                                        })}
-                                    />
+                                    <div className="position-relative">
+                                        <textarea className='w-100  input-cart' placeholder='Ghi chú'
+                                            {...register('note', {
+                                                required: true,
+                                                minLength: 12
+                                            })}
+                                        />
+                                        {errors.note?.type === "required" && (
+                                            <p className="text-message-form">Vui lòng nhập thông tin địa chỉ cụ thể của bạn!</p>
+                                        )}
+                                        {errors.note?.type === "minLength" && (
+                                            <p className="text-message-form">Vui lòng nhập tối thiểu 12 kí tự!</p>
+                                        )}
+                                    </div>
                                 </div>
                                 <div className="col-4">
                                     <button type='submit' className='btn-dat'>Gửi đơn hàng</button>

@@ -77,4 +77,59 @@ function SacIphone() {
         <OtherPagesChildren2 category_id={6} id_children1={2} id_children2={3} />
     )
 }
-export { BanPhim,SacIphone,DanIphone,OpIphone, TamDaKeBan, SacMacbook, PhuKienTanNhiet, PhuPhimMacbook, OpMacbook, CapChuyenDoi, Chuot, BaoDaMacbook, BoDanMacbook, BoVeSinh, BanDiChuot }
+
+function BanPhimButIpad() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={3} id_children2={1} />
+    )
+}function BaoDaIpad() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={3} id_children2={2} />
+    )
+}function DanIpad() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={3} id_children2={3} />
+    )
+}function SacIpad() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={3} id_children2={4} />
+    )
+}
+
+function AirPods() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={4} id_children2={1} />
+    )
+}
+function AirTag() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={4} id_children2={2} />
+    )
+}
+function AppleCare() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={4} id_children2={3} />
+    )
+}
+
+function BaLo() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={5} id_children2={1} />
+    )
+}
+function ManHinh() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={5} id_children2={2} />
+    )
+}
+function PhanMem() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={5} id_children2={3} />
+    )
+}
+function TuiXach() {
+    return (
+        <OtherPagesChildren2 category_id={6} id_children1={5} id_children2={4} />
+    )
+}
+export {BaLo,ManHinh,PhanMem,TuiXach,AirPods,AirTag,AppleCare,BanPhimButIpad,BaoDaIpad,DanIpad,SacIpad, BanPhim,SacIphone,DanIphone,OpIphone, TamDaKeBan, SacMacbook, PhuKienTanNhiet, PhuPhimMacbook, OpMacbook, CapChuyenDoi, Chuot, BaoDaMacbook, BoDanMacbook, BoVeSinh, BanDiChuot }

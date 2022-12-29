@@ -145,7 +145,7 @@
                     "id_children1": 1,
                     "product_children_name": "IMAC",
                     "url": "imac",
-                    "url_img":"../images/imac1.jpg",
+                    "url_img":"../images/logoimac.png",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -182,14 +182,14 @@
                     "id_children1": 2,
                     "product_children_name": "IMAC M1",
                     "url": "imac-m1",
-                    "url_img":"../images/macair20181.jpg",
+                    "url_img":"../images/logoimacm1.png",
                     "subList": []
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "IMAC MINI",
                     "url": "imac-mini",
-                    "url_img":"../images/imac1.jpg",
+                    "url_img":"../images/logoimacmini.png",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -214,28 +214,28 @@
                 {
                     "id_children1": 4,
                     "product_children_name": "IMAC MINI M1",
-                    "url_img":"../images/imac1.jpg",
+                    "url_img":"../images/logoimacmini.png",
                     "url":"imac-mini-m1",
                     "subList": []
                 },
                 {
                     "id_children1": 5,
                     "product_children_name": "MAC PRO", 
-                    "url_img":"../images/macbookpro1.jpg",
+                    "url_img":"../images/logomacpro.png",
                     "url":"mac-pro",
                     "subList": []
                 },
                 {
                     "id_children1": 6,
                     "product_children_name": "MAC STUDIO",
-                    "url_img":"../images/macstudio1.jpeg",
+                    "url_img":"../images/logomacstudio.png",
                     "url":"mac-studio",
                     "subList": []
                 },
                 {
                     "id_children1": 7,
                     "product_children_name": "APPLE DISPLAYS",
-                    "url_img":"../images/appledisplay1.png",
+                    "url_img":"../images/logoappledisplay.png",
                     "url":"apple-displays",
                     "subList": []
                 }
@@ -532,25 +532,25 @@
                     "id_children1": 2,
                     "product_children_name": "Phụ Kiện Iphone",
                     "url": "/phu-kien-iphone",
-                    "url_img": "../images/macpro20181.png",
+                    "url_img": "../images/ip1.jpg",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "Dán Iphone",
                             "url": "dan-iphone",
-                            "url_img": "../images/macpro20221.jpg"
+                            "url_img": "../images/logodanip.png"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "Ốp Iphone",
                             "url": "op-iphone",
-                            "url_img": "../images/macpro20211.png"
+                            "url_img": "../images/logoopip.png"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "Sạc Iphone",
                             "url": "sac-iphone",
-                            "url_img": "../images/macpro20201.jpeg"
+                            "url_img": "../images/logosacip.png"
                         }
                     ]
                 },
@@ -558,25 +558,31 @@
                     "id_children1": 3,
                     "product_children_name": "Phụ Kiện iPad",
                     "url": "phu-kien-ipad",
-                    "url_img": "../images/macprom11.jpeg",
+                    "url_img": "../images/ipadair.jpg",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "Bàn Phím Và Bút iPad",
                             "url": "ban-phim-&-but-ipad",
-                            "url_img": "../images/macair20161.jpg"
+                            "url_img": "../images/logobip.png"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "Bao Da iPad",
                             "url": "bao-da-ipad",
-                            "url_img": "../images/macpro20182.jpg"
+                            "url_img": "../images/logobaodaip.png"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "Dán iPad",
                             "url": "dan-ipad",
-                            "url_img": "../images/macpro20182.jpg"
+                            "url_img": "../images/logodanipad.png"
+                        },
+                        {
+                            "id_children2": 3,
+                            "product_children_name": " Sạc iPad",
+                            "url": "sac-ipad",
+                            "url_img": "../images/logosacipad.png"
                         }
                     ]
                 },
@@ -584,25 +590,25 @@
                     "id_children1": 4,
                     "product_children_name": "Phụ kiện Apple Khác",
                     "url": "phu-kien-apple-khac",
-                    "url_img": "../images/macprom12.jpeg",
+                    "url_img": "../images/ip1.jpg",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "AirPods",
                             "url": "airpods",
-                            "url_img": "../images/macair1.jpeg"
+                            "url_img": "../images/logoairpods.png"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "Airtag",
                             "url": "airtag",
-                            "url_img": "../images/macpro20181.png"
+                            "url_img": "../images/logoairtag.png"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "Apple Care",
                             "url": "apple-care",
-                            "url_img": "../images/macpro20181.png"
+                            "url_img": "../images/logocare.png"
                         }
                     ]
                 },
@@ -616,25 +622,25 @@
                             "id_children2": 1,
                             "product_children_name": "Ba Lô",
                             "url": "ba-lo",
-                            "url_img": "../images/macair1.jpeg"
+                            "url_img": "../images/logobalo.png"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "Màn Hình",
                             "url": "man-hinh",
-                            "url_img": "../images/macpro20181.png"
+                            "url_img": "../images/logomh.png"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "Phần Mềm Ứng Dụng",
                             "url": "phan-mem-&-ung-dung",
-                            "url_img": "../images/macpro20181.png"
+                            "url_img": "../images/logopm.png"
                         },
                         {
                             "id_children2": 4,
                             "product_children_name": "Tứi Xách Túi Chống Sốc",
                             "url": "tui-xach-&-tui-chong-soc",
-                            "url_img": "../images/macpro20181.png"
+                            "url_img": "../images/logotui.png"
                         }
                     ]
                 }
@@ -7810,6 +7816,486 @@
                 "../images/sip4.jpeg",
                 "../images/sip4.jpeg",
                 "../images/sip4.jpeg"
+            ]
+        },
+        {
+            "product_name": "Bàn phím Smart Keyboard Folio for iPad Pro 12.9 inch – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 5190000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip1.jpg", 
+            "id": 229,
+            "img_detail": [
+                "../images/bip1.jpg",
+                "../images/bip1.jpg",
+                "../images/bip1.jpg"
+            ]
+        },
+        {
+            "product_name": "Bàn phím Smart Keyboard Folio for iPad Air 4, 5 & iPad Pro 11 inch – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 4390000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip1.jpg", 
+            "id": 230,
+            "img_detail": [
+                "../images/bip1.jpg",
+                "../images/bip1.jpg",
+                "../images/bip1.jpg"
+            ]
+        },
+        {
+            "product_name": "Bàn phím Magic Keyboard for iPad Pro 12.9 inch – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 8590000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip2.jpg", 
+            "id": 231,
+            "img_detail": [
+                "../images/bip2.jpg",
+                "../images/bip2.jpg",
+                "../images/bip2.jpg"
+            ]
+        },
+        {
+            "product_name": "Bàn phím Smart Keyboard for iPad Air 3 & iPad 10.2 inch – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 4390000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip3.jpg", 
+            "id": 232,
+            "img_detail": [
+                "../images/bip3.jpg",
+                "../images/bip3.jpg",
+                "../images/bip3.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Pencil 1 – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2490000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip4.jpg", 
+            "id": 233,
+            "img_detail": [
+                "../images/bip4.jpg",
+                "../images/bip4.jpg",
+                "../images/bip4.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Pencil 2 – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 3390000,
+            "id_children1": 3,
+            "id_children2":1,
+            "url_img": "../images/bip4.jpg", 
+            "id": 234,
+            "img_detail": [
+                "../images/bip4.jpg",
+                "../images/bip4.jpg",
+                "../images/bip4.jpg"
+            ]
+        },
+        {
+            "product_name": "Tai nghe AirPods Pro 2 chính hãng – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 6190000,
+            "id_children1": 4,
+            "id_children2":1,
+            "url_img": "../images/a1.jpg", 
+            "id": 235,
+            "img_detail": [
+                "../images/a1.jpg",
+                "../images/a1.jpg",
+                "../images/a1.jpg"
+            ]
+        },
+        {
+            "product_name": "Tai nghe AirPods 3 chính hãng – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 4590000,
+            "id_children1": 4,
+            "id_children2":1,
+            "url_img": "../images/a2.jpg", 
+            "id": 236,
+            "img_detail": [
+                "../images/a2.jpg",
+                "../images/a2.jpg",
+                "../images/a2.jpg"
+            ]
+        },
+        {
+            "product_name": "Tai nghe AirPods 2 MV7N2 chính hãng VN/A (Sạc dây) – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2690000,
+            "id_children1": 4,
+            "id_children2":1,
+            "url_img": "../images/a3.jpg", 
+            "id": 237,
+            "img_detail": [
+                "../images/a3.jpg",
+                "../images/a3.jpg",
+                "../images/a3.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple AirTag (1 Pack)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 790000,
+            "id_children1": 4,
+            "id_children2":2,
+            "url_img": "../images/atag1.jpeg", 
+            "id": 238,
+            "img_detail": [
+                "../images/atag1.jpeg",
+                "../images/atag1.jpeg",
+                "../images/atag1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Dây đeo Apple AirTag Loop",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 790000,
+            "id_children1": 4,
+            "id_children2":2,
+            "url_img": "../images/atag3.jpeg", 
+            "id": 239,
+            "img_detail": [
+                "../images/atag3.jpeg",
+                "../images/atag3.jpeg",
+                "../images/atag3.jpeg"
+            ]
+        },
+        {
+            "product_name": " Apple Care – Mac Studio",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2990000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 240,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care – MacBook Pro 14 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 5490000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 241,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care – MacBook Air 13 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 4290000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 242,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care – MacBook Pro 13 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 5290000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 243,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care – MacBook Pro 16 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 7290000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 244,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care Imac",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2990000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 245,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care Mac Mini",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 2990000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 246,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care Mac Pro",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 6490000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 247,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Apple Care iPad",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1790000,
+            "id_children1": 4,
+            "id_children2":3,
+            "url_img": "../images/care1.jpg", 
+            "id": 248,
+            "img_detail": [
+                "../images/care1.jpg",
+                "../images/care1.jpg",
+                "../images/care1.jpg"
+            ]
+        },
+        {
+            "product_name": "Balo Tomtoc Lightweight Multi Laptop 15 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1300000,
+            "id_children1": 5,
+            "id_children2":1,
+            "url_img": "../images/b1.jpeg", 
+            "id": 249,
+            "img_detail": [
+                "../images/b1.jpeg",
+                "../images/b1.jpeg",
+                "../images/b1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Balo cao cấp WiWu Aviator 15″- B040",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 900000,
+            "id_children1": 5,
+            "id_children2":1,
+            "url_img": "../images/b2.png", 
+            "id": 250,
+            "img_detail": [
+                "../images/b2.png",
+                "../images/b2.png",
+                "../images/b2.png"
+            ]
+        },
+        {
+            "product_name": "Balo đựng Laptop thời trang cao cấp POSO-625",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 650000,
+            "id_children1": 5,
+            "id_children2":1,
+            "url_img": "../images/b3.jpg", 
+            "id": 251,
+            "img_detail": [
+                "../images/b3.jpg",
+                "../images/b3.jpg",
+                "../images/b3.jpg"
+            ]
+        },
+        {
+            "product_name": "Balo Adidas Pow Aop Bp – Black",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 1100000,
+            "id_children1": 5,
+            "id_children2":1,
+            "url_img": "../images/b4.jpg", 
+            "id": 252,
+            "img_detail": [
+                "../images/b4.jpg",
+                "../images/b4.jpg",
+                "../images/b4.jpg"
+            ]
+        },
+        {
+            "product_name": "Màn hình Dell UltraSharp U2520D – 25″ QHD – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 9250000,
+            "id_children1": 5,
+            "id_children2":2,
+            "url_img": "../images/m1.png", 
+            "id": 253,
+            "img_detail": [
+                "../images/m1.png",
+                "../images/m1.png",
+                "../images/m1.png"
+            ]
+        },
+        {
+            "product_name": "Màn hình Dell LCD U2422H – 23.8″ Full HD – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 6890000,
+            "id_children1": 5,
+            "id_children2":2,
+            "url_img": "../images/m2.jpg", 
+            "id": 254,
+            "img_detail": [
+                "../images/m2.jpg",
+                "../images/m2.jpg",
+                "../images/m2.jpg"
+            ]
+        },
+        {
+            "product_name": " Màn hình Dell S2722QC – 27″ 4K UHD – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 18900000,
+            "id_children1": 5,
+            "id_children2":2,
+            "url_img": "../images/m3.jpg", 
+            "id": 255,
+            "img_detail": [
+                "../images/m3.jpg",
+                "../images/m3.jpg",
+                "../images/m3.jpg"
+            ]
+        },
+        {
+            "product_name": "  Màn hình Dell P2723DE – 27″ QHD – NEW",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 8900000,
+            "id_children1": 5,
+            "id_children2":2,
+            "url_img": "../images/m4.jpg", 
+            "id": 256,
+            "img_detail": [
+                "../images/m4.jpg",
+                "../images/m4.jpg",
+                "../images/m4.jpg"
+            ]
+        },
+        {
+            "product_name": " Microsoft 365 Personal 1 year",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 8900000,
+            "id_children1": 5,
+            "id_children2":3,
+            "url_img": "../images/u1.jpeg", 
+            "id": 257,
+            "img_detail": [
+                "../images/u1.jpeg",
+                "../images/u1.jpeg",
+                "../images/u1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Túi chống sốc Tomtoc Spill 13 inch T04 (A13)",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 800000,
+            "id_children1": 5,
+            "id_children2":4,
+            "url_img": "../images/t1.jpeg", 
+            "id": 258,
+            "img_detail": [
+                "../images/t1.jpeg",
+                "../images/t1.jpeg",
+                "../images/t1.jpeg"
+            ]
+        },
+        {
+            "product_name": "Tomtoc ProtectiveTúi chống sốc Tomtoc Protective 14 inch",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 800000,
+            "id_children1": 5,
+            "id_children2":4,
+            "url_img": "../images/t2.jpg", 
+            "id": 259,
+            "img_detail": [
+                "../images/t2.jpg",
+                "../images/t2.jpg",
+                "../images/t2.jpg"
+            ]
+        },
+        {
+            "product_name": "Túi xách Wiwu Pioneer 15 inch – W04",  
+              "thongso":"",
+            "category_id": 6,
+            "price": 550000,
+            "id_children1": 5,
+            "id_children2":4,
+            "url_img": "../images/t3.jpeg", 
+            "id": 260,
+            "img_detail": [
+                "../images/t3.jpeg",
+                "../images/t3.jpeg",
+                "../images/t3.jpeg"
             ]
         }
     ]

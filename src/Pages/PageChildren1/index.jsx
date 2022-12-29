@@ -126,4 +126,19 @@ function PhuKienIphone() {
         <OtherPagesChildren1 category_id={6} id_children1={2} />
     )
 }
-export { MacAir,PhuKienIphone, MacbookPro, MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1, MacPro, MacStudio, AppleDisplay, Iphone14Series, Iphone13Series, Ipad102Inch, IpadAir, IpadMini, IpadPro, AppleWatchSe, AppleWatchSeries8, AppleWatchUltra, PhuKienMacBook }
+function PhuKienIpad() {
+    return (
+        <OtherPagesChildren1 category_id={6} id_children1={3} />
+    )
+}
+function PhuKienAppleKhac() {
+    return (
+        <OtherPagesChildren1 category_id={6} id_children1={4} />
+    )
+}
+function PhuKienKhac() {
+    return (
+        <OtherPagesChildren1 category_id={6} id_children1={5} />
+    )
+}
+export {PhuKienAppleKhac,PhuKienKhac, MacAir,PhuKienIphone,PhuKienIpad, MacbookPro, MacM1, MacM2, Imac, ImacM1, ImacMini, ImacMiniM1, MacPro, MacStudio, AppleDisplay, Iphone14Series, Iphone13Series, Ipad102Inch, IpadAir, IpadMini, IpadPro, AppleWatchSe, AppleWatchSeries8, AppleWatchUltra, PhuKienMacBook }
