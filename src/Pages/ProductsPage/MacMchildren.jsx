@@ -90,7 +90,7 @@ export default function MacMchildren(props) {
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                            <FilterMenu datas={datas} />
+                        <FilterMenu listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} />
                         </div>
                         <div className="col-10">
                             <h5 className="m-3">Danh Mục {datas[0] && datas[0].subList.map(item =>

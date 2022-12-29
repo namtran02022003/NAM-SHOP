@@ -1,7 +1,6 @@
 
 import axios from "axios"
 import { useState, useEffect } from 'react'
-
 export default function BaoHanh() {
     const [datas, setDatas] = useState([])
     const getData = async () => {
@@ -11,7 +10,6 @@ export default function BaoHanh() {
     useEffect(() => {
         getData()
     }, [])
-
     return (
         <div className="text-p">
             <h5>{datas.heading}</h5>
@@ -69,7 +67,7 @@ export default function BaoHanh() {
             </div>}
             {datas.addresBh && <div>
                 <h5>{datas.addresBh.heading}</h5>
-                {datas.addresBh.content.map(item =>(
+                {datas.addresBh.content.map(item => (
                     <p key={item}>{item}</p>
                 ))}
             </div>}

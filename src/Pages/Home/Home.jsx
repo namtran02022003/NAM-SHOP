@@ -5,10 +5,6 @@ import SdideProduct from "./SlideProduct"
 import ContenHome from "../../Components/ContentHome/ContentHome"
 
 export default function Home() {
-
-
-
-
     return (
         <div className="container px-5 my-2">
             <div className="row">
@@ -25,13 +21,10 @@ export default function Home() {
 
             </div>
             <SdideProduct />
-
             <ContenHome children1_id={1} category_id={1} />
             <ContenHome children1_id={2} category_id={1} />
             <ContenHome children1_id={1} category_id={2} />
             <ContenHome children1_id={1} category_id={3} />
-
-
         </div>
     )
 }

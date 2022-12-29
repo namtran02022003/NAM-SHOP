@@ -12,9 +12,8 @@ export default function Product({product}){
             <div className="text-detail-product ">
                 <p>{product.product_name}</p>
                 <p className="text-thong-so">{product.thongso}</p>
-                <p className="text-price">{product.price.toLocaleString()} ₫ </p>
-                {product.id}
             </div>
+            <p className="text-price">{product.price.toLocaleString()} ₫ {product.id}</p>
         </div>
     </div>
     )

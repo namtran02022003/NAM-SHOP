@@ -2,17 +2,26 @@ import { useEffect, useState } from "react"
 import { listOption } from "../../js"
 
 
-export default function FilterMenu({ listProduct,setListProduct,listProductac }) {
+export default function FilterMenu({ listProduct, setListProduct, listProductac }) {
     const [arr, setArr] = useState([])
-    // console.log(arr)
-    // var newArr =[]
-    // for (let index = 0; index < listProduct.length; index++) {
-    //     for (let i = 0; i < arr.length; i++) {
-    //        var b =  listProduct[index].product_name.includes(arr[i]) || 
-    //         b ? newArr.push(listProduct[index]) :''
-    //        }
-    //    }
-    //    console.log(newArr)
+
+
+    useEffect(() => {
+        var newArr = []
+        if (arr.length > 0) {
+            listProductac.map(product => {
+                arr.filter(text => {
+                    var b = (product.thongso_search || product.thongso).includes(text)
+                    b ? newArr.push(product) : ''
+                })
+            })
+            var arrm = Array.from(new Set(newArr))
+            setListProduct(arrm)
+        } else {
+            setListProduct(listProductac)
+        }
+    }, [arr])
+    console.log('a')
     return (
         <div>
             {listOption.map((item, index) => (
@@ -28,26 +37,25 @@ export default function FilterMenu({ listProduct,setListProduct,listProductac })
         </div>
     )
 }
-function InputOption({ item,setArr,arr }) {
-   
+function InputOption({ item, setArr, arr }) {
     const handleFilter = (value) => {
         var index = arr.findIndex(item => (
             item == value
         ))
         if (index == -1) {
-            setArr(arr =>[...arr,value])
+            setArr(arr => [...arr, value])
         } else {
-        var arrCopy = arr.filter(item =>(
-            item !=value
-          ))
-          setArr(arrCopy)
-        }        
+            var arrCopy = arr.filter(item => (
+                item != value
+            ))
+            setArr(arrCopy)
+        }
     }
     return (
         <div >
             <li>
                 <input value={item.value} onChange={() => handleFilter(item.value)} className="input-filter" type="checkbox" />
-                {item.value} </li>
+                {item.name} </li>
         </div>
     )
 }

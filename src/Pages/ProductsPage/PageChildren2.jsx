@@ -91,7 +91,7 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                            <FilterMenu datas={datas} />
+                        <FilterMenu listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} />
                         </div>
                         <div className="col-10">
                             <h5 className="m-3">Danh Mục {dataItem[0] && dataItem[0].product_children_name}</h5>

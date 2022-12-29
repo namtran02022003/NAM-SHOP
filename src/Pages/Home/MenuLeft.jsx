@@ -10,7 +10,6 @@ export default function MenuLeftHome() {
     useEffect(() => {
         getDatas()
     }, [])
-
     return (
         <div className="home-menu-left">
             <ul className="home-menu-left-ul position-relative">
@@ -33,7 +32,6 @@ export default function MenuLeftHome() {
                                     </div>
                                 </div>
                             </div> : ''}
-
                         </li>
                     )
                 })}

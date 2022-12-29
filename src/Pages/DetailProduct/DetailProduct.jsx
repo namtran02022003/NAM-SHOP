@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import axios from "axios"
 import { useState, useEffect, useContext } from 'react'
 import { CartProducts } from '../../App'
+ 
 import { useForm } from 'react-hook-form'
 function DetailProduct() {
     const Navitage = useNavigate()
@@ -144,6 +145,9 @@ function DetailProduct() {
                                 <p>Mua máy tính tặng túi chống sốc, miễn phí cài phần mềm…</p>
                             </div>
                             <ChinhSach />
+                            <div className=''>
+                                <img src='../../../images/logoface.jpg' width="100%" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -182,7 +186,6 @@ function LoginFormDetail({ data, check }) {
         dataUser:datas,
         totalPrice:data.reduce((a,b)=> a + (check ? b.price + Number(390000) : b.price),0)
        }
-
     }
     return (
         <div className='content-form-detail p-2'>

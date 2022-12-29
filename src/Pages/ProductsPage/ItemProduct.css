@@ -1,4 +1,4 @@
-.btn-option{
+.btn-option {
     border: none;
     color: white;
     background: rgb(122, 120, 120);
@@ -6,31 +6,38 @@
     border-radius: 3px;
     font-size: 14px;
 }
-.btn-delete-option{
+
+.btn-delete-option {
     border: none;
     border-radius: 3px;
     color: white;
     background-color: red;
 }
-.btn-sapxep{
+
+.btn-sapxep {
     border: none;
     border-radius: 3px;
     color: white;
     background-color: rgb(44, 44, 219);
 }
-.img-item-slide{
+
+.img-item-slide {
     max-height: 90px;
 }
-.img-item-slide ~ p{
+
+.img-item-slide~p {
     font-size: 13px;
 }
-.row-slide{
+
+.row-slide {
     flex-wrap: nowrap;
-    overflow:hidden;
+    overflow: hidden;
     max-width: 1600px;
-    
+
 }
-.abc::after,.row-slide::after{
+
+.abc::after,
+.row-slide::after {
     display: block;
     content: "";
     clear: both;

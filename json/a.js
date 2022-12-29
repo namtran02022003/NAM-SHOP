@@ -1,15 +1,23 @@
-var arr = [{name:'1'},{name:'0'},{name:'2'},{name:'3'},{name:'4'}]
-var newarr = [8,9,6,'3',5,6]
-
-var m = []
-for (let index = 0; index < arr.length; index++) {
-    for (let i = 0; i < newarr.length; i++) {
-       var b =  arr[index].name.includes(newarr[i])
-        b ? m.push(arr[index]) :''
+var listProduct = [
+    {
+        thongso_all:'huy'
+    }, 
+    {
+        thongso_all:'nam'
+    },
+    {
+        thongso_all:'tung'
+    }
+]
+var arr = ["f","tung","e"]
+var newArr = []
+for (let index = 0; index < listProduct.length; index++) {
+    for (let i = 0; i < arr.length; i++) {
+       var b =  listProduct[index].thongso_all.includes(arr[i]) 
+        b ? newArr.push(listProduct[index]) :''
        }
    }
-   console.log(m)
+console.log(newArr)
 
-        
 
 

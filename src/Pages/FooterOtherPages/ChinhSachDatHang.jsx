@@ -21,7 +21,7 @@ export default function ChinhSachDatHang() {
                     <div key={index}>
                         <h6>{item.heading}</h6>
                         {item && item.content.map(item => {
-                            return(
+                            return (
                                 <p key={item}>{item}</p>
                             )
                         })}

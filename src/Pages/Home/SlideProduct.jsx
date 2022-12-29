@@ -1,7 +1,6 @@
 import axios from "axios"
 import { useState, useEffect } from 'react'
 
-
 export default function SdideProduct() {
     const [datas, setDatas] = useState([])
     const getDatas = async () => {
@@ -57,8 +56,6 @@ export default function SdideProduct() {
             </div>
             <i onClick={() => a(1)} className="fa click-right-product fa-chevron-right"></i>
             <i onClick={() => a(2)} className="fa click-left-product fa-chevron-left"></i>
-
-
         </div>
     )
 }
