@@ -183,7 +183,7 @@ const listOption = [
         ]
     }
 ]
-const handlePrice = (value, setListProduct, listProductac, setStyleBtn) => {
+const handlePrice = (value, setListProduct, listProductac, setStyleBtn,listProduct) => {
     setStyleBtn(value)
     if (value === 1) {
         const productSort = listProductac.slice()
@@ -360,5 +360,17 @@ const handleCount = (id, data, payload) => {
     localStorage.setItem(`cart`, JSON.stringify(cartCopy));
     data.setCarts(cartCopy);
 }
-
-export { listOption, handlePrice, ButtonOptions, changePrice, changeNew, remove, SlideItemProduct, handleCount, handleChangeCheck }
+const HandleCart = (product, dataCarts, check,router) => {
+    const dataCart = dataCarts.Carts
+    const cartCopy = dataCart.slice();
+    const index = cartCopy.findIndex((datas) => datas.id === product.id);
+    if (index === -1) {
+        cartCopy.push({ ...product, count: 1, check: check })
+    } else {
+        router('/cart') 
+    }
+    localStorage.setItem('cart', JSON.stringify(cartCopy))
+    dataCarts.setCarts(cartCopy)
+   router('/cart')
+}
+export { listOption,HandleCart, handlePrice, ButtonOptions, changePrice, changeNew, remove, SlideItemProduct, handleCount, handleChangeCheck }

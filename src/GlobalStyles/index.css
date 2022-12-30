@@ -1,7 +1,7 @@
-p{
-    margin: 0 ;
+p {
+    margin: 0;
 }
-.icon{
+.icon {
     list-style: none;
     color: #ffffff;
     margin: 0;
@@ -18,27 +18,35 @@ p{
     float: left;
     background: url("https://macone.vn/wp-content/themes/macone/images/icons/macbook-air.svg") no-repeat center top;
 }
-*{
+
+* {
     box-sizing: border-box !important;
 }
-.color-white{
+
+.color-white {
     color: white !important;
 }
-.color-black{
+
+.color-black {
     color: black;
 }
-.f-b{
+
+.f-b {
     font-weight: 600;
 }
-.fs-13{
+
+.fs-13 {
     font-size: 13px;
 }
-.fs-14{
+
+.fs-14 {
     font-size: 14px;
 }
-.color-red{
+
+.color-red {
     color: rgb(187, 18, 41);
 }
-select{
+
+select {
     outline: none;
 }

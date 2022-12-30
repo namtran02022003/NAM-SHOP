@@ -1,4 +1,4 @@
-
+import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 import axios from "axios"
 import { useState, useEffect } from 'react'
 import './ItemProduct.css'
@@ -48,7 +48,7 @@ export default function MacM(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <h5>so sanh</h5>
+                                <SoSanhProduct />
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export default function MacM(props) {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
+                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn,listProduct)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>

@@ -21,7 +21,6 @@ export default function FilterMenu({ listProduct, setListProduct, listProductac 
             setListProduct(listProductac)
         }
     }, [arr])
-    console.log('a')
     return (
         <div>
             {listOption.map((item, index) => (

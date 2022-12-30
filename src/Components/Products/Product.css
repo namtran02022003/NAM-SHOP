@@ -5,3 +5,24 @@
     padding:5px;
     border-radius: 5px;
 }
+.btn-check-ss{
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding:0;
+    border: none;
+}
+.remove-ss{
+    background: red;
+    color: white;
+}
+.active-ss{
+    background: rgb(40, 40, 179);
+    color: white;
+}
+.remove-ss,.active-ss{
+    padding:5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}

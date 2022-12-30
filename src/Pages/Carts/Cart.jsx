@@ -14,6 +14,10 @@ export default function Cart() {
             )
         }, 0);
     };
+    const removeCarts = ()=>{
+        dataCarts.setCarts([])
+        localStorage.setItem(`cart`,JSON.stringify([]))
+    }
     return (
         <div className='container'>
             <h2>Giỏ hàng</h2>
@@ -102,7 +106,7 @@ export default function Cart() {
                     <button onClick={()=>setShowForm(!showForm)} className='btn-dat'>Đặt hàng</button>
                 </div>
                 <div className="col-2">
-                    <button onClick={()=>dataCarts.setCarts([])} className='btn-delete-carts'>Xóa giỏ hàng</button>
+                    <button onClick={()=>removeCarts()} className='btn-delete-carts'>Xóa giỏ hàng</button>
                 </div>
             </div>
         </div>

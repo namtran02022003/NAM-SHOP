@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom"
 import axios from "axios"
 import { useState, useEffect, useContext } from 'react'
 import { CartProducts } from '../../App'
- 
+ import { HandleCart } from '../../js'
 import { useForm } from 'react-hook-form'
 function DetailProduct() {
     const Navitage = useNavigate()
@@ -23,19 +23,7 @@ function DetailProduct() {
     const handleChange = () => {
         setCheck(!check)
     }
-    const HandleCart = (product, dataCarts, check) => {
-        const dataCart = dataCarts.Carts
-        const cartCopy = dataCart.slice();
-        const index = cartCopy.findIndex((datas) => datas.id === product.id);
-        if (index === -1) {
-            cartCopy.push({ ...product, count: 1, check: check })
-        } else {
-            Navitage('/cart')
-        }
-        localStorage.setItem('cart', JSON.stringify(cartCopy))
-        dataCarts.setCarts(cartCopy)
-        Navitage('/cart')
-    }
+   
     const showModalForm = () => {
         document.querySelector('.login-form-detail').style.display = "flex"
     }
@@ -127,7 +115,7 @@ function DetailProduct() {
                                         <p>Giao hàng tận nhà hoặc nhận tại cửa hàng</p>
                                     </div>
                                     <div className='d-flex justify-content-between text-center m-0 mt-2'>
-                                        <div onClick={() => HandleCart(productDetail[0], dataCarts, check)} className="w-49 btn-muangay">
+                                        <div onClick={() => HandleCart(productDetail[0], dataCarts, check,Navitage)} className="w-49 btn-muangay">
                                             <h6>THÊM VÀO GIỎ</h6>
                                             <p>Chọn thêm món đồ khác</p>
                                         </div>

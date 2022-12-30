@@ -169,3 +169,6 @@ body {
     font-size: 13px;
     min-height: 40px;
 }
+.row-slide{
+    flex-wrap: nowrap !important;
+}
