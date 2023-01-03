@@ -8,9 +8,9 @@ export const CartProducts = createContext()
 export const ShowSsProduct = createContext()
 function App() {
   const [Carts, setCarts] = useState(JSON.parse(localStorage.getItem('cart')) || [])
-  const [listId, setListId] = useState([])
+  const [listId, setListId] = useState( JSON.parse(localStorage.getItem('listIdSs'))||[])
   const [showSs, setShowSs] = useState(false)
-  console.log('listid',listId)
+  console.log('a',listId)
   return (
     <CartProducts.Provider value={{
       Carts: Carts,

@@ -42,3 +42,10 @@
     content: "";
     clear: both;
 }
+.ul-filter-menu{
+    list-style-type: none;
+    padding: 0;
+}
+.ul-filter-menu div li input{
+    margin-right: 10px;
+}

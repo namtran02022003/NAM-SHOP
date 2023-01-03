@@ -26,7 +26,7 @@ export default function FilterMenu({ listProduct, setListProduct, listProductac 
             {listOption.map((item, index) => (
                 <div key={item.heading}>
                     <h6>{item.heading}</h6>
-                    <ul>
+                    <ul className="ul-filter-menu">
                         {item.content.map(item => (
                             <InputOption key={item.value} item={item} setArr={setArr} arr={arr} />
                         ))}

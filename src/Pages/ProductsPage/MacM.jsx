@@ -9,6 +9,7 @@ import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 import SlideTop from "../../Components/CommonComponent"
 export default function MacM(props) {
     const [styBtn, setStyleBtn] = useState('')
+    const [showSs, setShowSs] = useState(false)
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
     const [listProduct, setListProduct] = useState([])
@@ -48,7 +49,7 @@ export default function MacM(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <SoSanhProduct />
+                                <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
                             </div>
                         </div>
                     </div>
@@ -90,7 +91,7 @@ export default function MacM(props) {
                             {listProduct.length > 0 ? (<div className="row m-0">
                                 {listProduct.map((product) => {
                                     return (
-                                        <Product key={product.id} product={product} />
+                                        <Product showSs={showSs} setShowSs={setShowSs} key={product.id} product={product} />
                                     )
                                 }
 
