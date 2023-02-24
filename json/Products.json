@@ -9,7 +9,7 @@
                     "id_children1": 1,
                     "product_children_name": "Macbook Air",
                     "title": "Macbook Air là dòng máy tính xách tay của Apple gọn nhẹ sexy như cái tên gọi của nó, mỏng nhẹ như “không khí”. Dưới đây là các sản phẩm Macbook Air đang bán tại MacOne",
-                    "url": "/macbook-air",
+                    "url": "macbook-air",
                     "url_img": "../images/macair20181.jpg",
                     "subList": [
                         {
@@ -53,7 +53,7 @@
                 {
                     "id_children1": 2,
                     "product_children_name": "Macbook Pro",
-                    "url": "/macbook-pro",
+                    "url": "macbook-pro",
                     "url_img": "../images/macpro20181.png",
                     "title": "Macbook Pro là dòng máy tính xách tay có cấu hình mạnh mẽ do Apple sản xuất. Với ưu điểm màn hình đẹp, hiệu năng tốt phù hợp với người sử dụng chuyên nghiệp.",
                     "subList": [

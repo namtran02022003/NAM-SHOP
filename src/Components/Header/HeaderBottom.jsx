@@ -1,9 +1,11 @@
 import axios from "axios";
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function HeaderBottom() {
     const [listButton, setListButton] = useState([])
+    const [name,setName] = useState('')
+    const Navitage = useNavigate()
     const getData = async () => {
         const res = await axios.get('../../../json/ButtonPageHeader.json')
         setListButton(res.data.list)
@@ -11,7 +13,13 @@ export default function HeaderBottom() {
     useEffect(() => {
         getData()
     }, [])
-
+    const handleSubmit =  () => {
+        if (name.trim().length > 0) {
+          Navitage(`/search/${name}`);
+        } else {
+        }
+        setName("");
+      };
     return (
         <div className="bg-header-bottom ">
             <div className="header-bottom container px-5">
@@ -53,8 +61,8 @@ export default function HeaderBottom() {
                     <div className="col-2 p-0">
                         <div className="search position-relative">
                             <form className="position-relative">
-                                <input className="input-search w-100" type="text" placeholder="tìm kiếm sản phẩm" />
-                                <i className="fa-solid icon-search fa-magnifying-glass"></i>
+                                <input value={name} onChange={(e)=>setName(e.target.value)} className="input-search w-100" type="text" placeholder="tìm kiếm sản phẩm" />
+                                <i onClick={()=>handleSubmit()} className="fa-solid icon-search fa-magnifying-glass"></i>
                             </form>
                         </div>
                     </div>

@@ -17,26 +17,24 @@ export default function Product({ product, showSs }) {
         }
     }
     localStorage.setItem('listIdSs',JSON.stringify(dataShow.listId))
-    useEffect(() => {
-     
-            // if(document.querySelector(`.active-ss${product.id}`)){
-            //     document.querySelector(`.active-ss${product.id}`).innerHTML = "aaa"
-            // }
-    
+    useEffect(() => {   
+      var e =  document.querySelectorAll('.z')
+      if(e.length > 0){        
+        let arr = Array.from(e)
+        arr.map(item => {item.innerHTML="chọn so sánh", item.style.background="blue"} )
+      }
         dataShow.listId.map(id => {
             if (document.querySelector(`.active-ss${id}`)) {
-                document.querySelector(`.active-ss${id}`).innerHTML = "ccc"
+                document.querySelector(`.active-ss${id}`).innerHTML = "bỏ so sánh"
+                document.querySelector(`.active-ss${id}`).style.background="red"
             }
         })
-    }, [dataShow.listId])
-    // {text ? <span className='remove-ss'>bỏ so sánh</span> : <span className='active-ss'>chọn so sánh</span>}
-    // onClick={() => handlePushId(product.id)}
-console.log(showSs)
+    })
     return (
         <div className="col-3 px-1 my-1 text-center " key={product.id} >
             <div className="bg-white shadow-lg rounded position-relative">
                 {showSs && <button className='btn-check-ss'>
-                    <span onClick={() => handlePushId(product.id)} className={`active-ss${product.id}`} >add</span>
+                    <span onClick={() => handlePushId(product.id)} className={`z active-ss${product.id}`} >chọn so sánh</span>
                 </button>}
                 <img onClick={() => Navitage(`/detail-product/${product.id}`)} className="img-product" src={product.url_img} width="100%" />
                 <div className="text-detail-product ">

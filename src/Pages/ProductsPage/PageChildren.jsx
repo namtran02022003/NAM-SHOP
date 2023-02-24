@@ -6,8 +6,9 @@ import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 import SlideTop from "../../Components/CommonComponent"
-
+import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 export default function PageChildren(props) {
+    const [showSs, setShowSs] = useState(false)
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -49,7 +50,7 @@ export default function PageChildren(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <h5>so sanh</h5>
+                            <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
                             </div>
                         </div>
                     </div>
@@ -93,7 +94,7 @@ export default function PageChildren(props) {
                             {listProduct.length > 0 ? (<div className="row m-0">
                                 {listProduct.map((product) => {
                                     return (
-                                        <Product key={product.id} product={product} />
+                                        <Product showSs={showSs} setShowSs={setShowSs} key={product.id} product={product} />
                                     )
                                 }
 

@@ -26,3 +26,9 @@
     border-radius: 5px;
     width: 100%;
 }
+.z{
+    background: rgb(133, 73, 201);
+    padding:3px 10px;
+    border-radius: 5px;
+    color: white;
+}

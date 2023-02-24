@@ -21,6 +21,7 @@ import Cart from "../Pages/Carts/Cart.jsx"
 import { Iphone13, Iphone13Pro, Iphone13ProMax, Iphone14, Iphone14Plus, Iphone14Pro, Iphone14ProMax } from "../Pages/PageChildren2/Iphones.jsx"
 import { AirPods, AirTag, AppleCare, BaLo, BanDiChuot, BanPhim, BanPhimButIpad, BaoDaIpad, BaoDaMacbook, BoDanMacbook, BoVeSinh, CapChuyenDoi, Chuot, DanIpad, DanIphone, ManHinh, OpIphone, OpMacbook, PhanMem, PhuKienTanNhiet, SacIpad, SacIphone, TuiXach } from "../Pages/PageChildren2/PhuKien.jsx"
 import SoSanh from "../Pages/Sosanh/SoSanh.jsx"
+import SearchDetail from "../Pages/Search/Search.jsx"
 const publicRoutes = [
     { path: '/', component: Home },
     { path: '/gioithieu', component: GioiThieu, layout: FooterLayout },
@@ -120,6 +121,7 @@ const publicRoutes = [
     { path: '/phan-mem-&-ung-dung', component: PhanMem },
     { path: '/tui-xach-&-tui-chong-soc', component: TuiXach },
     { path: '/so-sanh', component: SoSanh },
+    { path: '/search/:name', component: SearchDetail },
 ]
 
 

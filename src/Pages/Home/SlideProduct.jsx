@@ -41,9 +41,8 @@ export default function SdideProduct() {
 
         }
     }
-
     return (
-        <div className='container abc position-relative'>
+        <div className='container bg-white abc position-relative'>
             <div className='row row-slide'>
                 {datas.map((product, index) => {
                     return (

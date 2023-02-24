@@ -1,6 +1,6 @@
 
 
-
+import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 
 import axios from "axios"
 import { useState, useEffect, useRef } from 'react'
@@ -11,6 +11,7 @@ import { SlideItemProduct } from "../../js"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 import SlideTop from "../../Components/CommonComponent"
 export default function PageChildren2({ id_children1, id_children2, category_id }) {
+    const [showSs, setShowSs] = useState(false)
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -57,7 +58,7 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <h5>so sanh</h5>
+                            <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
                             </div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
                             {listProduct.length > 0 ? (<div className="row m-0">
                                 {listProduct.map((product) => {
                                     return (
-                                        <Product key={product.id} product={product} />
+                                        <Product showSs={showSs} setShowSs={setShowSs} key={product.id} product={product} />
                                     )
                                 }
 

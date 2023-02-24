@@ -25,8 +25,14 @@ export default function SoSanh() {
             getDataSs()
         }
     }, [])
+    console.log(dataShow)
     return (
         <div className="bg-white">
+            <button onClick={()=>{
+                localStorage.setItem('listIdSs',JSON.stringify([]))
+                setListProductSs([])
+                dataShow.setListId([])
+            }}>remove</button>
             <div className="container px-5">
                 <div className="row">
                     {listProductSs.map(product => (
@@ -35,7 +41,7 @@ export default function SoSanh() {
                                 <div className="text-center">
                                     <img src={product.url_img} width="50%" alt="img product" />
                                 </div>
-                                {product.thongso_all.length>0 && product.thongso_all.map((item,index)=>(
+                                {product.thongso_all && product.thongso_all.length>0 && product.thongso_all.map((item,index)=>(
                                     <div className="p-3 border-bottom" key={index}>
                                         <b>{item.title}</b>
                                         <p>{item.content}</p>

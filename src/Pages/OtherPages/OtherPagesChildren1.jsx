@@ -4,8 +4,9 @@ import SlideTop from "../../Components/CommonComponent"
 import Product from "../../Components/Products/Product"
 import { SlideItemProduct } from "../../js"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
-
+import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 export default function OtherPagesChildren1(props) {
+    const [showSs, setShowSs] = useState(false)
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -45,7 +46,8 @@ export default function OtherPagesChildren1(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <h5>so sanh</h5>
+                            <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
+
                             </div>
                         </div>
                     </div>
@@ -81,7 +83,8 @@ export default function OtherPagesChildren1(props) {
                     {listProduct.length > 0 ? (<div className="row m-0">
                         {listProduct.map((product) => {
                             return (
-                                <Product key={product.id} product={product} />
+                                <Product showSs={showSs} setShowSs={setShowSs} key={product.id} product={product} />
+
                             )
                         }
                         )}

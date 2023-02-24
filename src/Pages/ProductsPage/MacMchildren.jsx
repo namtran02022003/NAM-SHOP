@@ -1,5 +1,5 @@
 
-
+import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 import axios from "axios"
 import { useState, useEffect } from 'react'
 import './ItemProduct.css'
@@ -9,7 +9,7 @@ import SlideTop from "../../Components/CommonComponent"
 import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
 import { SlideItemProduct } from "../../js"
 export default function MacMchildren(props) {
-
+    const [showSs, setShowSs] = useState(false)
     const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -55,7 +55,7 @@ export default function MacMchildren(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                                <h5>so sanh</h5>
+                            <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ export default function MacMchildren(props) {
                             {listProduct.length > 0 ? (<div className="row m-0">
                                 {listProduct.map((product) => {
                                     return (
-                                        <Product key={product.id} product={product} />
+                                        <Product showSs={showSs} setShowSs={setShowSs} key={product.id} product={product} />
                                     )
                                 }
 
