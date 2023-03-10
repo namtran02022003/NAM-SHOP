@@ -3,7 +3,7 @@
         {
             "category_id": 1,
             "category_name": "MACBOOK",
-            "url_img":"../images/macair20181.jpg",
+            "url_img": "../images/macair20181.jpg",
             "subList": [
                 {
                     "id_children1": 1,
@@ -145,36 +145,37 @@
                     "id_children1": 1,
                     "product_children_name": "IMAC",
                     "url": "imac",
-                    "url_img":"../images/logoimac.png",
+                    "url_img": "../images/logoimac.png",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "IMAC 2021",
                             "url": "imac-2021",
-                            "url_img":"../images/imac20211.jpeg"
+                            "url_img": "../images/imac20211.jpeg"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "IMAC 2020",
                             "url": "imac-2020",
-                            "url_img":"../images/imac20201.jpg"
+                            "url_img": "../images/imac20201.jpg"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "IMAC 2019",
                             "url": "imac-2019",
-                            "url_img":"../images/imac20191.jpeg"
+                            "url_img": "../images/imac20191.jpeg"
                         },
                         {
                             "id_children2": 4,
                             "product_children_name": "IMAC 2017",
                             "url": "imac-2017",
-                            "url_img":"../images/imac20171.jpg"
+                            "url_img": "../images/imac20171.jpg"
                         },
                         {
                             "id_children2": 5,
                             "product_children_name": "IMAC 2015",
-                            "url": "imac-2015", "url_img":"../images/imac20151.jpg"
+                            "url": "imac-2015",
+                            "url_img": "../images/imac20151.jpg"
                         }
                     ]
                 },
@@ -182,61 +183,61 @@
                     "id_children1": 2,
                     "product_children_name": "IMAC M1",
                     "url": "imac-m1",
-                    "url_img":"../images/logoimacm1.png",
+                    "url_img": "../images/logoimacm1.png",
                     "subList": []
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "IMAC MINI",
                     "url": "imac-mini",
-                    "url_img":"../images/logoimacmini.png",
+                    "url_img": "../images/logoimacmini.png",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "IMAC MINI 2020",
-                            "url_img":"../images/imac1.jpg",
-                            "url":"imac-mini"
+                            "url_img": "../images/imac1.jpg",
+                            "url": "imac-mini"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "IMAC MINI 2018",
-                            "url_img":"../images/imac1.jpg",
-                            "url":"imac-mini-2018"
+                            "url_img": "../images/imac1.jpg",
+                            "url": "imac-mini-2018"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "IMAC MINI 2014",
-                            "url_img":"../images/imac1.jpg",
-                            "url":"imac-mini-2014"
+                            "url_img": "../images/imac1.jpg",
+                            "url": "imac-mini-2014"
                         }
                     ]
                 },
                 {
                     "id_children1": 4,
                     "product_children_name": "IMAC MINI M1",
-                    "url_img":"../images/logoimacmini.png",
-                    "url":"imac-mini-m1",
+                    "url_img": "../images/logoimacmini.png",
+                    "url": "imac-mini-m1",
                     "subList": []
                 },
                 {
                     "id_children1": 5,
-                    "product_children_name": "MAC PRO", 
-                    "url_img":"../images/logomacpro.png",
-                    "url":"mac-pro",
+                    "product_children_name": "MAC PRO",
+                    "url_img": "../images/logomacpro.png",
+                    "url": "mac-pro",
                     "subList": []
                 },
                 {
                     "id_children1": 6,
                     "product_children_name": "MAC STUDIO",
-                    "url_img":"../images/logomacstudio.png",
-                    "url":"mac-studio",
+                    "url_img": "../images/logomacstudio.png",
+                    "url": "mac-studio",
                     "subList": []
                 },
                 {
                     "id_children1": 7,
                     "product_children_name": "APPLE DISPLAYS",
-                    "url_img":"../images/logoappledisplay.png",
-                    "url":"apple-displays",
+                    "url_img": "../images/logoappledisplay.png",
+                    "url": "apple-displays",
                     "subList": []
                 }
             ],
@@ -255,7 +256,7 @@
                     "id_children1": 1,
                     "product_children_name": "IPHONE 14 SERIES",
                     "url": "iphone-14-series",
-                    "url_img":"../images/logoiphone14.png",
+                    "url_img": "../images/logoiphone14.png",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -287,32 +288,32 @@
                     "id_children1": 2,
                     "product_children_name": "IPHONE 13 SERIES",
                     "url": "iphone-13-series",
-                    "url_img":"../images/logoiphone13.png",
+                    "url_img": "../images/logoiphone13.png",
                     "subList": [
                         {
                             "id_children2": 1,
                             "product_children_name": "IPHONE 13 PRO MAX",
                             "url": "iphone-13-pro-max",
-                            "url_img":"../images/ip13.png"
+                            "url_img": "../images/ip13.png"
                         },
                         {
                             "id_children2": 2,
                             "product_children_name": "IPHONE 13 PRO",
                             "url": "iphone-13-pro",
-                            "url_img":"../images/13pro.png"
+                            "url_img": "../images/13pro.png"
                         },
                         {
                             "id_children2": 3,
                             "product_children_name": "IPHONE 13",
                             "url": "iphone-13",
-                            "url_img":"../images/iphone13.png"
+                            "url_img": "../images/iphone13.png"
                         }
                     ]
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "IPHONE 12 SERIES",
-                    "url_img":"../images/logoiphone12.png",
+                    "url_img": "../images/logoiphone12.png",
                     "url": "iphone-12-series",
                     "subList": [
                         {
@@ -332,8 +333,8 @@
                 {
                     "id_children1": 4,
                     "product_children_name": "IPHONE 11 SERIES",
-                    "url": "iphone-11-series", 
-                     "url_img":"../images/logoiphone11.png",
+                    "url": "iphone-11-series",
+                    "url_img": "../images/logoiphone11.png",
                     "subList": [
                         {
                             "id_children2": 1,
@@ -365,37 +366,29 @@
                     "id_children1": 1,
                     "product_children_name": "iPad 10.2 inch",
                     "url": "ipad-10.2-inch",
-                    "url_img":"../images/logoipad.png",
-                    "subList": [
-                        
-                    ]
+                    "url_img": "../images/logoipad.png",
+                    "subList": []
                 },
                 {
                     "id_children1": 2,
                     "product_children_name": "iPad Air",
                     "url": "ipad-air",
-                    "url_img":"../images/logoipadair.png",
-                    "subList": [
-                        
-                    ]
+                    "url_img": "../images/logoipadair.png",
+                    "subList": []
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "iPad Pro",
-                    "url_img":"../images/logoipadpro.png",
+                    "url_img": "../images/logoipadpro.png",
                     "url": "iPad-pro",
-                    "subList": [
-                       
-                    ]
+                    "subList": []
                 },
                 {
                     "id_children1": 4,
                     "product_children_name": "iPad Mini",
-                    "url": "ipad-mini", 
-                     "url_img":"../images/logoipadmini.png",
-                    "subList": [
-                       
-                    ]
+                    "url": "ipad-mini",
+                    "url_img": "../images/logoipadmini.png",
+                    "subList": []
                 }
             ],
             "created_date": "25/11/2022",
@@ -413,28 +406,22 @@
                     "id_children1": 1,
                     "product_children_name": "Apple Watch Ultra",
                     "url": "apple-watch-ultra",
-                    "url_img":"../images/apw1.jpg",
-                    "subList": [
-                        
-                    ]
+                    "url_img": "../images/apw1.jpg",
+                    "subList": []
                 },
                 {
                     "id_children1": 2,
                     "product_children_name": "Apple Watch Series 8",
                     "url": "apple-watch-series-8",
-                    "url_img":"../images/apw2.jpg",
-                    "subList": [
-                        
-                    ]
+                    "url_img": "../images/apw2.jpg",
+                    "subList": []
                 },
                 {
                     "id_children1": 3,
                     "product_children_name": "Apple Watch SE",
-                    "url_img":"../images/apw3.jpg",
+                    "url_img": "../images/apw3.jpg",
                     "url": "apple-watch-se",
-                    "subList": [
-                       
-                    ]
+                    "subList": []
                 }
             ],
             "created_date": "25/11/2022",
@@ -654,7 +641,6 @@
         }
     ],
     "products": [
-   
         {
             "thongso": "Apple M1 8GB RAM 256GB SSD – NEW",
             "product_name": "MacBook Air 2022 13 inch",
@@ -706,7 +692,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M1 RAM 8Gb OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M1 RAM 8Gb OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M2 8GB RAM 512GB SSD – NEW",
@@ -759,7 +745,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M2 RAM 8Gb OC 512 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M2 RAM 8Gb OC 512 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M2 16GB RAM 256GB SSD – NEW",
@@ -812,7 +798,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M2 RAM 16Gb OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M2 RAM 16Gb OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M2 16GB RAM 512GB SSD – NEW",
@@ -865,7 +851,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M2 RAM 16GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M2 RAM 16GB OC 512 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M2 24GB RAM 256GB SSD – NEW",
@@ -918,7 +904,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M2 RAM 24GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M2 RAM 24GB OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M1 8GB RAM 256GB SSD – NEW",
@@ -971,7 +957,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M1 RAM 8Gb OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M1 RAM 8Gb OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M2 8GB RAM 512GB SSD – Like New",
@@ -1024,7 +1010,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M2 RAM 8GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M2 RAM 8GB OC 512 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M1 16GB RAM 256GB SSD – Like New",
@@ -1077,7 +1063,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 Apple M1 RAM 16GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i5 Apple M1 RAM 16GB OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Apple M1 8GB RAM 512GB SSD – Like New",
@@ -1130,7 +1116,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 Apple M1 RAM 8GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i7 Apple M1 RAM 8GB OC 512 GB 13 inch HD van phong"
         },
         {
             "thongso": "Core i3 8GB RAM 256GB SSD – Like New",
@@ -1141,7 +1127,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20205.jpg",
             "id": 50,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1183,7 +1169,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i3 RAM 8GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": "Intel Core i3 RAM 8GB OC 256 GB 13 inch HD van phong"
         },
         {
             "thongso": "Core i5 16GB RAM 256GB SSD – Like New",
@@ -1194,7 +1180,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20206.jpg",
             "id": 51,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1236,7 +1222,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 16GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 16GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 16GB RAM 256GB SSD – Like New",
@@ -1247,7 +1233,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20207.jpg",
             "id": 52,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1289,7 +1275,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 16GB OC 512 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 16GB OC 512 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1300,7 +1286,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20208.jpg",
             "id": 53,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1342,8 +1328,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
-
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 16GB RAM 512GB SSD – Like New",
@@ -1354,7 +1339,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20205.jpg",
             "id": 54,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1396,8 +1381,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 16GB OC 512 GB 13 inch HD do hoa"
-
+            "thongso_search": "Intel Core i5 RAM 16GB OC 512 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i7 16GB RAM 256GB SSD – Like New",
@@ -1408,7 +1392,7 @@
             "id_children2": 2,
             "url_img": "../images/macair20205.jpg",
             "id": 55,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1450,8 +1434,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 RAM 16GB OC 256 GB 13 inch HD do hoa"
-
+            "thongso_search": "Intel Core i7 RAM 16GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1462,7 +1445,7 @@
             "id_children2": 3,
             "url_img": "../images/macair20191.jpg",
             "id": 56,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1504,8 +1487,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD van phong"
-
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD van phong"
         },
         {
             "thongso": "Core i5 8GB RAM 256GB SSD – Like New",
@@ -1516,7 +1498,7 @@
             "id_children2": 3,
             "url_img": "../images/macair20192.jpg",
             "id": 57,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1558,8 +1540,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
-
+            "thongso_search": "Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1570,7 +1551,7 @@
             "id_children2": 3,
             "url_img": "../images/macair20193.jpg",
             "id": 58,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1612,8 +1593,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
-
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1624,7 +1604,7 @@
             "id_children2": 4,
             "url_img": "../images/macair20181.jpg",
             "id": 59,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1666,7 +1646,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 256GB SSD – Like New",
@@ -1677,7 +1657,7 @@
             "id_children2": 4,
             "url_img": "../images/macair20182.jpg",
             "id": 60,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1719,7 +1699,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1730,7 +1710,7 @@
             "id_children2": 5,
             "url_img": "../images/macair20171.png",
             "id": 61,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1772,7 +1752,7 @@
                     "content": "720p FaceTime HD Camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 256GB SSD – Like New",
@@ -1783,7 +1763,7 @@
             "id_children2": 5,
             "url_img": "../images/macair20172.png",
             "id": 62,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1825,7 +1805,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i7 8GB RAM 512GB SSD – Like New",
@@ -1836,7 +1816,7 @@
             "id_children2": 5,
             "url_img": "../images/macair20173.jpg",
             "id": 63,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1878,7 +1858,7 @@
                     "content": "108-p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i7 RAM 8GB OC 512 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i7 RAM 8GB OC 512 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 128GB SSD – Like New",
@@ -1889,7 +1869,7 @@
             "id_children2": 6,
             "url_img": "../images/macair20161.jpg",
             "id": 64,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1931,7 +1911,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 128 GB 13 inch HD do hoa"
         },
         {
             "thongso": "Core i5 8GB RAM 256GB SSD – Like New",
@@ -1942,7 +1922,7 @@
             "id_children2": 6,
             "url_img": "../images/macair20162.jpg",
             "id": 65,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -1984,7 +1964,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Core i5 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2022 13 inch ",
@@ -1995,7 +1975,7 @@
             "id_children2": 1,
             "url_img": "../images/macpro20221.jpg",
             "id": 66,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2037,7 +2017,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M2 RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M2 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2022 13 inch ",
@@ -2048,7 +2028,7 @@
             "id_children2": 1,
             "url_img": "../images/macpro20222.jpg",
             "id": 67,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2090,7 +2070,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M2 RAM 8GB OC 512 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M2 RAM 8GB OC 512 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2022 13 inch ",
@@ -2101,7 +2081,7 @@
             "id_children2": 1,
             "url_img": "../images/macpro20223.jpg",
             "id": 68,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2143,7 +2123,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M2 RAM 16GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M2 RAM 16GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2022 13 inch ",
@@ -2154,7 +2134,7 @@
             "id_children2": 1,
             "url_img": "../images/macpro20224.jpg",
             "id": 69,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2196,7 +2176,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M2 RAM 24GB OC 512 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M2 RAM 24GB OC 512 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2022 13 inch ",
@@ -2207,7 +2187,7 @@
             "id_children2": 1,
             "url_img": "../images/macpro20225.jpg",
             "id": 70,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2249,7 +2229,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M2 RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M2 RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2021 16 inch",
@@ -2260,7 +2240,7 @@
             "id_children2": 2,
             "url_img": "../images/macpro20215.png",
             "id": 71,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2302,7 +2282,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":"Intel Apple M1 Pro RAM 16GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": "Intel Apple M1 Pro RAM 16GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2021 16 inch",
@@ -2313,7 +2293,7 @@
             "id_children2": 2,
             "url_img": "../images/macpro20216.png",
             "id": 72,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2355,7 +2335,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-               "thongso_search":" Apple M2  RAM 32GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": " Apple M2  RAM 32GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2021 16 inch",
@@ -2366,7 +2346,7 @@
             "id_children2": 2,
             "url_img": "../images/macpro20217.png",
             "id": 73,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2408,47 +2388,8 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Apple M1 Max RAM 32GB OC 512 GB 16 inch HD do hoa"
+            "thongso_search": " Apple M1 Max RAM 32GB OC 512 GB 16 inch HD do hoa"
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {
             "product_name": "MacBook Pro 2021 16 inch",
             "thongso": "Apple M1 MAX 10-Core CPU 32-Core GPU 32GB RAM 4TB SSD - NEW",
@@ -2458,7 +2399,7 @@
             "id_children2": 2,
             "url_img": "../images/macpro20218.png",
             "id": 74,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2500,7 +2441,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Apple M1 Max RAM 32GB OC 1 TB 16 inch HD do hoa"
+            "thongso_search": " Apple M1 Max RAM 32GB OC 1 TB 16 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2021 16 inch",
@@ -2511,7 +2452,7 @@
             "id_children2": 2,
             "url_img": "../images/macpro20219.png",
             "id": 75,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2553,7 +2494,7 @@
                     "content": "1080p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Apple M1 Max RAM 64GB OC 8 TB 16 inch HD do hoa"
+            "thongso_search": " Apple M1 Max RAM 64GB OC 8 TB 16 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch (MYD82/MYDA2)",
@@ -2564,7 +2505,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20201.jpeg",
             "id": 76,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2606,7 +2547,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Apple M2  RAM 8GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": " Apple M2  RAM 8GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch (MYD92/MYDC2)",
@@ -2617,7 +2558,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20202.jpeg",
             "id": 77,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2659,7 +2600,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Apple M2  RAM 8GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Apple M2  RAM 8GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch",
@@ -2670,7 +2611,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20203.jpeg",
             "id": 78,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2712,7 +2653,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch (MXK32/MXK2)",
@@ -2723,7 +2664,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20204.jpeg",
             "id": 79,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2765,7 +2706,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch (MWP42/MWP72)",
@@ -2776,7 +2717,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20205.jpeg",
             "id": 80,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2818,7 +2759,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2020 13 inch (MWP52/MWP82)",
@@ -2829,7 +2770,7 @@
             "id_children2": 3,
             "url_img": "../images/macpro20206.jpeg",
             "id": 81,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2871,42 +2812,8 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 1TB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 1TB 13 inch HD van phong"
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHN2/MUHQ2)",
             "thongso": "Core i5 1.4GHz 8GB RAM 128GB SSD - Like New",
@@ -2916,7 +2823,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20191.jpg",
             "id": 82,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -2958,7 +2865,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 128 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 128 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -2969,7 +2876,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20192.jpg",
             "id": 83,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3011,7 +2918,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3022,7 +2929,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20193.jpg",
             "id": 84,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3064,7 +2971,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3075,7 +2982,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20194.jpg",
             "id": 85,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3117,7 +3024,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3128,7 +3035,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20195.jpg",
             "id": 86,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3170,7 +3077,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3181,7 +3088,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20196.png",
             "id": 87,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3223,7 +3130,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3234,7 +3141,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20197.png",
             "id": 88,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3276,7 +3183,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 512 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 512 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 16 inch (MUHP2/MUHR2)",
@@ -3287,7 +3194,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20198.jpg",
             "id": 89,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3329,7 +3236,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i9  RAM 16GB OC 256 GB 16 inch HD van phong"
+            "thongso_search": " Intel Core i9  RAM 16GB OC 256 GB 16 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2019 13 inch (MUHP2/MUHR2)",
@@ -3340,7 +3247,7 @@
             "id_children2": 4,
             "url_img": "../images/macpro20199.jpg",
             "id": 90,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3382,7 +3289,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i9  RAM 16GB OC 1 TB  13 inch HD van phong"
+            "thongso_search": " Intel Core i9  RAM 16GB OC 1 TB  13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2018 13 inch ",
@@ -3393,7 +3300,7 @@
             "id_children2": 5,
             "url_img": "../images/macpro20181.png",
             "id": 91,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3435,7 +3342,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2018 15 inch ",
@@ -3446,7 +3353,7 @@
             "id_children2": 5,
             "url_img": "../images/macpro20182.jpg",
             "id": 92,
-             "url_imgsale": "../images/imgsaledetail.jpg",
+            "url_imgsale": "../images/imgsaledetail.jpg",
             "text_baohanh": [
                 "Sản phẩm chính hãng Apple Việt Nam, mới 100% nguyên seal.",
                 "Giá đã bao gồm VAT.",
@@ -3488,7 +3395,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i7  RAM 16GB OC 256 GB 13 inch HD van phong"
+            "thongso_search": " Intel Core i7  RAM 16GB OC 256 GB 13 inch HD van phong"
         },
         {
             "product_name": "MacBook Pro 2018 15 inch ",
@@ -3541,7 +3448,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search":" Intel Core i7  RAM 32GB OC 512 GB 15 inch HD van phong"
+            "thongso_search": " Intel Core i7  RAM 32GB OC 512 GB 15 inch HD van phong"
         },
         {
             "product_name": "iMac 2021 24 inch Retina 4.5K",
@@ -3594,7 +3501,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 256 GB 24 inch HD van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 256 GB 24 inch HD van phong"
         },
         {
             "product_name": "iMac 2021 24 inch Retina 4.5K",
@@ -3647,7 +3554,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 256 GB 24 inch 4K van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 256 GB 24 inch 4K van phong"
         },
         {
             "product_name": "iMac 2021 24 inch Retina 4.5K",
@@ -3700,7 +3607,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 512 GB 24 inch 4K van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 512 GB 24 inch 4K van phong"
         },
         {
             "product_name": "iMac 2021 24 inch Retina 4.5K",
@@ -3753,7 +3660,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 16GB OC 256 GB 24 inch 4K van phong"
+            "thongso_search": " Apple M1  RAM 16GB OC 256 GB 24 inch 4K van phong"
         },
         {
             "product_name": "iMac 2021 24 inch Retina 4.5K",
@@ -3806,7 +3713,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 16GB OC 256 GB 24 inch 4K van phong"
+            "thongso_search": " Apple M1  RAM 16GB OC 256 GB 24 inch 4K van phong"
         },
         {
             "product_name": "iMac 2020 21.5 inch Retina 4K",
@@ -3859,7 +3766,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256GB 21 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256GB 21 inch HD van phong"
         },
         {
             "product_name": "iMac 2020 27 inch Retina 4K",
@@ -3908,7 +3815,7 @@
                     "content": "4.46 kg"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 512GB 27 inch HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 512GB 27 inch HD van phong"
         },
         {
             "product_name": "iMac 2019 27 inch Retina 4K",
@@ -3953,7 +3860,7 @@
                     "content": "Radeon Pro 555X with 2GB of GDDR5 memory"
                 }
             ],
-            "thongso_search":" Intel Core i3  RAM 8GB OC 1TB 27 inch HD van phong"
+            "thongso_search": " Intel Core i3  RAM 8GB OC 1TB 27 inch HD van phong"
         },
         {
             "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
@@ -4002,7 +3909,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 1TB 21 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 1TB 21 inch 4K van phong"
         },
         {
             "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
@@ -4051,7 +3958,7 @@
                     "content": "720p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 1TB 21 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 1TB 21 inch 4K van phong"
         },
         {
             "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
@@ -4100,7 +4007,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 512 GB 21 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 512 GB 21 inch 4K van phong"
         },
         {
             "product_name": "iMac 2017 21.5 inch Full HD MMQA2",
@@ -4149,7 +4056,7 @@
                     "content": "720p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB 21 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB 21 inch 4K van phong"
         },
         {
             "product_name": "iMac 2017 27 inch 5K Retina MMQA2",
@@ -4198,7 +4105,7 @@
                     "content": "1080p FaceTime HD camera with M1 ISP"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 512 GB 27 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 512 GB 27 inch 4K van phong"
         },
         {
             "product_name": "iMac 2015 27 inch Retina 5K",
@@ -4243,7 +4150,7 @@
                     "content": "AMD Radeon R9 M390 (2GB GDDR5)"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 1TB 27 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 1TB 27 inch 4K van phong"
         },
         {
             "product_name": "iMac 2015 27 inch Retina 5K",
@@ -4288,7 +4195,7 @@
                     "content": "AMD Radeon R9 M390 (2GB GDDR5)"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 16GB OC 1TB 27 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 16GB OC 1TB 27 inch 4K van phong"
         },
         {
             "product_name": "iMac 2015 27 inch Retina 5K",
@@ -4333,7 +4240,7 @@
                     "content": "AMD Radeon R9 M390 (2GB GDDR5)"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 32GB OC 512 GB 27 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 32GB OC 512 GB 27 inch 4K van phong"
         },
         {
             "product_name": "iMac 2015 27 inch Retina 5K",
@@ -4378,7 +4285,7 @@
                     "content": "AMD Radeon R9 M390 (2GB GDDR5)"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 24GB OC 1 TB 27 inch 4K van phong"
+            "thongso_search": " Intel Core i5  RAM 24GB OC 1 TB 27 inch 4K van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4423,7 +4330,7 @@
                     "content": "3.6 cm x 19.7 cm x 19.7 cm - 2.6 pounds (1.2 kg)"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 256 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 256 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4468,7 +4375,7 @@
                     "content": "4.46 kg"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 512 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 512 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4517,7 +4424,7 @@
                     "content": "1.2 kg"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 16GB OC 256 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 16GB OC 256 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4566,7 +4473,7 @@
                     "content": "1.2 kg"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 256 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 256 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4611,7 +4518,7 @@
                     "content": "4.46 kg"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 8GB OC 512 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 8GB OC 512 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2020 MGNR3",
@@ -4660,7 +4567,7 @@
                     "content": "1.2 kg"
                 }
             ],
-            "thongso_search":" Apple M1  RAM 16GB OC 256 GB HD van phong"
+            "thongso_search": " Apple M1  RAM 16GB OC 256 GB HD van phong"
         },
         {
             "product_name": "Mac Mini 2018 MRTR2",
@@ -4709,7 +4616,7 @@
                     "content": "1.3 kg"
                 }
             ],
-            "thongso_search":" Intel Core i3  RAM 8GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i3  RAM 8GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Mini 2018 MRTR2",
@@ -4753,9 +4660,8 @@
                     "title": "Kích thước và trọng lượng:",
                     "content": "1.3 kg"
                 }
-                
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Mini 2018 MRTR2",
@@ -4800,7 +4706,7 @@
                     "content": "1.3 kg"
                 }
             ],
-            "thongso_search":" Intel Core i7  RAM 8GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i7  RAM 8GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Mini 2014 MGEN2",
@@ -4841,7 +4747,7 @@
                     "content": "Intel Iris Graphics 5100"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Mini 2014 MGEN2",
@@ -4882,9 +4788,8 @@
                     "content": "Intel Iris Graphics 5100"
                 }
             ],
-            "thongso_search":" Intel Core i5  RAM 8GB OC 1 TB   HD van phong"
+            "thongso_search": " Intel Core i5  RAM 8GB OC 1 TB   HD van phong"
         },
-        
         {
             "product_name": "Mac Pro 2019 ",
             "thongso": "Intel Xeon W 3.5GHz 32GB RAM 256GB SSD – NEW",
@@ -4923,8 +4828,9 @@
                     "content": "Radeon Pro 580X with 8GB of GDDR5 memory"
                 }
             ],
-            "thongso_search":" Intel Core i3  RAM 32GB OC 256 GB  HD van phong"
-        },{
+            "thongso_search": " Intel Core i3  RAM 32GB OC 256 GB  HD van phong"
+        },
+        {
             "product_name": "Mac Pro ME253 ",
             "thongso": "Xeon E5 3.7GHz 16GB RAM 256GB SSD – Like New",
             "category_id": 2,
@@ -4962,7 +4868,7 @@
                     "content": "Radeon Pro 580X with 8GB of GDDR5 memory"
                 }
             ],
-            "thongso_search":" Intel Core i7  RAM 16GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i7  RAM 16GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Pro MD878  ",
@@ -5002,7 +4908,7 @@
                     "content": "Radeon Pro 580X with 8GB of GDDR5 memory"
                 }
             ],
-            "thongso_search":" Intel Core i7  RAM 32GB OC 256 GB  HD van phong"
+            "thongso_search": " Intel Core i7  RAM 32GB OC 256 GB  HD van phong"
         },
         {
             "product_name": "Mac Pro 2019 ",
@@ -5042,7 +4948,7 @@
                     "content": "dual AMD FirePro D500 graphics processors with 3 GB of GDDR5"
                 }
             ],
-            "thongso_search":" Intel Core i3  RAM 32GB OC 512 GB  HD van phong"
+            "thongso_search": " Intel Core i3  RAM 32GB OC 512 GB  HD van phong"
         },
         {
             "product_name": "Mac Studio 2022 ",
@@ -5082,7 +4988,7 @@
                     "content": "24-core GPU"
                 }
             ],
-            "thongso_search":"Apple M1 Max  RAM 32GB OC 512 GB  4K van phong"
+            "thongso_search": "Apple M1 Max  RAM 32GB OC 512 GB  4K van phong"
         },
         {
             "product_name": "Mac Studio 2022 ",
@@ -5122,7 +5028,7 @@
                     "content": "24-core GPU"
                 }
             ],
-            "thongso_search":"Apple M1 Max  RAM 64GB OC 512 GB  4K van phong"
+            "thongso_search": "Apple M1 Max  RAM 64GB OC 512 GB  4K van phong"
         },
         {
             "product_name": "Mac Studio 2022 ",
@@ -5162,7 +5068,7 @@
                     "content": "48-core GPU"
                 }
             ],
-            "thongso_search":"Apple M1 Max  RAM 64GB OC 1 TB 4K van phong"
+            "thongso_search": "Apple M1 Max  RAM 64GB OC 1 TB 4K van phong"
         },
         {
             "product_name": "Mac Studio 2022 ",
@@ -5202,7 +5108,7 @@
                     "content": "64-core GPU"
                 }
             ],
-            "thongso_search":"Apple M1 Max  RAM 64GB OC 1 TB  5K van phong"
+            "thongso_search": "Apple M1 Max  RAM 64GB OC 1 TB  5K van phong"
         },
         {
             "product_name": "Mac Studio 2022 ",
@@ -5242,12 +5148,12 @@
                     "content": "64-core GPU"
                 }
             ],
-            "thongso_search":"Apple M1 Ultra  RAM 128GB OC 1 TB  5K do hoa"
+            "thongso_search": "Apple M1 Ultra  RAM 128GB OC 1 TB  5K do hoa"
         },
         {
             "product_name": "Apple Studio Display (Standard glass) Tilt-Adjustable Stand",
             "category_id": 2,
-            "thongso":"NEW",
+            "thongso": "NEW",
             "price": 39990000,
             "id_children1": 7,
             "url_img": "../images/appledisplay1.png",
@@ -5282,12 +5188,12 @@
                     "content": "27-inch (diagonal) 5K Retina display"
                 }
             ],
-            "thongso_search":"27 inch"
+            "thongso_search": "27 inch"
         },
         {
             "product_name": "Apple Studio Display (Nano-texture glass) Tilt-Adjustable stand",
             "category_id": 2,
-            "thongso":"NEW",
+            "thongso": "NEW",
             "price": 47890000,
             "id_children1": 7,
             "url_img": "../images/appledisplay1.png",
@@ -5304,6 +5210,7 @@
                 "../images/imac20212.jpeg",
                 "../images/macair20213.jpeg"
             ],
+            "thongso_search": "d",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5325,7 +5232,7 @@
         },
         {
             "product_name": "Apple Pro Display XDR (Standard glass)",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 2,
             "price": 120890000,
             "id_children1": 7,
@@ -5343,6 +5250,7 @@
                 "../images/imac20212.jpeg",
                 "../images/macair20213.jpeg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5364,7 +5272,7 @@
         },
         {
             "product_name": "Apple Pro Display XDR (Nano-texture glass)",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 2,
             "price": 148980000,
             "id_children1": 7,
@@ -5382,6 +5290,7 @@
                 "../images/imac20212.jpeg",
                 "../images/macair20213.jpeg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5403,11 +5312,11 @@
         },
         {
             "product_name": "iPhone 14 Pro Max 128GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 31890000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone14promax1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 135,
@@ -5422,6 +5331,7 @@
                 "../images/iphone14promax1.jpg",
                 "../images/iphone14promax1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5432,34 +5342,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro Max 256GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 34990000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone14promax1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 136,
@@ -5474,6 +5384,7 @@
                 "../images/iphone14promax1.jpg",
                 "../images/iphone14promax1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5484,34 +5395,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro Max 512GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 39990000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone14promax1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 137,
@@ -5526,6 +5437,7 @@
                 "../images/iphone14promax1.jpg",
                 "../images/iphone14promax1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5536,34 +5448,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"512GB "
+                    "title": "Ổ cứng",
+                    "content": "512GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro Max 1TB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 46990000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone14promax1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 138,
@@ -5578,6 +5490,7 @@
                 "../images/iphone14promax1.jpg",
                 "../images/iphone14promax1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5588,34 +5501,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"1TB "
+                    "title": "Ổ cứng",
+                    "content": "1TB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro 128GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 27590000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone14pro1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 139,
@@ -5630,6 +5543,7 @@
                 "../images/iphone14pro1.jpg",
                 "../images/iphone14pro1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5640,34 +5554,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro 256GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 30490000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone14pro1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 140,
@@ -5682,6 +5596,7 @@
                 "../images/iphone14pro1.jpg",
                 "../images/iphone14pro1.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5692,34 +5607,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro 512GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 35690000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone14pro1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 141,
@@ -5734,6 +5649,7 @@
                 "../images/iphone14pro1.jpg",
                 "../images/iphone14pro1.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5744,34 +5660,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"512GB "
+                    "title": "Ổ cứng",
+                    "content": "512GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Pro 1TB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 27590000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone14pro1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 142,
@@ -5786,6 +5702,7 @@
                 "../images/iphone14pro1.jpg",
                 "../images/iphone14pro1.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5796,34 +5713,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"1TB "
+                    "title": "Ổ cứng",
+                    "content": "1TB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Plus 256GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 27590000,
             "id_children1": 1,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/iphone14pl1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 143,
@@ -5838,6 +5755,7 @@
                 "../images/iphone14pl1.jpg",
                 "../images/iphone14pl1.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5848,34 +5766,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 Plus 512GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 34490000,
             "id_children1": 1,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/iphone14pl1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 144,
@@ -5890,6 +5808,7 @@
                 "../images/iphone14pl1.jpg",
                 "../images/iphone14pl1.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5900,34 +5819,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"512GB "
+                    "title": "Ổ cứng",
+                    "content": "512GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 128GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 27000000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/iphone141.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 145,
@@ -5942,6 +5861,7 @@
                 "../images/iphone141.jpg",
                 "../images/iphone141.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -5952,34 +5872,18 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
-                },
-                {
-                    "title": "Kích thước và trọng lượng",
-                    "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
-                },
-                {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
-                },
-                {
-                    "title": " màn hình",
-                    "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
-                },
-                {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 256GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 28000000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/iphone141.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 146,
@@ -5994,6 +5898,7 @@
                 "../images/iphone141.jpg",
                 "../images/iphone141.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6004,34 +5909,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 14 512GB ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 3,
             "price": 32000000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/iphone141.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 147,
@@ -6046,6 +5951,8 @@
                 "../images/iphone141.jpg",
                 "../images/iphone141.jpg"
             ],
+            "thongso_search":"",
+
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6056,34 +5963,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Height: 18.8 inches (47.8 cm) Width: 24.5 inches (62.3 cm) Depth: 6.6 inches (16.8 cm) Weight: 13.9 pounds (6.3 kg)1"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"512GB "
+                    "title": "Ổ cứng",
+                    "content": "512GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "Super Retina XDR display 6.7‑inch (diagonal) all‑screen OLED display 2796‑by‑1290-pixel resolution at 460 ppi, Always-On display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple with 5‑core GPU"
+                    "title": "Card màn hình",
+                    "content": "Apple with 5‑core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13 Pro Max 128GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 22900000,
             "id_children1": 2,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone13prm1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 148,
@@ -6098,6 +6005,7 @@
                 "../images/iphone13prm1.jpg",
                 "../images/iphone13prm1.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6108,34 +6016,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13 Pro Max 256GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 27000000,
             "id_children1": 2,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/iphone13prm1.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 149,
@@ -6150,6 +6058,8 @@
                 "../images/iphone13prm1.jpg",
                 "../images/iphone13prm1.jpg"
             ],
+            "thongso_search":"",
+
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6160,34 +6070,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13 Pro  128GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 25000000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone13pro.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 150,
@@ -6202,6 +6112,8 @@
                 "../images/iphone13pro.jpg",
                 "../images/iphone13pro.jpg"
             ],
+
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6212,34 +6124,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13 Pro  256GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 27000000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/iphone13pro.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 151,
@@ -6254,6 +6166,7 @@
                 "../images/iphone13pro.jpg",
                 "../images/iphone13pro.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6264,34 +6177,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.7 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13 mini  128GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 12900000,
             "id_children1": 2,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/ip131.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 152,
@@ -6306,6 +6219,7 @@
                 "../images/ip131.jpg",
                 "../images/ip131.jpg"
             ],
+            "thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6316,34 +6230,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13  128GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 13000000,
             "id_children1": 2,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/ip132.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 153,
@@ -6357,7 +6271,7 @@
                 "../images/ip132.jpg",
                 "../images/ip132.jpg",
                 "../images/ip132.jpg"
-            ],
+            ],"thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6368,34 +6282,34 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
         {
             "product_name": "iPhone 13  256GB",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 3,
             "price": 18000000,
             "id_children1": 2,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/ip132.jpg",
             "url_imgsale": "../images/imgsaledetail.jpg",
             "id": 154,
@@ -6409,7 +6323,7 @@
                 "../images/ip132.jpg",
                 "../images/ip132.jpg",
                 "../images/ip132.jpg"
-            ],
+            ],"thongso_search":"",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6420,37 +6334,30 @@
                     "content": "12MP Ultra Wide camera with 122° field of view  "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "6.1 inch OLED, Super Retina XDR display with ProMotion, 2778 x 1284 Pixel"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"New 5-core GPU"
+                    "title": "Card màn hình",
+                    "content": "New 5-core GPU"
                 }
             ]
         },
-
-
-
-
-
-
-
         {
             "product_name": "iPad 10.2 inch 2021",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 8900000,
             "id_children1": 1,
@@ -6468,6 +6375,7 @@
                 "../images/ipad10.2.jpg",
                 "../images/ipad10.2.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6478,30 +6386,30 @@
                     "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"3GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "3GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple GPU 4 nhân"
+                    "title": "Card màn hình",
+                    "content": "Apple GPU 4 nhân"
                 }
             ]
         },
         {
             "product_name": "iPad 10.2 inch 2021",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 7490000,
             "id_children1": 1,
@@ -6519,6 +6427,7 @@
                 "../images/ipad10.2.jpg",
                 "../images/ipad10.2.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6529,30 +6438,30 @@
                     "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"3GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "3GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple GPU 4 nhân"
+                    "title": "Card màn hình",
+                    "content": "Apple GPU 4 nhân"
                 }
             ]
         },
         {
             "product_name": "iPad 10.2 inch 2021",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 10590000,
             "id_children1": 1,
@@ -6570,6 +6479,7 @@
                 "../images/ipad10.2.jpg",
                 "../images/ipad10.2.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6580,30 +6490,30 @@
                     "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"3GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "3GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple GPU 4 nhân"
+                    "title": "Card màn hình",
+                    "content": "Apple GPU 4 nhân"
                 }
             ]
         },
         {
             "product_name": "iPad 10.2 inch 2021",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 10490000,
             "id_children1": 1,
@@ -6621,6 +6531,7 @@
                 "../images/ipad10.2.jpg",
                 "../images/ipad10.2.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6631,30 +6542,30 @@
                     "content": "Cam sau: The 8MP Wide camera. Cam trước: 12MP Ultra Wide front camera with Center Stage "
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "10.2 inch Retina display IPS LCD, 2160 x 1620 Pixel, True Tone"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"Apple GPU 4 nhân"
+                    "title": "Card màn hình",
+                    "content": "Apple GPU 4 nhân"
                 }
             ]
         },
         {
             "product_name": "iPad Air 5 2022 M1 ",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 13500000,
             "id_children1": 2,
@@ -6672,6 +6583,7 @@
                 "../images/ipadair.jpg",
                 "../images/ipadair.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6682,30 +6594,30 @@
                     "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"8GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "8GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"8-core graphics"
+                    "title": "Card màn hình",
+                    "content": "8-core graphics"
                 }
             ]
         },
         {
             "product_name": "iPad Air 5 2022 M1 ",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 14890000,
             "id_children1": 2,
@@ -6723,6 +6635,7 @@
                 "../images/ipadair.jpg",
                 "../images/ipadair.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6733,30 +6646,30 @@
                     "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"8GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "8GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"8-core graphics"
+                    "title": "Card màn hình",
+                    "content": "8-core graphics"
                 }
             ]
         },
         {
             "product_name": "iPad Air 5 2022 M1 ",
-            "thongso":"Like New",
+            "thongso": "Like New",
             "category_id": 4,
             "price": 17890000,
             "id_children1": 2,
@@ -6774,6 +6687,7 @@
                 "../images/ipadair.jpg",
                 "../images/ipadair.jpg"
             ],
+            "thongso_search": "Apple M1 8GB RAM 64GB",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6784,30 +6698,30 @@
                     "content": "Camera sau: 12MP Wide camera, ƒ/1.8 aperture Digital zoom up to 5x. Camera trước: 12MP Ultra Wide front camera, 122° field of view ƒ/2.4 aperture"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"8GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "8GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.65 mm - Nặng 240 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
                     "content": "110.9-inch (diagonal) LED‑backlit Multi‑Touch display with IPS technology, 2360-by-1640-pixel resolution at 264 pixels per inch (ppi), Wide color display (P3), True Tone display"
                 },
                 {
-                    "title":"Card màn hình",
-                    "content":"8-core graphics"
+                    "title": "Card màn hình",
+                    "content": "8-core graphics"
                 }
             ]
         },
         {
             "product_name": "iPad Pro 12.9 inch 2022  ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 4,
             "price": 27890000,
             "id_children1": 3,
@@ -6825,6 +6739,7 @@
                 "../images/ipadpro.jpg",
                 "../images/ipadpro.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6835,16 +6750,16 @@
                     "content": "Cam sau: Wide: 12MP, ƒ/1.8 aperture, Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view. Cam trước: 12MP Ultra Wide camera, 122° field of view"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"8GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "8GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "280.6 mm x 214.9 mm x 6.4 mm, nặng 682 grams"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
@@ -6854,7 +6769,7 @@
         },
         {
             "product_name": "iPad Pro 11 inch 2022  ",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 4,
             "price": 20990000,
             "id_children1": 3,
@@ -6872,6 +6787,7 @@
                 "../images/ipadpro.jpg",
                 "../images/ipadpro.jpg"
             ],
+            "thongso_search": "",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6882,16 +6798,16 @@
                     "content": "Cam sau: Wide: 12MP, ƒ/1.8 aperture, Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view. Cam trước: 12MP Ultra Wide camera, 122° field of view"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"8GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "8GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "280.6 mm x 214.9 mm x 6.4 mm, nặng 682 grams"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
@@ -6901,7 +6817,7 @@
         },
         {
             "product_name": "iPad Mini 6 2021 64GB",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 4,
             "price": 12190000,
             "id_children1": 4,
@@ -6919,6 +6835,7 @@
                 "../images/ipadmini.jpg",
                 "../images/ipadmini.jpg"
             ],
+            "thongso_search": "4GB RAM 64GB",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6929,16 +6846,16 @@
                     "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"4GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "4GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"64GB "
+                    "title": "Ổ cứng",
+                    "content": "64GB "
                 },
                 {
                     "title": " màn hình",
@@ -6948,7 +6865,7 @@
         },
         {
             "product_name": "iPad Mini 6 2021 256GB",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 4,
             "price": 16890000,
             "id_children1": 4,
@@ -6966,6 +6883,7 @@
                 "../images/ipadmini.jpg",
                 "../images/ipadmini.jpg"
             ],
+            "thongso_search": "4GB RAM 256GB",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -6976,16 +6894,16 @@
                     "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"4GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "4GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"256GB "
+                    "title": "Ổ cứng",
+                    "content": "256GB "
                 },
                 {
                     "title": " màn hình",
@@ -6995,7 +6913,7 @@
         },
         {
             "product_name": "iPad Mini 6 2021 128GB",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 4,
             "price": 14990000,
             "id_children1": 4,
@@ -7013,6 +6931,7 @@
                 "../images/ipadmini.jpg",
                 "../images/ipadmini.jpg"
             ],
+            "thongso_search": "6GB RAM 256GB",
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
@@ -7023,16 +6942,16 @@
                     "content": "Cam trước: 12MP sensor with Focus Pixels, Smart HDR 3. Cam trước: 12MP Ultra Wide front camera"
                 },
                 {
-                    "title":"Bộ nhớ RAM",
-                    "content":"6GB RAM"
+                    "title": "Bộ nhớ RAM",
+                    "content": "6GB RAM"
                 },
                 {
                     "title": "Kích thước và trọng lượng",
                     "content": "195,4 mm x 134,8 mm x 6,3 mm, nặng 293 g"
                 },
                 {
-                    "title":"Ổ cứng",
-                    "content":"128GB "
+                    "title": "Ổ cứng",
+                    "content": "128GB "
                 },
                 {
                     "title": " màn hình",
@@ -7042,7 +6961,7 @@
         },
         {
             "product_name": "Apple Watch Ultra Titanium Case with Ocean Band 49mm",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 21490000,
             "id_children1": 1,
@@ -7060,12 +6979,13 @@
                 "../images/apw2.jpg",
                 "../images/apw3.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search": "4GB RAM 512GB",
+
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch Ultra Titanium Case with Trail Loop 49mm",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 21490000,
             "id_children1": 1,
@@ -7083,12 +7003,12 @@
                 "../images/apw1.jpg",
                 "../images/apw3.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch Ultra Titanium Case with Alpine Loop 49mm",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 20990000,
             "id_children1": 1,
@@ -7106,12 +7026,12 @@
                 "../images/apw1.jpg",
                 "../images/apw2.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch Series 8 Starlight Aluminum Case with Sport Band 45mm",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 11690000,
             "id_children1": 2,
@@ -7129,12 +7049,12 @@
                 "../images/apw1.jpg",
                 "../images/apw2.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch Ultra Titanium Case with Alpine Loop 49mm",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 11690000,
             "id_children1": 2,
@@ -7152,12 +7072,12 @@
                 "../images/apw1.jpg",
                 "../images/apw2.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch SE Silver Aluminum Case with Sport Band 40mm GPS",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 6990000,
             "id_children1": 3,
@@ -7175,12 +7095,12 @@
                 "../images/apw1.jpg",
                 "../images/apw2.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Apple Watch SE Midnight Aluminum Case with Sport Band 40mm GPS",
-            "thongso":"NEW",
+            "thongso": "NEW",
             "category_id": 5,
             "price": 6790000,
             "id_children1": 3,
@@ -7198,16 +7118,18 @@
                 "../images/apw1.jpg",
                 "../images/apw2.jpg"
             ],
-            "thongso_all": [
-            ]
+            "thongso_search":"",
+            "thongso_all": []
         },
         {
             "product_name": "Bàn di chuột chống mỏi tay",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 150000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/dichuot1.jpg",
             "id": 175,
             "img_detail": [
@@ -7218,11 +7140,13 @@
         },
         {
             "product_name": "Bàn di chuột nhôm nguyên khối",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/dichuot2.png",
             "id": 176,
             "img_detail": [
@@ -7233,11 +7157,13 @@
         },
         {
             "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2290000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/bp1.webp",
             "id": 177,
             "img_detail": [
@@ -7248,11 +7174,13 @@
         },
         {
             "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 650000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/bp2.webp",
             "id": 178,
             "img_detail": [
@@ -7263,11 +7191,13 @@
         },
         {
             "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2090000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/bp3.jpeg",
             "id": 180,
             "img_detail": [
@@ -7278,11 +7208,13 @@
         },
         {
             "product_name": "Bàn phím cơ học không dây Logitech POP KEYS",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2150000,
             "id_children1": 1,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/bp4.jpg",
             "id": 181,
             "img_detail": [
@@ -7293,11 +7225,13 @@
         },
         {
             "product_name": "Bao da ngang Brinch Macbook 13 inch New",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 350000,
             "id_children1": 1,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/bd1.png",
             "id": 182,
             "img_detail": [
@@ -7308,11 +7242,13 @@
         },
         {
             "product_name": "Bao da Messenger 15 inch",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 700000,
             "id_children1": 1,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/bd2.jpeg",
             "id": 183,
             "img_detail": [
@@ -7323,11 +7259,13 @@
         },
         {
             "product_name": "Bao da Wiwu Skinpro II 13 inch New",
-            "thongso":"",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 600000,
             "id_children1": 1,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/bd3.png",
             "id": 184,
             "img_detail": [
@@ -7337,11 +7275,14 @@
             ]
         },
         {
-            "product_name": "Dán màn JRC MacBook Air M2 13 inch 2022",            "thongso":"",
+            "product_name": "Dán màn JRC MacBook Air M2 13 inch 2022",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/macair1.jpeg",
             "id": 185,
             "img_detail": [
@@ -7351,12 +7292,14 @@
             ]
         },
         {
-            "product_name": "Bộ dán Full Innostyle MacBook Air M2 13 inch 2022",  
-              "thongso":"",
+            "product_name": "Bộ dán Full Innostyle MacBook Air M2 13 inch 2022",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/dmk1.jpg",
             "id": 186,
             "img_detail": [
@@ -7366,12 +7309,14 @@
             ]
         },
         {
-            "product_name": "Bộ dán Full Innostyle MacBook Pro  16 inch 2022",  
-              "thongso":"",
+            "product_name": "Bộ dán Full Innostyle MacBook Pro  16 inch 2022",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":4,
+            "id_children2": 4,
             "url_img": "../images/dmk2.webp",
             "id": 187,
             "img_detail": [
@@ -7381,12 +7326,14 @@
             ]
         },
         {
-            "product_name": "Bộ vệ sinh cao cấp JRC",  
-              "thongso":"",
+            "product_name": "Bộ vệ sinh cao cấp JRC",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 150000,
             "id_children1": 1,
-            "id_children2":5,
+            "id_children2": 5,
             "url_img": "../images/vs1.jpeg",
             "id": 188,
             "img_detail": [
@@ -7396,12 +7343,14 @@
             ]
         },
         {
-            "product_name": "Dung dịch làm sạch Innostyle ClearGuard",  
-              "thongso":"",
+            "product_name": "Dung dịch làm sạch Innostyle ClearGuard",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 170000,
             "id_children1": 1,
-            "id_children2":5,
+            "id_children2": 5,
             "url_img": "../images/vs2.png",
             "id": 189,
             "img_detail": [
@@ -7411,12 +7360,14 @@
             ]
         },
         {
-            "product_name": "Bộ Vệ Sinh Macbook JCPAL Cleaning Solution",  
-              "thongso":"",
+            "product_name": "Bộ Vệ Sinh Macbook JCPAL Cleaning Solution",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 150000,
             "id_children1": 1,
-            "id_children2":5,
+            "id_children2": 5,
             "url_img": "../images/vs3.jpg",
             "id": 190,
             "img_detail": [
@@ -7426,12 +7377,14 @@
             ]
         },
         {
-            "product_name": "Thiết bị mở rộng cổng kết nối OWC USB-C Dual HDMI Adapter (CADPDL2HDMI)",  
-              "thongso":"",
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC USB-C Dual HDMI Adapter (CADPDL2HDMI)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2200000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd1.webp",
             "id": 191,
             "img_detail": [
@@ -7441,12 +7394,14 @@
             ]
         },
         {
-            "product_name": "Thiết bị mở rộng cổng kết nối OWC Thunderbolt Hub 5 cổng (TB4HUB5PF)",  
-              "thongso":"",
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC Thunderbolt Hub 5 cổng (TB4HUB5PF)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2800000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd2.png",
             "id": 192,
             "img_detail": [
@@ -7456,12 +7411,14 @@
             ]
         },
         {
-            "product_name": "Dây Ugreen HDMI to HDMI 3m (10108)",  
-              "thongso":"",
+            "product_name": "Dây Ugreen HDMI to HDMI 3m (10108)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 150000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd3.jpg",
             "id": 193,
             "img_detail": [
@@ -7471,12 +7428,14 @@
             ]
         },
         {
-            "product_name": "Thiết bị mở rộng cổng kết nối OWC 5 cổng (TB3MDK5P)",  
-              "thongso":"",
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC 5 cổng (TB3MDK5P)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 4200000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd4.jpg",
             "id": 194,
             "img_detail": [
@@ -7486,12 +7445,14 @@
             ]
         },
         {
-            "product_name": "Thiết bị mở rộng cổng kết nối OWC 6 cổng (TB3MDK5P)",  
-              "thongso":"",
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC 6 cổng (TB3MDK5P)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1800000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd5.jpeg",
             "id": 195,
             "img_detail": [
@@ -7501,12 +7462,14 @@
             ]
         },
         {
-            "product_name": "Thiết bị mở rộng cổng kết nối OWC TB3 (TB3ADP2DPT)",  
-              "thongso":"",
+            "product_name": "Thiết bị mở rộng cổng kết nối OWC TB3 (TB3ADP2DPT)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2180000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd6.jpeg",
             "id": 196,
             "img_detail": [
@@ -7516,12 +7479,14 @@
             ]
         },
         {
-            "product_name": "Cáp chuyển Ugreen từ USB-C 6 in 1 (80132)",  
-              "thongso":"",
+            "product_name": "Cáp chuyển Ugreen từ USB-C 6 in 1 (80132)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1200000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd7.jpg",
             "id": 197,
             "img_detail": [
@@ -7531,12 +7496,14 @@
             ]
         },
         {
-            "product_name": "Cáp chuyển Ugreen 10 in 1 Type-C to HDMI/VGA/LAN/USB 3.0/SD/TF/USB-C/jack 3.5mm (80133)",  
-              "thongso":"",
+            "product_name": "Cáp chuyển Ugreen 10 in 1 Type-C to HDMI/VGA/LAN/USB 3.0/SD/TF/USB-C/jack 3.5mm (80133)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2000000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd8.jpg",
             "id": 198,
             "img_detail": [
@@ -7546,12 +7513,14 @@
             ]
         },
         {
-            "product_name": "Cáp chuyển Ugreen từ USB-C ra VGA + USB-C + LAN (30439)",  
-              "thongso":"",
+            "product_name": "Cáp chuyển Ugreen từ USB-C ra VGA + USB-C + LAN (30439)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1050000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd11.jpg",
             "id": 199,
             "img_detail": [
@@ -7561,12 +7530,14 @@
             ]
         },
         {
-            "product_name": "Cáp chuyển HyperDrive GEN2 6 in 1 Type-C to USB-C/USB-A/HDMI/SD/TF/jack 3.5mm ( HD-G206 )",  
-              "thongso":"",
+            "product_name": "Cáp chuyển HyperDrive GEN2 6 in 1 Type-C to USB-C/USB-A/HDMI/SD/TF/jack 3.5mm ( HD-G206 )",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2050000,
             "id_children1": 1,
-            "id_children2":6,
+            "id_children2": 6,
             "url_img": "../images/cd12.jpeg",
             "id": 200,
             "img_detail": [
@@ -7576,12 +7547,14 @@
             ]
         },
         {
-            "product_name": "Chuột Microsoft Sculpt Comfort Mouse – Black – NEW",  
-              "thongso":"",
+            "product_name": "Chuột Microsoft Sculpt Comfort Mouse – Black – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 980000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c1.webp",
             "id": 201,
             "img_detail": [
@@ -7591,12 +7564,14 @@
             ]
         },
         {
-            "product_name": "Chuột không dây Logitech MX Master 3 – NEW",  
-              "thongso":"",
+            "product_name": "Chuột không dây Logitech MX Master 3 – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2390000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c2.webp",
             "id": 202,
             "img_detail": [
@@ -7606,12 +7581,14 @@
             ]
         },
         {
-            "product_name": "Chuột không dây Logitech Signature M650 – NEW",  
-              "thongso":"",
+            "product_name": "Chuột không dây Logitech Signature M650 – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 690000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c3.webp",
             "id": 203,
             "img_detail": [
@@ -7621,12 +7598,14 @@
             ]
         },
         {
-            "product_name": "Chuột Logitech MX Anywhere 2S Đen – NEW",  
-              "thongso":"",
+            "product_name": "Chuột Logitech MX Anywhere 2S Đen – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1190000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c4.jpeg",
             "id": 204,
             "img_detail": [
@@ -7636,12 +7615,14 @@
             ]
         },
         {
-            "product_name": "Chuột Logitech MX Anywhere 3 for Mac – NEW",  
-              "thongso":"",
+            "product_name": "Chuột Logitech MX Anywhere 3 for Mac – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1690000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c5.webp",
             "id": 205,
             "img_detail": [
@@ -7651,12 +7632,14 @@
             ]
         },
         {
-            "product_name": "Chuột không dây Logitech Pebble M350 – NEW",  
-              "thongso":"",
+            "product_name": "Chuột không dây Logitech Pebble M350 – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 490000,
             "id_children1": 1,
-            "id_children2":7,
+            "id_children2": 7,
             "url_img": "../images/c6.webp",
             "id": 206,
             "img_detail": [
@@ -7666,12 +7649,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 13 inch 2016-2020 / 2022",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 13 inch 2016-2020 / 2022",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o1.jpg",
             "id": 207,
             "img_detail": [
@@ -7681,12 +7666,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 16 inch 2019",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 16 inch 2019",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 700000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o2.jpg",
             "id": 208,
             "img_detail": [
@@ -7696,12 +7683,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 14 inch 2021 JRC – Trong Suốt",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 14 inch 2021 JRC – Trong Suốt",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 600000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o3.jpeg",
             "id": 209,
             "img_detail": [
@@ -7711,12 +7700,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 16 inch 2021 ",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 16 inch 2021 ",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 290000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o4.png",
             "id": 210,
             "img_detail": [
@@ -7726,12 +7717,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 14 inch 2021 ",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 14 inch 2021 ",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 280000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o5.jpg",
             "id": 211,
             "img_detail": [
@@ -7741,12 +7734,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Pro 16 inch 2021 ",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Pro 16 inch 2021 ",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o6.jpeg",
             "id": 212,
             "img_detail": [
@@ -7756,12 +7751,14 @@
             ]
         },
         {
-            "product_name": "Ốp MacBook Air 13 inch 2020 ",  
-              "thongso":"",
+            "product_name": "Ốp MacBook Air 13 inch 2020 ",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 250000,
             "id_children1": 1,
-            "id_children2":8,
+            "id_children2": 8,
             "url_img": "../images/o7.jpg",
             "id": 213,
             "img_detail": [
@@ -7771,12 +7768,14 @@
             ]
         },
         {
-            "product_name": "Đế tản nhiệt Nhôm Hyper cao cấp gấp gọn",  
-              "thongso":"",
+            "product_name": "Đế tản nhiệt Nhôm Hyper cao cấp gấp gọn",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 750000,
             "id_children1": 1,
-            "id_children2":9,
+            "id_children2": 9,
             "url_img": "../images/tn1.webp",
             "id": 214,
             "img_detail": [
@@ -7786,12 +7785,14 @@
             ]
         },
         {
-            "product_name": " Đế tản nhiệt Nhôm cho Macbook, Laptop",  
-              "thongso":"",
+            "product_name": " Đế tản nhiệt Nhôm cho Macbook, Laptop",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 350000,
             "id_children1": 1,
-            "id_children2":9,
+            "id_children2": 9,
             "url_img": "../images/tn2.jpeg",
             "id": 215,
             "img_detail": [
@@ -7801,12 +7802,14 @@
             ]
         },
         {
-            "product_name": "Đế Tản Nhiệt Chính Hãng JRC S5-T Tùy Chỉnh Độ Cao Bằng Nhôm (Alumium) Cao cap",  
-              "thongso":"",
+            "product_name": "Đế Tản Nhiệt Chính Hãng JRC S5-T Tùy Chỉnh Độ Cao Bằng Nhôm (Alumium) Cao cap",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 700000,
             "id_children1": 1,
-            "id_children2":9,
+            "id_children2": 9,
             "url_img": "../images/tn3.png",
             "id": 216,
             "img_detail": [
@@ -7816,12 +7819,14 @@
             ]
         },
         {
-            "product_name": " Miếng dán cường lực iPhone 13/14 Series Mipow KingBull HD Anti Glare",  
-              "thongso":"",
+            "product_name": " Miếng dán cường lực iPhone 13/14 Series Mipow KingBull HD Anti Glare",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 300000,
             "id_children1": 2,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/d1.jpeg",
             "id": 217,
             "img_detail": [
@@ -7831,12 +7836,14 @@
             ]
         },
         {
-            "product_name": " Miếng dán cường lực iPhone 14 Series Mipow KingBull HD chống nhìn trộm",  
-              "thongso":"",
+            "product_name": " Miếng dán cường lực iPhone 14 Series Mipow KingBull HD chống nhìn trộm",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 300000,
             "id_children1": 2,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/d2.jpeg",
             "id": 218,
             "img_detail": [
@@ -7846,12 +7853,14 @@
             ]
         },
         {
-            "product_name": "Cường lực 9H 3D KingKong Glass iPhone 14 Series",  
-              "thongso":"",
+            "product_name": "Cường lực 9H 3D KingKong Glass iPhone 14 Series",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 180000,
             "id_children1": 2,
-            "id_children2":1,
+            "id_children2": 1,
             "url_img": "../images/d3.jpeg",
             "id": 219,
             "img_detail": [
@@ -7861,12 +7870,14 @@
             ]
         },
         {
-            "product_name": "Ốp Apple iPhone 14 Pro Clear Case with MagSafe",  
-              "thongso":"",
+            "product_name": "Ốp Apple iPhone 14 Pro Clear Case with MagSafe",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1190000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/op1.jpeg",
             "id": 220,
             "img_detail": [
@@ -7876,12 +7887,14 @@
             ]
         },
         {
-            "product_name": "Ốp Apple iPhone 14 Pro Max Case with MagSafe",  
-              "thongso":"",
+            "product_name": "Ốp Apple iPhone 14 Pro Max Case with MagSafe",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1190000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/op1.jpeg",
             "id": 221,
             "img_detail": [
@@ -7891,12 +7904,14 @@
             ]
         },
         {
-            "product_name": "Ốp Lưng iPhone 14 Series Mipow Magsafe Tempered Glass",  
-              "thongso":"",
+            "product_name": "Ốp Lưng iPhone 14 Series Mipow Magsafe Tempered Glass",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 400000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/op2.jpeg",
             "id": 222,
             "img_detail": [
@@ -7906,12 +7921,14 @@
             ]
         },
         {
-            "product_name": "Ốp Lưng iPhone 14 Series Mipow Tempered Glass",  
-              "thongso":"",
+            "product_name": "Ốp Lưng iPhone 14 Series Mipow Tempered Glass",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 400000,
             "id_children1": 2,
-            "id_children2":2,
+            "id_children2": 2,
             "url_img": "../images/op4.png",
             "id": 223,
             "img_detail": [
@@ -7921,12 +7938,14 @@
             ]
         },
         {
-            "product_name": "Sạc 2 cổng Hyper Juice 20W Charger Small Size – NEW",  
-              "thongso":"",
+            "product_name": "Sạc 2 cổng Hyper Juice 20W Charger Small Size – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 460000,
             "id_children1": 2,
-            "id_children2":3,
+            "id_children2": 3,
             "url_img": "../images/sip1.webp",
             "id": 224,
             "img_detail": [
@@ -7936,13 +7955,15 @@
             ]
         },
         {
-            "product_name": " Sạc Apple 20W USB-C Chính hãng – NEW",  
-              "thongso":"",
+            "product_name": " Sạc Apple 20W USB-C Chính hãng – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 550000,
             "id_children1": 2,
-            "id_children2":3,
-            "url_img": "../images/sip2.jpeg", 
+            "id_children2": 3,
+            "url_img": "../images/sip2.jpeg",
             "id": 225,
             "img_detail": [
                 "../images/sip2.jpeg",
@@ -7951,13 +7972,15 @@
             ]
         },
         {
-            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – NEW",  
-              "thongso":"",
+            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 550000,
             "id_children1": 2,
-            "id_children2":3,
-            "url_img": "../images/sip3.jpeg", 
+            "id_children2": 3,
+            "url_img": "../images/sip3.jpeg",
             "id": 226,
             "img_detail": [
                 "../images/sip3.jpeg",
@@ -7966,13 +7989,15 @@
             ]
         },
         {
-            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – Like New",  
-              "thongso":"",
+            "product_name": "Cáp sạc USB-C to Lightning (1m) Chính hãng – Like New",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 550000,
             "id_children1": 2,
-            "id_children2":3,
-            "url_img": "../images/sip3.jpeg", 
+            "id_children2": 3,
+            "url_img": "../images/sip3.jpeg",
             "id": 227,
             "img_detail": [
                 "../images/sip3.jpeg",
@@ -7981,13 +8006,15 @@
             ]
         },
         {
-            "product_name": "Sạc Apple 20W USB-C Chính hãng – Like New",  
-              "thongso":"",
+            "product_name": "Sạc Apple 20W USB-C Chính hãng – Like New",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 420000,
             "id_children1": 2,
-            "id_children2":3,
-            "url_img": "../images/sip4.jpeg", 
+            "id_children2": 3,
+            "url_img": "../images/sip4.jpeg",
             "id": 228,
             "img_detail": [
                 "../images/sip4.jpeg",
@@ -7996,13 +8023,15 @@
             ]
         },
         {
-            "product_name": "Bàn phím Smart Keyboard Folio for iPad Pro 12.9 inch – NEW",  
-              "thongso":"",
+            "product_name": "Bàn phím Smart Keyboard Folio for iPad Pro 12.9 inch – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 5190000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip1.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip1.jpg",
             "id": 229,
             "img_detail": [
                 "../images/bip1.jpg",
@@ -8011,13 +8040,15 @@
             ]
         },
         {
-            "product_name": "Bàn phím Smart Keyboard Folio for iPad Air 4, 5 & iPad Pro 11 inch – NEW",  
-              "thongso":"",
+            "product_name": "Bàn phím Smart Keyboard Folio for iPad Air 4, 5 & iPad Pro 11 inch – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 4390000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip1.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip1.jpg",
             "id": 230,
             "img_detail": [
                 "../images/bip1.jpg",
@@ -8026,13 +8057,15 @@
             ]
         },
         {
-            "product_name": "Bàn phím Magic Keyboard for iPad Pro 12.9 inch – NEW",  
-              "thongso":"",
+            "product_name": "Bàn phím Magic Keyboard for iPad Pro 12.9 inch – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 8590000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip2.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip2.jpg",
             "id": 231,
             "img_detail": [
                 "../images/bip2.jpg",
@@ -8041,13 +8074,15 @@
             ]
         },
         {
-            "product_name": "Bàn phím Smart Keyboard for iPad Air 3 & iPad 10.2 inch – NEW",  
-              "thongso":"",
+            "product_name": "Bàn phím Smart Keyboard for iPad Air 3 & iPad 10.2 inch – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 4390000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip3.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip3.jpg",
             "id": 232,
             "img_detail": [
                 "../images/bip3.jpg",
@@ -8056,13 +8091,15 @@
             ]
         },
         {
-            "product_name": "Apple Pencil 1 – NEW",  
-              "thongso":"",
+            "product_name": "Apple Pencil 1 – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2490000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip4.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip4.jpg",
             "id": 233,
             "img_detail": [
                 "../images/bip4.jpg",
@@ -8071,13 +8108,15 @@
             ]
         },
         {
-            "product_name": "Apple Pencil 2 – NEW",  
-              "thongso":"",
+            "product_name": "Apple Pencil 2 – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 3390000,
             "id_children1": 3,
-            "id_children2":1,
-            "url_img": "../images/bip4.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/bip4.jpg",
             "id": 234,
             "img_detail": [
                 "../images/bip4.jpg",
@@ -8086,13 +8125,15 @@
             ]
         },
         {
-            "product_name": "Tai nghe AirPods Pro 2 chính hãng – NEW",  
-              "thongso":"",
+            "product_name": "Tai nghe AirPods Pro 2 chính hãng – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 6190000,
             "id_children1": 4,
-            "id_children2":1,
-            "url_img": "../images/a1.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/a1.jpg",
             "id": 235,
             "img_detail": [
                 "../images/a1.jpg",
@@ -8101,13 +8142,15 @@
             ]
         },
         {
-            "product_name": "Tai nghe AirPods 3 chính hãng – NEW",  
-              "thongso":"",
+            "product_name": "Tai nghe AirPods 3 chính hãng – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 4590000,
             "id_children1": 4,
-            "id_children2":1,
-            "url_img": "../images/a2.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/a2.jpg",
             "id": 236,
             "img_detail": [
                 "../images/a2.jpg",
@@ -8116,13 +8159,15 @@
             ]
         },
         {
-            "product_name": "Tai nghe AirPods 2 MV7N2 chính hãng VN/A (Sạc dây) – NEW",  
-              "thongso":"",
+            "product_name": "Tai nghe AirPods 2 MV7N2 chính hãng VN/A (Sạc dây) – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2690000,
             "id_children1": 4,
-            "id_children2":1,
-            "url_img": "../images/a3.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/a3.jpg",
             "id": 237,
             "img_detail": [
                 "../images/a3.jpg",
@@ -8131,13 +8176,15 @@
             ]
         },
         {
-            "product_name": "Apple AirTag (1 Pack)",  
-              "thongso":"",
+            "product_name": "Apple AirTag (1 Pack)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 790000,
             "id_children1": 4,
-            "id_children2":2,
-            "url_img": "../images/atag1.jpeg", 
+            "id_children2": 2,
+            "url_img": "../images/atag1.jpeg",
             "id": 238,
             "img_detail": [
                 "../images/atag1.jpeg",
@@ -8146,13 +8193,15 @@
             ]
         },
         {
-            "product_name": "Dây đeo Apple AirTag Loop",  
-              "thongso":"",
+            "product_name": "Dây đeo Apple AirTag Loop",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 790000,
             "id_children1": 4,
-            "id_children2":2,
-            "url_img": "../images/atag3.jpeg", 
+            "id_children2": 2,
+            "url_img": "../images/atag3.jpeg",
             "id": 239,
             "img_detail": [
                 "../images/atag3.jpeg",
@@ -8161,13 +8210,15 @@
             ]
         },
         {
-            "product_name": " Apple Care – Mac Studio",  
-              "thongso":"",
+            "product_name": " Apple Care – Mac Studio",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2990000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 240,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8176,13 +8227,15 @@
             ]
         },
         {
-            "product_name": "Apple Care – MacBook Pro 14 inch",  
-              "thongso":"",
+            "product_name": "Apple Care – MacBook Pro 14 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 5490000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 241,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8191,13 +8244,15 @@
             ]
         },
         {
-            "product_name": "Apple Care – MacBook Air 13 inch",  
-              "thongso":"",
+            "product_name": "Apple Care – MacBook Air 13 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 4290000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 242,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8206,13 +8261,15 @@
             ]
         },
         {
-            "product_name": "Apple Care – MacBook Pro 13 inch",  
-              "thongso":"",
+            "product_name": "Apple Care – MacBook Pro 13 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 5290000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 243,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8221,13 +8278,15 @@
             ]
         },
         {
-            "product_name": "Apple Care – MacBook Pro 16 inch",  
-              "thongso":"",
+            "product_name": "Apple Care – MacBook Pro 16 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 7290000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 244,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8236,13 +8295,15 @@
             ]
         },
         {
-            "product_name": "Apple Care Imac",  
-              "thongso":"",
+            "product_name": "Apple Care Imac",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2990000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 245,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8251,13 +8312,15 @@
             ]
         },
         {
-            "product_name": "Apple Care Mac Mini",  
-              "thongso":"",
+            "product_name": "Apple Care Mac Mini",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 2990000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 246,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8266,13 +8329,15 @@
             ]
         },
         {
-            "product_name": "Apple Care Mac Pro",  
-              "thongso":"",
+            "product_name": "Apple Care Mac Pro",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 6490000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 247,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8281,13 +8346,15 @@
             ]
         },
         {
-            "product_name": "Apple Care iPad",  
-              "thongso":"",
+            "product_name": "Apple Care iPad",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1790000,
             "id_children1": 4,
-            "id_children2":3,
-            "url_img": "../images/care1.jpg", 
+            "id_children2": 3,
+            "url_img": "../images/care1.jpg",
             "id": 248,
             "img_detail": [
                 "../images/care1.jpg",
@@ -8296,13 +8363,15 @@
             ]
         },
         {
-            "product_name": "Balo Tomtoc Lightweight Multi Laptop 15 inch",  
-              "thongso":"",
+            "product_name": "Balo Tomtoc Lightweight Multi Laptop 15 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1300000,
             "id_children1": 5,
-            "id_children2":1,
-            "url_img": "../images/b1.jpeg", 
+            "id_children2": 1,
+            "url_img": "../images/b1.jpeg",
             "id": 249,
             "img_detail": [
                 "../images/b1.jpeg",
@@ -8311,13 +8380,15 @@
             ]
         },
         {
-            "product_name": "Balo cao cấp WiWu Aviator 15″- B040",  
-              "thongso":"",
+            "product_name": "Balo cao cấp WiWu Aviator 15″- B040",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 900000,
             "id_children1": 5,
-            "id_children2":1,
-            "url_img": "../images/b2.png", 
+            "id_children2": 1,
+            "url_img": "../images/b2.png",
             "id": 250,
             "img_detail": [
                 "../images/b2.png",
@@ -8326,13 +8397,15 @@
             ]
         },
         {
-            "product_name": "Balo đựng Laptop thời trang cao cấp POSO-625",  
-              "thongso":"",
+            "product_name": "Balo đựng Laptop thời trang cao cấp POSO-625",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 650000,
             "id_children1": 5,
-            "id_children2":1,
-            "url_img": "../images/b3.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/b3.jpg",
             "id": 251,
             "img_detail": [
                 "../images/b3.jpg",
@@ -8341,13 +8414,15 @@
             ]
         },
         {
-            "product_name": "Balo Adidas Pow Aop Bp – Black",  
-              "thongso":"",
+            "product_name": "Balo Adidas Pow Aop Bp – Black",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 1100000,
             "id_children1": 5,
-            "id_children2":1,
-            "url_img": "../images/b4.jpg", 
+            "id_children2": 1,
+            "url_img": "../images/b4.jpg",
             "id": 252,
             "img_detail": [
                 "../images/b4.jpg",
@@ -8356,13 +8431,15 @@
             ]
         },
         {
-            "product_name": "Màn hình Dell UltraSharp U2520D – 25″ QHD – NEW",  
-              "thongso":"",
+            "product_name": "Màn hình Dell UltraSharp U2520D – 25″ QHD – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 9250000,
             "id_children1": 5,
-            "id_children2":2,
-            "url_img": "../images/m1.png", 
+            "id_children2": 2,
+            "url_img": "../images/m1.png",
             "id": 253,
             "img_detail": [
                 "../images/m1.png",
@@ -8371,13 +8448,15 @@
             ]
         },
         {
-            "product_name": "Màn hình Dell LCD U2422H – 23.8″ Full HD – NEW",  
-              "thongso":"",
+            "product_name": "Màn hình Dell LCD U2422H – 23.8″ Full HD – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 6890000,
             "id_children1": 5,
-            "id_children2":2,
-            "url_img": "../images/m2.jpg", 
+            "id_children2": 2,
+            "url_img": "../images/m2.jpg",
             "id": 254,
             "img_detail": [
                 "../images/m2.jpg",
@@ -8386,13 +8465,15 @@
             ]
         },
         {
-            "product_name": " Màn hình Dell S2722QC – 27″ 4K UHD – NEW",  
-              "thongso":"",
+            "product_name": " Màn hình Dell S2722QC – 27″ 4K UHD – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 18900000,
             "id_children1": 5,
-            "id_children2":2,
-            "url_img": "../images/m3.jpg", 
+            "id_children2": 2,
+            "url_img": "../images/m3.jpg",
             "id": 255,
             "img_detail": [
                 "../images/m3.jpg",
@@ -8401,13 +8482,15 @@
             ]
         },
         {
-            "product_name": "  Màn hình Dell P2723DE – 27″ QHD – NEW",  
-              "thongso":"",
+            "product_name": "  Màn hình Dell P2723DE – 27″ QHD – NEW",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 8900000,
             "id_children1": 5,
-            "id_children2":2,
-            "url_img": "../images/m4.jpg", 
+            "id_children2": 2,
+            "url_img": "../images/m4.jpg",
             "id": 256,
             "img_detail": [
                 "../images/m4.jpg",
@@ -8416,13 +8499,15 @@
             ]
         },
         {
-            "product_name": " Microsoft 365 Personal 1 year",  
-              "thongso":"",
+            "product_name": " Microsoft 365 Personal 1 year",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 8900000,
             "id_children1": 5,
-            "id_children2":3,
-            "url_img": "../images/u1.jpeg", 
+            "id_children2": 3,
+            "url_img": "../images/u1.jpeg",
             "id": 257,
             "img_detail": [
                 "../images/u1.jpeg",
@@ -8431,13 +8516,15 @@
             ]
         },
         {
-            "product_name": "Túi chống sốc Tomtoc Spill 13 inch T04 (A13)",  
-              "thongso":"",
+            "product_name": "Túi chống sốc Tomtoc Spill 13 inch T04 (A13)",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 800000,
             "id_children1": 5,
-            "id_children2":4,
-            "url_img": "../images/t1.jpeg", 
+            "id_children2": 4,
+            "url_img": "../images/t1.jpeg",
             "id": 258,
             "img_detail": [
                 "../images/t1.jpeg",
@@ -8446,13 +8533,15 @@
             ]
         },
         {
-            "product_name": "Tomtoc ProtectiveTúi chống sốc Tomtoc Protective 14 inch",  
-              "thongso":"",
+            "product_name": "Tomtoc ProtectiveTúi chống sốc Tomtoc Protective 14 inch",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 800000,
             "id_children1": 5,
-            "id_children2":4,
-            "url_img": "../images/t2.jpg", 
+            "id_children2": 4,
+            "url_img": "../images/t2.jpg",
             "id": 259,
             "img_detail": [
                 "../images/t2.jpg",
@@ -8461,13 +8550,15 @@
             ]
         },
         {
-            "product_name": "Túi xách Wiwu Pioneer 15 inch – W04",  
-              "thongso":"",
+            "product_name": "Túi xách Wiwu Pioneer 15 inch – W04",
+            "thongso": "NEW",
             "category_id": 6,
+            "thongso_search":"",
+
             "price": 550000,
             "id_children1": 5,
-            "id_children2":4,
-            "url_img": "../images/t3.jpeg", 
+            "id_children2": 4,
+            "url_img": "../images/t3.jpeg",
             "id": 260,
             "img_detail": [
                 "../images/t3.jpeg",

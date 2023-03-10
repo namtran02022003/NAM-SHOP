@@ -1,14 +1,13 @@
 import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 import axios from "axios"
-import { useState, useEffect } from 'react'
+import { useState, useEffect,useReducer } from 'react'
 import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { SlideItemProduct } from "../../js"
-import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
+import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
 import SlideTop from "../../Components/CommonComponent"
 export default function MacM(props) {
-    const [styBtn, setStyleBtn] = useState('')
     const [showSs, setShowSs] = useState(false)
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
@@ -25,7 +24,16 @@ export default function MacM(props) {
     useEffect(() => {
         getData()
     }, [])
-
+    const initState = {
+        optionPrice: 0,
+        status: 0,
+        sort: 0,
+        textSearch: '',
+    }
+    const [stateReduce, dispatch] = useReducer(reducer, initState)
+    useEffect(() => {
+        vvv(listProductac, setListProduct, stateReduce)
+    }, [stateReduce])
     return (
         <div>
             <div className="bg-white">
@@ -58,23 +66,22 @@ export default function MacM(props) {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn,listProduct)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
+                                                                <button onClick={() => dispatch(CHANGE_PRICE(item.value))} className={`btn-option ${stateReduce.optionPrice == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>
                             <div className="nav">
-                                <button className="btn-delete-option">Bỏ tất cả bộ lọc</button>
-                                <select onChange={(e) => changeNew(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-option">
+                            <button onClick={()=> dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
-                                    <option value={1}>New</option>
-                                    <option value={2}>Like New</option>
+                                    <option value={'NEW'}>New</option>
+                                    <option value={'Like New'}>Like New</option>
                                 </select>
-                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-sapxep">
+                                <select value={stateReduce.sort} onChange={(e) => dispatch(SORT(e.target.value))} className="btn-sapxep">
                                     <option value={0}>Sắp xếp theo</option>
                                     <option value={1}>Giá thấp đến cao</option>
                                     <option value={2}>Giá cao đến thấp</option>
                                 </select>
-
                             </div>
                         </div>
                     </div>
@@ -84,7 +91,8 @@ export default function MacM(props) {
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                            <FilterMenu listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} />
+                        <FilterMenu onDispatch={dispatch} stateReduce={stateReduce} /* listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} */ />
+
                         </div>
                         <div className="col-10">
                             <h5 className="m-3">Danh Mục {datas[0] && datas[0].product_children_name}</h5>

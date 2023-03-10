@@ -1,13 +1,13 @@
 import axios from "axios"
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useReducer } from 'react'
 import SlideTop from "../../Components/CommonComponent"
 import { SlideItemProduct } from "../../js"
 import Product from "../../Components/Products/Product"
-import { ButtonOptions, changePrice, changeNew, handlePrice } from "../../js"
+import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+
 import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 export default function OtherPages(props) {
     const [showSs, setShowSs] = useState(false)
-    const [styBtn, setStyleBtn] = useState('')
     const [datas, setDatas] = useState([])
     const [listProductac, setListProductac] = useState([])
     const [listProduct, setListProduct] = useState([])
@@ -23,7 +23,16 @@ export default function OtherPages(props) {
         getData()
     }, [])
 
-
+    const initState = {
+        optionPrice: 0,
+        status: 0,
+        sort: 0,
+        textSearch: '',
+    }
+    const [stateReduce, dispatch] = useReducer(reducer, initState)
+    useEffect(() => {
+        vvv(listProductac, setListProduct, stateReduce)
+    }, [stateReduce])
 
     return (
         <div>
@@ -48,7 +57,7 @@ export default function OtherPages(props) {
                         </div>
                         <div className="col-2 d-flex justify-content-center align-items-center p-0">
                             <div>
-                            <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
+                                <SoSanhProduct showSs={showSs} setShowSs={setShowSs} />
                             </div>
                         </div>
                     </div>
@@ -57,18 +66,18 @@ export default function OtherPages(props) {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                <button onClick={() => handlePrice(item.value, setListProduct, listProductac, setStyleBtn)} className={`btn-option ${styBtn == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
+                                <button onClick={() => dispatch(CHANGE_PRICE(item.value))} className={`btn-option ${stateReduce.optionPrice == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>
                             <div className="nav">
-                                <button className="btn-delete-option">Bỏ tất cả bộ lọc</button>
-                                <select onChange={(e) => changeNew(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-option">
+                            <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
-                                    <option value={1}>New</option>
-                                    <option value={2}>Like New</option>
+                                    <option value={'NEW'}>New</option>
+                                    <option value={'Like New'}>Like New</option>
                                 </select>
-                                <select onChange={(e) => changePrice(e.target.value, setListProduct, listProductac, setStyleBtn)} className="btn-sapxep">
+                                <select value={stateReduce.sort} onChange={(e) => dispatch(SORT(e.target.value))} className="btn-sapxep">
                                     <option value={0}>Sắp xếp theo</option>
                                     <option value={1}>Giá thấp đến cao</option>
                                     <option value={2}>Giá cao đến thấp</option>

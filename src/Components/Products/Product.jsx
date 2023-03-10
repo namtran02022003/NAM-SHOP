@@ -10,7 +10,11 @@ export default function Product({ product, showSs }) {
             return id == idProduct
         })
         if (index == -1) {
-            dataShow.setListId(pr => [...pr, idProduct])
+            if (dataShow.listId.length >= 3) {
+                alert('chỉ có thể chọn tối đa 3 sản phẩm')
+            }else{
+                dataShow.setListId(pr => [...pr, idProduct])
+            }
         } else {
             var listIdCopy = dataShow.listId.filter(id => id != idProduct)
             dataShow.setListId(listIdCopy)
@@ -41,7 +45,7 @@ export default function Product({ product, showSs }) {
                     <p>{product.product_name}</p>
                     <p className="text-thong-so">{product.thongso}</p>
                 </div>
-                <p className="text-price">{product.price.toLocaleString()} ₫ {product.id}</p>
+                <p className="text-price">{product.price.toLocaleString()} ₫ </p>
             </div>
         </div>
     )

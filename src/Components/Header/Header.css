@@ -117,7 +117,10 @@ a {
 
 .list-button-header-bottom-li:hover .list-button-heading,
 .menu-item1-li:hover .menu-item1-li-a,
-.menu-none-item-li:hover .menu-item1-li-a2, .home-menu-left-li:hover .a-item, .li-item-float-50:hover{
+.menu-none-item-li:hover .menu-item1-li-a2, 
+.home-menu-left-li:hover .a-item,
+ .li-item-float-50:hover,
+ .btn-header-top:hover{
     color: #7ac142 !important;
 }
 
@@ -140,4 +143,12 @@ a {
     border: none;
     padding: 8px 10px;
     border-radius: 4px;
+}
+.count-carts{
+    position: absolute;
+    top:-5px;
+    left: 105%;
+    border: 0.5px solid #666;
+    padding: 0 5px;
+    border-radius: 50%;
 }

@@ -24,7 +24,6 @@ export default function SearchDetail() {
     useEffect(() => {
         abc()
     },[name])
-    console.log(data)
 
     return (
         <div className='container'>

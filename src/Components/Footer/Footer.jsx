@@ -31,7 +31,7 @@ export default function Footer() {
             </div>          
         </div>
         <div className="bg-dark color-white text-center">
-            <p className="p-3 ">Copyright © 2022 - Bản quyền thuộc về MacOne.</p>
+            <p className="p-3 ">Copyright © 2022 - Bản quyền thuộc về Nam Shop.</p>
         </div>
         </div>
     )

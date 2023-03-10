@@ -25,10 +25,9 @@ export default function SoSanh() {
             getDataSs()
         }
     }, [])
-    console.log(dataShow)
     return (
         <div className="bg-white">
-            <button onClick={()=>{
+            <button className="btn btn-dark" onClick={()=>{
                 localStorage.setItem('listIdSs',JSON.stringify([]))
                 setListProductSs([])
                 dataShow.setListId([])

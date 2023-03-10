@@ -25,14 +25,14 @@ function FooterLayout({children}) {
                 <div className="col-4 p-0">
                   <div style={{
                     width:'65%',
-                    border:"1px dashed #666"
+                    border:"1px solid #6666",
                   }} className=' m-auto'>
                   <p className='p-heading-footer-layout'> {dataGioiThieu.heading}</p>
                   <ul className="ul-layout-footer">
                     {
                         dataGioiThieu.content ? (
                             dataGioiThieu.content.map((item)=>(
-                                <Link key={item.url} to={item.url} ><li >{item.heading}</li></Link>
+                                <Link key={item.url} to={item.url} ><li className='text-secondary' >{item.heading}</li></Link>
                             ))
                         ):''
                     }
@@ -42,7 +42,7 @@ function FooterLayout({children}) {
                     {
                         dataChinhSach.content ? (
                             dataChinhSach.content.map((item)=>(
-                                <Link key={item.url} to={item.url} ><li >{item.heading}</li></Link>
+                                <Link key={item.url} to={item.url} ><li className='text-secondary' >{item.heading}</li></Link>
                             ))
                         ):''
                     }
