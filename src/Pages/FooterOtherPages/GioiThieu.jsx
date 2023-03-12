@@ -10,6 +10,7 @@ export default function GioiThieu() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
 
     return (
         <div>
@@ -17,7 +18,7 @@ export default function GioiThieu() {
             <hr />
             {datas.content ? <div>
                 <h6 className="text-center">{datas.content.heading}</h6>
-                <iframe width="100%" height="500" src={datas.content.url_video} ></iframe>
+                <img width="100%"  src={datas.content.url_video} ></img>
                 <div >
                     {datas.content.content.map((item) => (
                         <div key={item.heading}>

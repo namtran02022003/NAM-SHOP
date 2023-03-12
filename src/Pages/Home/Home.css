@@ -159,7 +159,7 @@ body {
 
 .text-detail-product {
     text-align: left;
-    padding: 0 0 0 20px;
+    padding: 0 15px;
     color: rgb(82, 79, 79);
     min-height: 75px
 }

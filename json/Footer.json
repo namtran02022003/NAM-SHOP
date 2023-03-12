@@ -23,13 +23,13 @@
     ],
     "listFooterContent": {
         "vemacone": {
-            "item": "VỀ MACONE",
-            "heading": "Công ty cổ phần MACONE",
+            "item": "VỀ Nam Shop",
+            "heading": "Công ty cổ phần Nam Shop",
             "giayphep": " 0108037559",
             "hotline": " 0936 096 900",
             "baohanh": "0936 096 900 (Nhánh 3)",
             "thoigian": " 8h30 - 21h30",
-            "email": "lienhe@macone.vn"
+            "email": "lienhe@Nam Shop.vn"
         },
         "hotro":{
             "heading":"HỖ TRỢ KHÁCH HÀNG",
@@ -83,7 +83,7 @@
                 "url":"/chinh-sach-thanh-toan"
                },
                {
-                "heading": "Gói bảo hành vàng MacOne Care",
+                "heading": "Gói bảo hành vàng Nam Shop Care",
                 "url":"/goi-bao-hanh-macone-care"
                }
                 
@@ -98,7 +98,7 @@
         "internet":{
             "heading":"MẠNG XÃ HỘI",
             "url":"/",
-            "img_url":"../images/logoface1.jpg",
+            "img_url":"https://tse4.mm.bing.net/th?id=OIP.8_H6Z__Ie5ThXsw5nzgtCAHaEK&pid=Api&P=0",
             "content":[]
         },
         "addresHanoi":{
@@ -151,6 +151,6 @@
                 }
             ]
         },
-        "logofooter":"../images/logofooter.jpg"
+        "logofooter":"https://tse4.mm.bing.net/th?id=OIP.8_H6Z__Ie5ThXsw5nzgtCAHaEK&pid=Api&P=0"
     }
 }

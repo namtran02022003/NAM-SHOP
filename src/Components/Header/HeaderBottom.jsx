@@ -26,7 +26,7 @@ export default function HeaderBottom() {
                 <div className="row m-0 align-items-center">
                     <div className="col-2 p-0">
                         <div className="logo">
-                            <Link to={'/'}>    <img src="https://macone.vn/wp-content/uploads/2019/08/Logo-MacOne.png" alt="logo" width="100%" /></Link>
+                            <Link to={'/'}>    <img src='../../../images/lonew.png' width="100%" /></Link>
                         </div>
                     </div>
                     <div className="col-8 p-0 ">

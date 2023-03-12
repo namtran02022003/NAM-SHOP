@@ -18,19 +18,19 @@ export default function FilterMenu({ onDispatch, stateReduce }) {
         </div>
     )
 }
-function InputOption({ item,onDispatch,stateReduce }) {
-    
+function InputOption({ item, onDispatch, stateReduce }) {
+
     const TEXTSEARCH = (payload) => {
         return {
             type: 'textsearch',
             value: payload
         }
     }
-   
+
     return (
         <div >
             <li>
-                <input checked={item.value == stateReduce.textSearch ? true : false} value={item.value} onChange={() =>onDispatch(TEXTSEARCH(item.value))} className="input-filter" type="checkbox" />
+                <input checked={item.value == stateReduce.textSearch ? true : false} value={item.value} onChange={() => onDispatch(TEXTSEARCH(item.value))} className="input-filter" type="checkbox" />
                 {item.name} </li>
         </div>
     )

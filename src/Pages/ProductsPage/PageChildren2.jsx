@@ -8,8 +8,8 @@ import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { SlideItemProduct } from "../../js"
-import SlideTop from "../../Components/CommonComponent"
-import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+import SlideTop from "../../Components/SlidesTop"
+import { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
 
 export default function PageChildren2({ id_children1, id_children2, category_id }) {
     const [showSs, setShowSs] = useState(false)
@@ -41,8 +41,9 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
     }
     const [stateReduce, dispatch] = useReducer(reducer, initState)
     useEffect(() => {
-        vvv(listProductac, setListProduct, stateReduce)
+        handleStateReducer(listProductac, setListProduct, stateReduce)
     }, [stateReduce])
+    document.documentElement.scrollTop = 0
 
     return (
         <div>
@@ -80,7 +81,7 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
                         </div>
                         <div>
                             <div className="nav">
-                            <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
                                 <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
                                     <option value={'NEW'}>New</option>
@@ -101,7 +102,7 @@ export default function PageChildren2({ id_children1, id_children2, category_id 
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                        <FilterMenu onDispatch={dispatch} stateReduce={stateReduce} /* listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} */ />
+                            <FilterMenu onDispatch={dispatch} stateReduce={stateReduce} /* listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} */ />
                         </div>
                         <div className="col-10">
                             <h5 className="m-3">Danh Mục {dataItem[0] && dataItem[0].product_children_name}</h5>

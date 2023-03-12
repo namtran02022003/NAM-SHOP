@@ -11,6 +11,8 @@ export default function HuongDan() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
+
     return (
         <div>
             <h5> {datas.heading}</h5>

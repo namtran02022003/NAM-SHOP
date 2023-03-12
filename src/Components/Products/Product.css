@@ -32,3 +32,9 @@
     border-radius: 5px;
     color: white;
 }
+.img-product{
+    cursor: pointer;
+}
+.content-product{
+    min-height: 380px;
+}

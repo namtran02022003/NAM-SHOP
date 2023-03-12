@@ -13,6 +13,8 @@ function VanChuyen() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
+
     return (
         <div className="text-p">
             <h6>{datas.heading}</h6>

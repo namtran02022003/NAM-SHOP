@@ -12,6 +12,8 @@ export default function ThanhToan() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
+
     return (
         <div className="text-p">
             <h5>{datas.heading}</h5>

@@ -11,6 +11,8 @@ export default function LienHe() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
+
     return (
         <div>
             <h5>Liên hệ</h5>

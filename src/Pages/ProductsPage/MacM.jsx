@@ -1,12 +1,12 @@
 import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 import axios from "axios"
-import { useState, useEffect,useReducer } from 'react'
+import { useState, useEffect, useReducer } from 'react'
 import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { SlideItemProduct } from "../../js"
-import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
-import SlideTop from "../../Components/CommonComponent"
+import { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+import SlideTop from "../../Components/SlidesTop"
 export default function MacM(props) {
     const [showSs, setShowSs] = useState(false)
     const [datas, setDatas] = useState([])
@@ -32,8 +32,10 @@ export default function MacM(props) {
     }
     const [stateReduce, dispatch] = useReducer(reducer, initState)
     useEffect(() => {
-        vvv(listProductac, setListProduct, stateReduce)
+        handleStateReducer(listProductac, setListProduct, stateReduce)
     }, [stateReduce])
+    document.documentElement.scrollTop = 0
+
     return (
         <div>
             <div className="bg-white">
@@ -66,12 +68,12 @@ export default function MacM(props) {
                     <div className="nav navbar">
                         <div className="nav">
                             {ButtonOptions.map(item => (
-                                                                <button onClick={() => dispatch(CHANGE_PRICE(item.value))} className={`btn-option ${stateReduce.optionPrice == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
+                                <button onClick={() => dispatch(CHANGE_PRICE(item.value))} className={`btn-option ${stateReduce.optionPrice == item.value && ' bg-info'}`} key={item.value}>{item.name}</button>
                             ))}
                         </div>
                         <div>
                             <div className="nav">
-                            <button onClick={()=> dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
                                 <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
                                     <option value={'NEW'}>New</option>
@@ -91,7 +93,7 @@ export default function MacM(props) {
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-2 bg-white">
-                        <FilterMenu onDispatch={dispatch} stateReduce={stateReduce} /* listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} */ />
+                            <FilterMenu onDispatch={dispatch} stateReduce={stateReduce} /* listProduct={listProduct} setListProduct={setListProduct} listProductac={listProductac} */ />
 
                         </div>
                         <div className="col-10">

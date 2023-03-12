@@ -81,19 +81,19 @@ const reducer = (state, action) => {
                     textSearch: action.value
                 }
             }
-        case 'removeState': 
-        return {
+        case 'removeState':
+            return {
                 optionPrice: 0,
                 status: 0,
                 sort: 0,
                 textSearch: '',
-        }
+            }
         default: return state
 
     }
 }
 
-function vvv(listProductac,setListProduct,stateReduce){
+function handleStateReducer(listProductac, setListProduct, stateReduce) {
     var a = listProductac.filter(pro => {
         switch (stateReduce.optionPrice) {
             case 0:
@@ -339,4 +339,4 @@ const ButtonOptions = [
         value: 5
     }
 ]
-export {reducer, vvv,CHANGE_PRICE,SORT,STATUS,REMOVESTATE,ButtonOptions}
+export { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions }

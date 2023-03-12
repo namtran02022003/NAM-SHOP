@@ -5,8 +5,8 @@ import { useState, useEffect, useReducer } from 'react'
 import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
-import SlideTop from "../../Components/CommonComponent"
-import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+import SlideTop from "../../Components/SlidesTop"
+import { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
 import { SlideItemProduct } from "../../js"
 export default function MacMchildren(props) {
     const [showSs, setShowSs] = useState(false)
@@ -33,8 +33,9 @@ export default function MacMchildren(props) {
     }
     const [stateReduce, dispatch] = useReducer(reducer, initState)
     useEffect(() => {
-        vvv(listProductac, setListProduct, stateReduce)
+        handleStateReducer(listProductac, setListProduct, stateReduce)
     }, [stateReduce])
+    document.documentElement.scrollTop = 0
 
     return (
         <div>
@@ -75,7 +76,7 @@ export default function MacMchildren(props) {
                         </div>
                         <div>
                             <div className="nav">
-                                <button onClick={()=> dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
                                 <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
                                     <option value={'NEW'}>New</option>

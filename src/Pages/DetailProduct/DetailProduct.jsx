@@ -3,9 +3,10 @@ import { useParams, useNavigate } from "react-router-dom"
 import axios from "axios"
 import { useState, useEffect, useContext } from 'react'
 import { CartProducts } from '../../App'
- import { HandleCart } from '../../js'
+import { HandleCart } from '../../js'
 import { useForm } from 'react-hook-form'
 function DetailProduct() {
+    document.documentElement.scrollTop = 0
     const Navitage = useNavigate()
     const dataCarts = useContext(CartProducts)
     const [productDetail, setProductDetail] = useState([])
@@ -23,7 +24,7 @@ function DetailProduct() {
     const handleChange = () => {
         setCheck(!check)
     }
-   
+
     const showModalForm = () => {
         document.querySelector('.login-form-detail').style.display = "flex"
     }
@@ -115,7 +116,7 @@ function DetailProduct() {
                                         <p>Giao hàng tận nhà hoặc nhận tại cửa hàng</p>
                                     </div>
                                     <div className='d-flex justify-content-between text-center m-0 mt-2'>
-                                        <div onClick={() => HandleCart(productDetail[0], dataCarts, check,Navitage)} className="w-49 btn-muangay">
+                                        <div onClick={() => HandleCart(productDetail[0], dataCarts, check, Navitage)} className="w-49 btn-muangay">
                                             <h6>THÊM VÀO GIỎ</h6>
                                             <p>Chọn thêm món đồ khác</p>
                                         </div>
@@ -169,11 +170,11 @@ function LoginFormDetail({ data, check }) {
     const { register, handleSubmit, formState: { errors } } = useForm()
 
     const onSubmit = (datas) => {
-       const value = {
-        cart:data,
-        dataUser:datas,
-        totalPrice:data.reduce((a,b)=> a + (check ? b.price + Number(390000) : b.price),0)
-       }
+        const value = {
+            cart: data,
+            dataUser: datas,
+            totalPrice: data.reduce((a, b) => a + (check ? b.price + Number(390000) : b.price), 0)
+        }
     }
     return (
         <div className='content-form-detail p-2'>
@@ -243,13 +244,13 @@ function LoginFormDetail({ data, check }) {
                     </div>
                     <div className="col-6">
                         <div className='position-relative'>
-                            <input className='w-100 input-cart' type="text" placeholder="Địa chỉ" 
-                            {...register('addres',{
-                                required:true,
-                                minLength:12
-                            })}
+                            <input className='w-100 input-cart' type="text" placeholder="Địa chỉ"
+                                {...register('addres', {
+                                    required: true,
+                                    minLength: 12
+                                })}
                             />
-                             {errors.addres?.type === "required" && (
+                            {errors.addres?.type === "required" && (
                                 <p className="text-message-form">Vui lòng nhập địa chỉ của bạn!</p>
                             )}
                             {errors.addres?.type === "minLength" && (
@@ -259,11 +260,11 @@ function LoginFormDetail({ data, check }) {
                     </div>
                     <div className='col'>
                         <div className='position-relative'>
-                            <textarea className='w-100 input-cart mb-5' type="text" placeholder="Ghi chú" 
-                            {...register('note',{
-                                required:true,
-                                minLength:12
-                            })}
+                            <textarea className='w-100 input-cart mb-5' type="text" placeholder="Ghi chú"
+                                {...register('note', {
+                                    required: true,
+                                    minLength: 12
+                                })}
                             />
                             {errors.note?.type === "required" && (
                                 <p className="text-message-form">Vui lòng nhập thông tin địa chỉ cụ thể của bạn!</p>

@@ -36,7 +36,7 @@ export default function Product({ product, showSs }) {
     })
     return (
         <div className="col-3 px-1 my-1 text-center " key={product.id} >
-            <div className="bg-white shadow-lg rounded position-relative">
+            <div className="bg-white content-product shadow-lg rounded position-relative">
                 {showSs && <button className='btn-check-ss'>
                     <span onClick={() => handlePushId(product.id)} className={`z active-ss${product.id}`} >chọn so sánh</span>
                 </button>}

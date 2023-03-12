@@ -27,12 +27,15 @@ export default function SoSanh() {
     }, [])
     return (
         <div className="bg-white">
-            <button className="btn btn-dark" onClick={()=>{
+           <div className="text-center">
+           <button className="btn btn-dark my-3" onClick={()=>{
                 localStorage.setItem('listIdSs',JSON.stringify([]))
                 setListProductSs([])
                 dataShow.setListId([])
-            }}>remove</button>
-            <div className="container px-5">
+            }}>bỏ hết so sánh</button>
+           </div>
+            {listProductSs.length>0 ? (
+                <div className="container px-5">
                 <div className="row">
                     {listProductSs.map(product => (
                         <div key={product.id} className="col-4">
@@ -55,6 +58,13 @@ export default function SoSanh() {
                     ))}
                 </div>
             </div>
+            ): (
+                <div className="container" style={{
+                    minHeight:"300px"
+                }}>
+                    <h3>Danh sách so sánh của bạn đang trống!</h3>
+                </div>
+            )}
         </div>
     )
 }

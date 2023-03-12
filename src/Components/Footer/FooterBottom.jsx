@@ -43,8 +43,8 @@ export default function HeaderBottom({ datas }) {
                 </div>
             </div>
             <div className="col-6">
-                <div>
-                    <img src={datas.logofooter} alt="imglogo" width="100%" />
+                <div className="text-center">
+                    <img src={datas.logofooter} alt="imglogo" width="80%" />
                 </div>
             </div>
         </div>

@@ -4,9 +4,9 @@ import './ItemProduct.css'
 import FilterMenu from "./FilterMenu"
 import Product from "../../Components/Products/Product"
 import { SlideItemProduct } from "../../js"
-import SlideTop from "../../Components/CommonComponent"
+import SlideTop from "../../Components/SlidesTop"
 import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
-import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+import { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
 
 export default function PageItem(props) {
     const [showSs, setShowSs] = useState(false)
@@ -32,8 +32,9 @@ export default function PageItem(props) {
     }
     const [stateReduce, dispatch] = useReducer(reducer, initState)
     useEffect(() => {
-        vvv(listProductac, setListProduct, stateReduce)
+        handleStateReducer(listProductac, setListProduct, stateReduce)
     }, [stateReduce])
+    document.documentElement.scrollTop = 0
 
     return (
         <div>

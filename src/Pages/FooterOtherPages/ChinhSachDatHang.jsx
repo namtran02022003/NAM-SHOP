@@ -11,6 +11,7 @@ export default function ChinhSachDatHang() {
     useEffect(() => {
         getData()
     }, [])
+    document.documentElement.scrollTop = 0
     return (
         <div>
             <div className="text-p">

@@ -1,9 +1,9 @@
 import axios from "axios"
 import { useState, useEffect, useReducer } from 'react'
-import SlideTop from "../../Components/CommonComponent"
+import SlideTop from "../../Components/SlidesTop"
 import { SlideItemProduct } from "../../js"
 import Product from "../../Components/Products/Product"
-import { reducer, vvv, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
+import { reducer, handleStateReducer, CHANGE_PRICE, SORT, STATUS, REMOVESTATE, ButtonOptions } from '../../js/Reducer'
 
 import SoSanhProduct from "../../Components/SosanhProduct/SoSanhProduct"
 export default function OtherPages(props) {
@@ -31,8 +31,9 @@ export default function OtherPages(props) {
     }
     const [stateReduce, dispatch] = useReducer(reducer, initState)
     useEffect(() => {
-        vvv(listProductac, setListProduct, stateReduce)
+        handleStateReducer(listProductac, setListProduct, stateReduce)
     }, [stateReduce])
+    document.documentElement.scrollTop = 0
 
     return (
         <div>
@@ -71,7 +72,7 @@ export default function OtherPages(props) {
                         </div>
                         <div>
                             <div className="nav">
-                            <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
+                                <button onClick={() => dispatch(REMOVESTATE)} className="btn-delete-option">Bỏ tất cả bộ lọc</button>
                                 <select value={stateReduce.status} onChange={(e) => dispatch(STATUS(e.target.value))} className="btn-option">
                                     <option value={0}>Tình trạng</option>
                                     <option value={'NEW'}>New</option>
