@@ -1,8 +1,5 @@
 import { useReducer } from 'react'
 
-
-
-
 const CHANGE_PRICE = (payload) => {
     return {
         type: 'changePrice',

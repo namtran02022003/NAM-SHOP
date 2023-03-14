@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import DefaultLayout from "./Components/Layout/DefaultLayOut"
 import { Fragment } from 'react'
 import { createContext, useState } from 'react'
-import AppTest from './AppTest'
 export const CartProducts = createContext()
 export const ShowSsProduct = createContext()
 function App() {

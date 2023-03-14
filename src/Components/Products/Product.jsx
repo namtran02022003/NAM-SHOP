@@ -46,6 +46,7 @@ export default function Product({ product, showSs }) {
                     <p className="text-thong-so">{product.thongso}</p>
                 </div>
                 <p className="text-price">{product.price.toLocaleString()} ₫ </p>
+                <span>{product.id}</span>
             </div>
         </div>
     )

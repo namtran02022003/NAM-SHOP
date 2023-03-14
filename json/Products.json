@@ -566,7 +566,7 @@
                             "url_img": "../images/logodanipad.png"
                         },
                         {
-                            "id_children2": 3,
+                            "id_children2": 4,
                             "product_children_name": " Sạc iPad",
                             "url": "sac-ipad",
                             "url_img": "../images/logosacipad.png"
@@ -2308,7 +2308,7 @@
             "thongso_all": [
                 {
                     "title": "Bộ xử lý CPU",
-                    "content": "Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine"
+                    "content": "Apple M1 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine"
                 },
                 {
                     "title": "Bộ nhớ RAM",
@@ -2335,7 +2335,7 @@
                     "content": "720p FaceTime HD camera"
                 }
             ],
-            "thongso_search": " Apple M2  RAM 32GB OC 256 GB 13 inch HD do hoa"
+            "thongso_search": " Apple M1  RAM 32GB OC 256 GB 13 inch HD do hoa"
         },
         {
             "product_name": "MacBook Pro 2021 16 inch",

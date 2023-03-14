@@ -41,7 +41,9 @@ function DetailProduct() {
         })
     }, [])
     return (
-        <div className="bg-white">
+        <div style={{
+            padding: "0 0 30px 0"
+        }} className="bg-white">
             <div className="container pt-5 d-flex">
                 <div className="col-5">
                     <div className="text-center">
@@ -125,7 +127,7 @@ function DetailProduct() {
                                             <p>Thủ tục đơn giản</p>
                                         </div>
                                     </div>
-                                    <p>Gọi đặt mua: 0936.096.900</p>
+                                    <p className='my-2'>Gọi đặt mua: 0936.096.900</p>
                                 </div>
                             </div>
                         </div>
