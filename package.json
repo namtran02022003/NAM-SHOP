@@ -20,7 +20,8 @@
     "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
     "react-hook-form": "^7.41.1",
-    "react-router-dom": "^6.5.0"
+    "react-router-dom": "^6.5.0",
+    "sass": "^1.62.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
